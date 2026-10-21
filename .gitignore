@@ -1,0 +1,52 @@
+# ==========================================
+# Root & System
+# ==========================================
+.idea/
+.vscode/
+*.swp
+*.swo
+*.log
+*.tmp
+cur.xml
+.DS_Store
+Thumbs.db
+
+# ==========================================
+# Laravel Backend (persona-fit-backend)
+# ==========================================
+persona-fit-backend/vendor/
+persona-fit-backend/.env
+persona-fit-backend/.env.backup
+persona-fit-backend/.env.production
+persona-fit-backend/.phpunit.result.cache
+persona-fit-backend/node_modules/
+persona-fit-backend/public/hot
+persona-fit-backend/public/storage
+persona-fit-backend/storage/*.key
+persona-fit-backend/storage/app/public/*
+!persona-fit-backend/storage/app/public/.gitignore
+persona-fit-backend/storage/framework/cache/*
+!persona-fit-backend/storage/framework/cache/.gitignore
+persona-fit-backend/storage/framework/cache/data/*
+!persona-fit-backend/storage/framework/cache/data/.gitignore
+persona-fit-backend/storage/framework/sessions/*
+!persona-fit-backend/storage/framework/sessions/.gitignore
+persona-fit-backend/storage/framework/testing/*
+!persona-fit-backend/storage/framework/testing/.gitignore
+persona-fit-backend/storage/framework/views/*
+!persona-fit-backend/storage/framework/views/.gitignore
+persona-fit-backend/storage/logs/*
+!persona-fit-backend/storage/logs/.gitignore
+
+# ==========================================
+# Android Project (persona-fit-android)
+# ==========================================
+persona-fit-android/.gradle/
+persona-fit-android/build/
+persona-fit-android/*/build/
+persona-fit-android/local.properties
+persona-fit-android/.idea/
+persona-fit-android/*.iml
+persona-fit-android/.cxx/
+persona-fit-android/captures/
+persona-fit-android/.externalNativeBuild/

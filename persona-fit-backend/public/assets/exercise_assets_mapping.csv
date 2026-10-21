@@ -1,0 +1,1324 @@
+original_filename,new_filename,exercise_name,target_muscle,exercise_type,exercise_level,equipment,body_part
+0001.gif,3_4_sit_up.gif,"3/4 Sit Up",Abs,Isolation,beginner,"body weight",waist
+0002.gif,45_degree_side_bend.gif,"45° Side Bend",Abs,Isolation,beginner,"body weight",waist
+0003.gif,air_bike.gif,"Air Bike",Abs,Compound,beginner,"body weight",waist
+0006.gif,alternate_heel_touchers.gif,"Alternate Heel Touchers",Abs,Isolation,beginner,"body weight",waist
+0007.gif,alternate_lateral_pulldown.gif,"Alternate Lateral Pulldown","Back (Lats)",Compound,intermediate,cable,back
+0009.gif,assisted_chest_dip_kneeling.gif,"Assisted Chest Dip (kneeling)",Chest,Compound,beginner,"leverage machine",chest
+0010.gif,assisted_hanging_knee_raise_with_throw_down.gif,"Assisted Hanging Knee Raise With Throw Down",Abs,Isolation,beginner,assisted,waist
+0011.gif,assisted_hanging_knee_raise.gif,"Assisted Hanging Knee Raise",Abs,Isolation,beginner,assisted,waist
+0012.gif,assisted_lying_leg_raise_with_lateral_throw_down.gif,"Assisted Lying Leg Raise With Lateral Throw Down",Abs,Isolation,beginner,assisted,waist
+0013.gif,assisted_lying_leg_raise_with_throw_down.gif,"Assisted Lying Leg Raise With Throw Down",Abs,Isolation,beginner,assisted,waist
+0014.gif,assisted_motion_russian_twist.gif,"Assisted Motion Russian Twist",Abs,Isolation,beginner,"medicine ball",waist
+0015.gif,assisted_parallel_close_grip_pull_up.gif,"Assisted Parallel Close Grip Pull Up","Back (Lats)",Compound,beginner,"leverage machine",back
+0016.gif,assisted_prone_hamstring.gif,"Assisted Prone Hamstring",Hamstrings,Isolation,beginner,assisted,"upper legs"
+0017.gif,assisted_pull_up.gif,"Assisted Pull Up","Back (Lats)",Compound,beginner,"leverage machine",back
+0018.gif,assisted_standing_triceps_extension_with_towel.gif,"Assisted Standing Triceps Extension (with Towel)",Triceps,Isolation,beginner,assisted,"upper arms"
+0019.gif,assisted_triceps_dip_kneeling.gif,"Assisted Triceps Dip (kneeling)",Triceps,Compound,beginner,"leverage machine","upper arms"
+0020.gif,balance_board.gif,"Balance Board",Quads,Isolation,beginner,"body weight","upper legs"
+0022.gif,barbell_pullover_to_press.gif,"Barbell Pullover To Press","Back (Lats)",Isolation,intermediate,barbell,back
+0023.gif,barbell_alternate_biceps_curl.gif,"Barbell Alternate Biceps Curl",Biceps,Isolation,intermediate,barbell,"upper arms"
+0024.gif,barbell_bench_front_squat.gif,"Barbell Bench Front Squat",Quads,Compound,intermediate,barbell,"upper legs"
+0025.gif,barbell_bench_press.gif,"Barbell Bench Press",Chest,Compound,intermediate,barbell,chest
+0026.gif,barbell_bench_squat.gif,"Barbell Bench Squat",Quads,Compound,intermediate,barbell,"upper legs"
+0027.gif,barbell_bent_over_row.gif,"Barbell Bent Over Row","Back (Upper Back)",Compound,intermediate,barbell,back
+0028.gif,barbell_clean_and_press.gif,"Barbell Clean And Press",Quads,Compound,advance,barbell,"upper legs"
+0029.gif,barbell_clean_grip_front_squat.gif,"Barbell Clean Grip Front Squat",Glutes,Compound,advance,barbell,"upper legs"
+0030.gif,barbell_close_grip_bench_press.gif,"Barbell Close Grip Bench Press",Triceps,Compound,intermediate,barbell,"upper arms"
+0031.gif,barbell_curl.gif,"Barbell Curl",Biceps,Isolation,intermediate,barbell,"upper arms"
+0032.gif,barbell_deadlift.gif,"Barbell Deadlift",Glutes,Compound,intermediate,barbell,"upper legs"
+0033.gif,barbell_decline_bench_press.gif,"Barbell Decline Bench Press",Chest,Compound,intermediate,barbell,chest
+0034.gif,barbell_decline_bent_arm_pullover.gif,"Barbell Decline Bent Arm Pullover","Back (Lats)",Isolation,intermediate,barbell,back
+0035.gif,barbell_decline_close_grip_to_skull_press.gif,"Barbell Decline Close Grip To Skull Press",Triceps,Isolation,intermediate,barbell,"upper arms"
+0036.gif,barbell_decline_wide_grip_press.gif,"Barbell Decline Wide Grip Press",Chest,Isolation,intermediate,barbell,chest
+0037.gif,barbell_decline_wide_grip_pullover.gif,"Barbell Decline Wide Grip Pullover","Back (Lats)",Isolation,intermediate,barbell,back
+0038.gif,barbell_drag_curl.gif,"Barbell Drag Curl",Biceps,Isolation,intermediate,barbell,"upper arms"
+0039.gif,barbell_front_chest_squat.gif,"Barbell Front Chest Squat",Glutes,Compound,intermediate,barbell,"upper legs"
+0040.gif,barbell_front_raise_and_pullover.gif,"Barbell Front Raise And Pullover",Chest,Isolation,intermediate,barbell,chest
+0041.gif,barbell_front_raise.gif,"Barbell Front Raise",Shoulders,Isolation,intermediate,barbell,shoulders
+0042.gif,barbell_front_squat.gif,"Barbell Front Squat",Glutes,Compound,intermediate,barbell,"upper legs"
+0043.gif,barbell_back_squat.gif,"Barbell Full Squat",Glutes,Compound,intermediate,barbell,"upper legs"
+0044.gif,barbell_good_morning.gif,"Barbell Good Morning",Hamstrings,Isolation,intermediate,barbell,"upper legs"
+0045.gif,barbell_guillotine_bench_press.gif,"Barbell Guillotine Bench Press",Chest,Compound,intermediate,barbell,chest
+0046.gif,barbell_hack_squat.gif,"Barbell Hack Squat",Glutes,Compound,intermediate,barbell,"upper legs"
+0047.gif,barbell_incline_bench_press.gif,"Barbell Incline Bench Press",Chest,Compound,intermediate,barbell,chest
+0048.gif,barbell_incline_reverse_grip_press.gif,"Barbell Incline Reverse Grip Press",Triceps,Isolation,intermediate,barbell,"upper arms"
+0049.gif,barbell_incline_row.gif,"Barbell Incline Row","Back (Upper Back)",Compound,intermediate,barbell,back
+0050.gif,barbell_incline_shoulder_raise.gif,"Barbell Incline Shoulder Raise",Core,Isolation,intermediate,barbell,chest
+0051.gif,barbell_jefferson_squat.gif,"Barbell Jefferson Squat",Glutes,Compound,intermediate,barbell,"upper legs"
+0052.gif,barbell_jm_bench_press.gif,"Barbell Jm Bench Press",Triceps,Compound,intermediate,barbell,"upper arms"
+0053.gif,barbell_jump_squat.gif,"Barbell Jump Squat",Glutes,Compound,advance,barbell,"upper legs"
+0054.gif,barbell_lunge.gif,"Barbell Lunge",Glutes,Compound,intermediate,barbell,"upper legs"
+0055.gif,barbell_lying_close_grip_press.gif,"Barbell Lying Close Grip Press",Triceps,Isolation,intermediate,barbell,"upper arms"
+0056.gif,barbell_lying_close_grip_triceps_extension.gif,"Barbell Lying Close Grip Triceps Extension",Triceps,Isolation,intermediate,barbell,"upper arms"
+0057.gif,barbell_lying_extension.gif,"Barbell Lying Extension",Triceps,Isolation,intermediate,barbell,"upper arms"
+0058.gif,barbell_lying_lifting_on_hip.gif,"Barbell Lying Lifting (on Hip)",Glutes,Isolation,intermediate,barbell,"upper legs"
+0059.gif,barbell_lying_preacher_curl.gif,"Barbell Lying Preacher Curl",Biceps,Isolation,intermediate,barbell,"upper arms"
+0060.gif,barbell_lying_triceps_extension_skull_crusher.gif,"Barbell Lying Triceps Extension Skull Crusher",Triceps,Isolation,intermediate,barbell,"upper arms"
+0061.gif,barbell_lying_triceps_extension.gif,"Barbell Lying Triceps Extension",Triceps,Isolation,intermediate,barbell,"upper arms"
+0063.gif,barbell_narrow_stance_squat.gif,"Barbell Narrow Stance Squat",Glutes,Compound,intermediate,barbell,"upper legs"
+0064.gif,barbell_one_arm_bent_over_row.gif,"Barbell One Arm Bent Over Row","Back (Upper Back)",Compound,intermediate,barbell,back
+0065.gif,barbell_one_arm_floor_press.gif,"Barbell One Arm Floor Press",Triceps,Isolation,intermediate,barbell,"upper arms"
+0066.gif,barbell_one_arm_side_deadlift.gif,"Barbell One Arm Side Deadlift",Glutes,Compound,intermediate,barbell,"upper legs"
+0067.gif,barbell_one_arm_snatch.gif,"Barbell One Arm Snatch",Shoulders,Compound,advance,barbell,shoulders
+0068.gif,barbell_one_leg_squat.gif,"Barbell One Leg Squat",Quads,Compound,intermediate,barbell,"upper legs"
+0069.gif,barbell_overhead_squat.gif,"Barbell Overhead Squat",Quads,Compound,advance,barbell,"upper legs"
+0070.gif,barbell_preacher_curl.gif,"Barbell Preacher Curl",Biceps,Isolation,intermediate,barbell,"upper arms"
+0071.gif,barbell_press_sit_up.gif,"Barbell Press Sit Up",Abs,Isolation,intermediate,barbell,waist
+0072.gif,barbell_prone_incline_curl.gif,"Barbell Prone Incline Curl",Biceps,Isolation,intermediate,barbell,"upper arms"
+0073.gif,barbell_pullover.gif,"Barbell Pullover","Back (Lats)",Isolation,intermediate,barbell,back
+0074.gif,barbell_rack_pull.gif,"Barbell Rack Pull",Glutes,Isolation,intermediate,barbell,"upper legs"
+0075.gif,barbell_rear_delt_raise.gif,"Barbell Rear Delt Raise",Shoulders,Isolation,intermediate,barbell,shoulders
+0076.gif,barbell_rear_delt_row.gif,"Barbell Rear Delt Row",Shoulders,Compound,intermediate,barbell,shoulders
+0077.gif,barbell_rear_lunge_v2.gif,"Barbell Rear Lunge V. 2",Glutes,Compound,intermediate,barbell,"upper legs"
+0078.gif,barbell_rear_lunge.gif,"Barbell Rear Lunge",Glutes,Compound,intermediate,barbell,"upper legs"
+0079.gif,barbell_revers_wrist_curl_v2.gif,"Barbell Revers Wrist Curl V. 2",Forearms,Isolation,intermediate,barbell,"lower arms"
+0080.gif,barbell_reverse_curl.gif,"Barbell Reverse Curl",Biceps,Isolation,intermediate,barbell,"upper arms"
+0081.gif,barbell_reverse_preacher_curl.gif,"Barbell Reverse Preacher Curl",Biceps,Isolation,intermediate,barbell,"upper arms"
+0082.gif,barbell_reverse_wrist_curl.gif,"Barbell Reverse Wrist Curl",Forearms,Isolation,intermediate,barbell,"lower arms"
+0083.gif,barbell_rollerout_from_bench.gif,"Barbell Rollerout From Bench",Abs,Isolation,beginner,barbell,waist
+0084.gif,barbell_rollerout.gif,"Barbell Rollerout",Abs,Isolation,beginner,barbell,waist
+0085.gif,barbell_romanian_deadlift.gif,"Barbell Romanian Deadlift",Glutes,Compound,intermediate,barbell,"upper legs"
+0086.gif,barbell_seated_behind_head_military_press.gif,"Barbell Seated Behind Head Military Press",Shoulders,Compound,intermediate,barbell,shoulders
+0087.gif,barbell_seated_bradford_rocky_press.gif,"Barbell Seated Bradford Rocky Press",Shoulders,Isolation,intermediate,barbell,shoulders
+0088.gif,barbell_seated_calf_raise_proper.gif,"Barbell Seated Calf Raise",Calves,Isolation,intermediate,barbell,"lower legs"
+0089.gif,barbell_seated_close_grip_concentration_curl.gif,"Barbell Seated Close Grip Concentration Curl",Biceps,Isolation,intermediate,barbell,"upper arms"
+0090.gif,barbell_seated_good_morning.gif,"Barbell Seated Good Morning",Glutes,Isolation,intermediate,barbell,"upper legs"
+0091.gif,barbell_seated_overhead_press.gif,"Barbell Seated Overhead Press",Shoulders,Compound,intermediate,barbell,shoulders
+0092.gif,barbell_seated_overhead_triceps_extension.gif,"Barbell Seated Overhead Triceps Extension",Triceps,Isolation,intermediate,barbell,"upper arms"
+0094.gif,barbell_seated_twist.gif,"Barbell Seated Twist",Abs,Isolation,intermediate,barbell,waist
+0095.gif,barbell_shrug.gif,"Barbell Shrug","Back (Traps)",Isolation,intermediate,barbell,back
+0096.gif,barbell_side_bent_v2.gif,"Barbell Side Bent V. 2",Abs,Isolation,intermediate,barbell,waist
+0097.gif,barbell_side_split_squat_v2.gif,"Barbell Side Split Squat V. 2",Quads,Compound,intermediate,barbell,"upper legs"
+0098.gif,barbell_side_split_squat.gif,"Barbell Side Split Squat",Quads,Compound,intermediate,barbell,"upper legs"
+0099.gif,barbell_single_leg_split_squat.gif,"Barbell Single Leg Split Squat",Quads,Compound,intermediate,barbell,"upper legs"
+0100.gif,barbell_skier.gif,"Barbell Skier",Shoulders,Isolation,intermediate,barbell,shoulders
+0101.gif,barbell_speed_squat.gif,"Barbell Speed Squat",Glutes,Compound,intermediate,barbell,"upper legs"
+0102.gif,barbell_squat_on_knees.gif,"Barbell Squat (on Knees)",Quads,Compound,intermediate,barbell,"upper legs"
+0103.gif,barbell_standing_ab_rollerout.gif,"Barbell Standing Ab Rollerout",Abs,Isolation,beginner,barbell,waist
+0104.gif,barbell_standing_back_wrist_curl.gif,"Barbell Standing Back Wrist Curl",Forearms,Isolation,intermediate,barbell,"lower arms"
+0105.gif,barbell_standing_bradford_press.gif,"Barbell Standing Bradford Press",Shoulders,Isolation,intermediate,barbell,shoulders
+0106.gif,barbell_standing_close_grip_curl.gif,"Barbell Standing Close Grip Curl",Biceps,Isolation,intermediate,barbell,"upper arms"
+0107.gif,barbell_standing_front_raise_over_head.gif,"Barbell Standing Front Raise Over Head",Shoulders,Isolation,intermediate,barbell,shoulders
+0108.gif,barbell_standing_leg_calf_raise.gif,"Barbell Standing Leg Calf Raise",Calves,Isolation,intermediate,barbell,"lower legs"
+0109.gif,barbell_standing_overhead_triceps_extension.gif,"Barbell Standing Overhead Triceps Extension",Triceps,Isolation,intermediate,barbell,"upper arms"
+0110.gif,barbell_standing_reverse_grip_curl.gif,"Barbell Standing Reverse Grip Curl",Biceps,Isolation,intermediate,barbell,"upper arms"
+0111.gif,barbell_standing_rocking_leg_calf_raise.gif,"Barbell Standing Rocking Leg Calf Raise",Calves,Isolation,intermediate,barbell,"lower legs"
+0112.gif,barbell_standing_twist.gif,"Barbell Standing Twist",Abs,Isolation,intermediate,barbell,waist
+0113.gif,barbell_standing_wide_grip_curl.gif,"Barbell Standing Wide Grip Curl",Biceps,Isolation,intermediate,barbell,"upper arms"
+0114.gif,barbell_step_up.gif,"Barbell Step Up",Glutes,Compound,intermediate,barbell,"upper legs"
+0115.gif,barbell_stiff_leg_good_morning.gif,"Barbell Stiff Leg Good Morning",Glutes,Isolation,intermediate,barbell,"upper legs"
+0116.gif,barbell_straight_leg_deadlift.gif,"Barbell Straight Leg Deadlift",Hamstrings,Compound,intermediate,barbell,"upper legs"
+0117.gif,barbell_sumo_deadlift.gif,"Barbell Sumo Deadlift",Glutes,Compound,intermediate,barbell,"upper legs"
+0118.gif,barbell_reverse_grip_bent_over_row.gif,"Barbell Reverse Grip Bent Over Row","Back (Upper Back)",Compound,intermediate,barbell,back
+0119.gif,barbell_upright_row_v2.gif,"Barbell Upright Row V. 2",Shoulders,Compound,intermediate,barbell,shoulders
+0120.gif,barbell_upright_row.gif,"Barbell Upright Row",Shoulders,Compound,intermediate,barbell,shoulders
+0121.gif,barbell_upright_row_v3.gif,"Barbell Upright Row V. 3",Shoulders,Compound,intermediate,barbell,shoulders
+0122.gif,barbell_wide_bench_press.gif,"Barbell Wide Bench Press",Chest,Compound,intermediate,barbell,chest
+0123.gif,barbell_wide_grip_upright_row.gif,"Barbell Wide Grip Upright Row",Shoulders,Compound,intermediate,barbell,shoulders
+0124.gif,barbell_wide_squat.gif,"Barbell Wide Squat",Quads,Compound,intermediate,barbell,"upper legs"
+0125.gif,barbell_wrist_curl_v2.gif,"Barbell Wrist Curl V. 2",Forearms,Isolation,intermediate,barbell,"lower arms"
+0126.gif,barbell_wrist_curl.gif,"Barbell Wrist Curl",Forearms,Isolation,intermediate,barbell,"lower arms"
+0127.gif,barbell_zercher_squat.gif,"Barbell Zercher Squat",Glutes,Compound,intermediate,barbell,"upper legs"
+0128.gif,battling_ropes.gif,"Battling Ropes",Shoulders,Isolation,intermediate,rope,shoulders
+0129.gif,bench_dip_knees_bent.gif,"Bench Dip (knees Bent)",Triceps,Compound,intermediate,"body weight","upper arms"
+0130.gif,bench_hip_extension.gif,"Bench Hip Extension",Glutes,Isolation,beginner,"body weight","upper legs"
+0137.gif,body_up.gif,"Body Up",Triceps,Isolation,beginner,"body weight","upper arms"
+0138.gif,bottoms_up.gif,"Bottoms Up",Abs,Isolation,beginner,"body weight",waist
+0139.gif,biceps_narrow_pull_ups.gif,"Biceps Narrow Pull Ups",Biceps,Isolation,beginner,"body weight","upper arms"
+0140.gif,biceps_pull_up.gif,"Biceps Pull Up",Biceps,Compound,intermediate,"body weight","upper arms"
+0148.gif,cable_alternate_shoulder_press.gif,"Cable Alternate Shoulder Press",Shoulders,Compound,intermediate,cable,shoulders
+0149.gif,cable_alternate_triceps_extension.gif,"Cable Alternate Triceps Extension",Triceps,Isolation,intermediate,cable,"upper arms"
+0150.gif,cable_bar_lateral_pulldown.gif,"Cable Bar Lateral Pulldown","Back (Lats)",Compound,intermediate,cable,back
+0151.gif,cable_bench_press.gif,"Cable Bench Press",Chest,Compound,intermediate,cable,chest
+0152.gif,cable_concentration_extension_on_knee.gif,"Cable Concentration Extension (on Knee)",Triceps,Isolation,intermediate,cable,"upper arms"
+0153.gif,cable_cross_over_lateral_pulldown.gif,"Cable Cross Over Lateral Pulldown","Back (Lats)",Compound,intermediate,cable,back
+0154.gif,cable_cross_over_revers_fly.gif,"Cable Cross Over Revers Fly",Shoulders,Isolation,intermediate,cable,shoulders
+0155.gif,cable_cross_over_variation.gif,"Cable Cross Over Variation",Chest,Isolation,intermediate,cable,chest
+0157.gif,cable_deadlift.gif,"Cable Deadlift",Glutes,Compound,intermediate,cable,"upper legs"
+0158.gif,cable_decline_fly.gif,"Cable Decline Fly",Chest,Isolation,intermediate,cable,chest
+0159.gif,cable_decline_seated_wide_grip_row.gif,"Cable Decline Seated Wide Grip Row","Back (Upper Back)",Compound,intermediate,cable,back
+0160.gif,cable_floor_seated_wide_grip_row.gif,"Cable Floor Seated Wide Grip Row","Back (Upper Back)",Compound,intermediate,cable,back
+0161.gif,cable_forward_raise.gif,"Cable Forward Raise",Shoulders,Isolation,intermediate,cable,shoulders
+0162.gif,cable_front_raise.gif,"Cable Front Raise",Shoulders,Isolation,intermediate,cable,shoulders
+0164.gif,cable_front_shoulder_raise.gif,"Cable Front Shoulder Raise",Shoulders,Isolation,intermediate,cable,shoulders
+0165.gif,cable_hammer_curl_with_rope.gif,"Cable Hammer Curl (with Rope)",Biceps,Isolation,intermediate,cable,"upper arms"
+0167.gif,cable_high_row_kneeling.gif,"Cable High Row (kneeling)","Back (Upper Back)",Compound,intermediate,cable,back
+0168.gif,cable_hip_adduction.gif,"Cable Hip Adduction",Adductors,Isolation,intermediate,cable,"upper legs"
+0169.gif,cable_incline_bench_press.gif,"Cable Incline Bench Press",Chest,Compound,intermediate,cable,chest
+0170.gif,cable_incline_fly_on_stability_ball.gif,"Cable Incline Fly (on Stability Ball)",Chest,Isolation,intermediate,cable,chest
+0171.gif,cable_incline_fly.gif,"Cable Incline Fly",Chest,Isolation,intermediate,cable,chest
+0172.gif,cable_incline_pushdown.gif,"Cable Incline Pushdown","Back (Lats)",Isolation,intermediate,cable,back
+0173.gif,cable_incline_triceps_extension.gif,"Cable Incline Triceps Extension",Triceps,Isolation,intermediate,cable,"upper arms"
+0174.gif,cable_judo_flip.gif,"Cable Judo Flip",Abs,Isolation,intermediate,cable,waist
+0175.gif,cable_kneeling_crunch.gif,"Cable Kneeling Crunch",Abs,Isolation,intermediate,cable,waist
+0176.gif,cable_kneeling_triceps_extension.gif,"Cable Kneeling Triceps Extension",Triceps,Isolation,intermediate,cable,"upper arms"
+0177.gif,cable_lateral_pulldown_with_rope_attachment.gif,"Cable Lateral Pulldown (with Rope Attachment)","Back (Lats)",Compound,intermediate,cable,back
+0178.gif,cable_lateral_raise.gif,"Cable Lateral Raise",Shoulders,Isolation,intermediate,cable,shoulders
+0179.gif,cable_low_fly.gif,"Cable Low Fly",Chest,Isolation,intermediate,cable,chest
+0180.gif,cable_low_seated_row.gif,"Cable Low Seated Row","Back (Upper Back)",Compound,intermediate,cable,back
+0182.gif,cable_lying_close_grip_curl.gif,"Cable Lying Close Grip Curl",Biceps,Isolation,intermediate,cable,"upper arms"
+0184.gif,cable_lying_extension_pullover_with_rope_attachment.gif,"Cable Lying Extension Pullover (with Rope Attachment)","Back (Lats)",Isolation,intermediate,cable,back
+0185.gif,cable_lying_fly.gif,"Cable Lying Fly",Chest,Isolation,intermediate,cable,chest
+0186.gif,cable_lying_triceps_extension_v2.gif,"Cable Lying Triceps Extension V. 2",Triceps,Isolation,intermediate,cable,"upper arms"
+0188.gif,cable_middle_fly.gif,"Cable Middle Fly",Chest,Isolation,intermediate,cable,chest
+0189.gif,cable_one_arm_bent_over_row.gif,"Cable One Arm Bent Over Row","Back (Upper Back)",Compound,intermediate,cable,back
+0190.gif,cable_one_arm_curl.gif,"Cable One Arm Curl",Biceps,Isolation,intermediate,cable,"upper arms"
+0191.gif,cable_one_arm_lateral_bent_over.gif,"Cable One Arm Lateral Bent Over",Chest,Isolation,intermediate,cable,chest
+0192.gif,cable_one_arm_lateral_raise.gif,"Cable One Arm Lateral Raise",Shoulders,Isolation,intermediate,cable,shoulders
+0193.gif,cable_one_arm_straight_back_high_row_kneeling.gif,"Cable One Arm Straight Back High Row (kneeling)","Back (Upper Back)",Compound,intermediate,cable,back
+0194.gif,cable_overhead_triceps_extension_rope_attachment.gif,"Cable Overhead Triceps Extension (rope Attachment)",Triceps,Isolation,intermediate,cable,"upper arms"
+0195.gif,cable_preacher_curl.gif,"Cable Preacher Curl",Biceps,Isolation,intermediate,cable,"upper arms"
+0196.gif,cable_pull_through_with_rope.gif,"Cable Pull Through (with Rope)",Glutes,Isolation,intermediate,cable,"upper legs"
+0197.gif,cable_pulldown_pro_lat_bar.gif,"Cable Pulldown (pro Lat Bar)","Back (Lats)",Compound,intermediate,cable,back
+0198.gif,cable_pulldown.gif,"Cable Pulldown","Back (Lats)",Compound,intermediate,cable,back
+0199.gif,cable_pushdown_straight_arm_v2.gif,"Cable Pushdown (straight Arm) V. 2","Back (Lats)",Isolation,intermediate,cable,back
+0200.gif,cable_pushdown_with_rope_attachment.gif,"Cable Pushdown (with Rope Attachment)",Triceps,Isolation,intermediate,cable,"upper arms"
+0201.gif,cable_pushdown.gif,"Cable Pushdown",Triceps,Isolation,intermediate,cable,"upper arms"
+0202.gif,cable_rear_delt_row_stirrups.gif,"Cable Rear Delt Row (stirrups)",Shoulders,Compound,intermediate,cable,shoulders
+0203.gif,cable_rear_delt_row_with_rope.gif,"Cable Rear Delt Row (with Rope)",Shoulders,Compound,intermediate,cable,shoulders
+0204.gif,cable_rear_drive.gif,"Cable Rear Drive",Triceps,Isolation,intermediate,cable,"upper arms"
+0205.gif,cable_rear_pulldown.gif,"Cable Rear Pulldown","Back (Lats)",Compound,intermediate,cable,back
+0206.gif,cable_reverse_curl.gif,"Cable Reverse Curl",Biceps,Isolation,intermediate,cable,"upper arms"
+0207.gif,cable_reverse_grip_pushdown.gif,"Cable Reverse Grip Pushdown",Triceps,Isolation,intermediate,cable,"upper arms"
+0208.gif,cable_reverse_grip_straight_back_seated_high_row.gif,"Cable Reverse Grip Straight Back Seated High Row","Back (Upper Back)",Compound,intermediate,cable,back
+0209.gif,cable_reverse_preacher_curl.gif,"Cable Reverse Preacher Curl",Biceps,Isolation,intermediate,cable,"upper arms"
+0210.gif,cable_reverse_wrist_curl.gif,"Cable Reverse Wrist Curl",Forearms,Isolation,intermediate,cable,"lower arms"
+0211.gif,cable_russian_twists_on_stability_ball.gif,"Cable Russian Twists (on Stability Ball)",Abs,Isolation,intermediate,cable,waist
+0212.gif,cable_seated_crunch.gif,"Cable Seated Crunch",Abs,Isolation,intermediate,cable,waist
+0213.gif,cable_seated_high_row_v_bar.gif,"Cable Seated High Row (v Bar)","Back (Lats)",Compound,intermediate,cable,back
+0214.gif,cable_seated_one_arm_alternate_row.gif,"Cable Seated One Arm Alternate Row","Back (Upper Back)",Compound,intermediate,cable,back
+0215.gif,cable_seated_rear_lateral_raise.gif,"Cable Seated Rear Lateral Raise",Shoulders,Isolation,intermediate,cable,shoulders
+0216.gif,cable_seated_shoulder_internal_rotation.gif,"Cable Seated Shoulder Internal Rotation",Shoulders,Isolation,intermediate,cable,shoulders
+0218.gif,cable_seated_wide_grip_row.gif,"Cable Seated Wide Grip Row","Back (Upper Back)",Compound,intermediate,cable,back
+0219.gif,cable_shoulder_press.gif,"Cable Shoulder Press",Shoulders,Compound,intermediate,cable,shoulders
+0220.gif,cable_shrug.gif,"Cable Shrug","Back (Traps)",Isolation,intermediate,cable,back
+0221.gif,cable_side_bend_crunch_bosu_ball.gif,"Cable Side Bend Crunch (bosu Ball)",Abs,Isolation,intermediate,cable,waist
+0222.gif,cable_side_bend.gif,"Cable Side Bend",Abs,Isolation,intermediate,cable,waist
+0223.gif,cable_side_crunch.gif,"Cable Side Crunch",Abs,Isolation,intermediate,cable,waist
+0224.gif,cable_standing_back_wrist_curl.gif,"Cable Standing Back Wrist Curl",Forearms,Isolation,intermediate,cable,"lower arms"
+0225.gif,cable_standing_cross_over_high_reverse_fly.gif,"Cable Standing Cross Over High Reverse Fly",Shoulders,Isolation,intermediate,cable,shoulders
+0226.gif,cable_standing_crunch.gif,"Cable Standing Crunch",Abs,Isolation,intermediate,cable,waist
+0227.gif,cable_standing_fly.gif,"Cable Standing Fly",Chest,Isolation,intermediate,cable,chest
+0228.gif,cable_standing_hip_extension.gif,"Cable Standing Hip Extension",Glutes,Isolation,intermediate,cable,"upper legs"
+0229.gif,cable_standing_inner_curl.gif,"Cable Standing Inner Curl",Biceps,Isolation,intermediate,cable,"upper arms"
+0230.gif,cable_standing_lift.gif,"Cable Standing Lift",Abs,Isolation,intermediate,cable,waist
+0231.gif,cable_standing_one_arm_triceps_extension.gif,"Cable Standing One Arm Triceps Extension",Triceps,Isolation,intermediate,cable,"upper arms"
+0232.gif,cable_standing_pulldown_with_rope.gif,"Cable Standing Pulldown (with Rope)",Biceps,Compound,intermediate,cable,"upper arms"
+0233.gif,cable_standing_rear_delt_row_with_rope.gif,"Cable Standing Rear Delt Row (with Rope)",Shoulders,Compound,intermediate,cable,shoulders
+0234.gif,cable_standing_row_v_bar.gif,"Cable Standing Row (v Bar)","Back (Upper Back)",Compound,intermediate,cable,back
+0235.gif,cable_standing_shoulder_external_rotation.gif,"Cable Standing Shoulder External Rotation",Shoulders,Isolation,intermediate,cable,shoulders
+0236.gif,cable_standing_twist_row_v_bar.gif,"Cable Standing Twist Row (v Bar)","Back (Upper Back)",Compound,intermediate,cable,back
+0237.gif,cable_straight_arm_pulldown_with_rope.gif,"Cable Straight Arm Pulldown (with Rope)","Back (Lats)",Isolation,intermediate,cable,back
+0238.gif,cable_straight_arm_pulldown.gif,"Cable Straight Arm Pulldown","Back (Lats)",Isolation,intermediate,cable,back
+0239.gif,cable_straight_back_seated_row.gif,"Cable Straight Back Seated Row","Back (Upper Back)",Compound,intermediate,cable,back
+0240.gif,cable_supine_reverse_fly.gif,"Cable Supine Reverse Fly",Shoulders,Isolation,intermediate,cable,shoulders
+0241.gif,cable_triceps_pushdown_v_bar.gif,"Cable Triceps Pushdown (v Bar)",Triceps,Isolation,intermediate,cable,"upper arms"
+0242.gif,cable_tuck_reverse_crunch.gif,"Cable Tuck Reverse Crunch",Abs,Isolation,intermediate,cable,waist
+0243.gif,cable_twist.gif,"Cable Twist",Abs,Isolation,intermediate,cable,waist
+0244.gif,cable_twisting_pull.gif,"Cable Twisting Pull","Back (Lats)",Isolation,intermediate,cable,back
+0245.gif,cable_underhand_pulldown.gif,"Cable Underhand Pulldown","Back (Lats)",Compound,intermediate,cable,back
+0246.gif,cable_upright_row.gif,"Cable Upright Row",Shoulders,Compound,intermediate,cable,shoulders
+0247.gif,cable_wrist_curl.gif,"Cable Wrist Curl",Forearms,Isolation,intermediate,cable,"lower arms"
+0248.gif,cambered_bar_lying_row.gif,"Cambered Bar Lying Row","Back (Upper Back)",Compound,intermediate,barbell,back
+0251.gif,chest_dip.gif,"Chest Dip",Chest,Compound,intermediate,"body weight",chest
+0253.gif,chin_ups_narrow_parallel_grip.gif,"Chin Ups (narrow Parallel Grip)","Back (Upper Back)",Isolation,beginner,"body weight",back
+0257.gif,circles_knee_stretch.gif,"Circles Knee Stretch",Calves,Isolation,beginner,"body weight","lower legs"
+0258.gif,clock_push_up.gif,"Clock Push Up",Chest,Compound,beginner,"body weight",chest
+0259.gif,close_grip_push_up.gif,"Close Grip Push Up",Triceps,Compound,beginner,"body weight","upper arms"
+0260.gif,cocoons.gif,Cocoons,Abs,Isolation,beginner,"body weight",waist
+0262.gif,cross_body_crunch.gif,"Cross Body Crunch",Abs,Isolation,beginner,"body weight",waist
+0267.gif,crunch_hands_overhead.gif,"Crunch (hands Overhead)",Abs,Isolation,beginner,"body weight",waist
+0271.gif,crunch_on_stability_ball.gif,"Crunch (on Stability Ball)",Abs,Isolation,beginner,"stability ball",waist
+0272.gif,crunch_on_stability_ball_arms_straight.gif,"Crunch (on Stability Ball, Arms Straight)",Abs,Isolation,beginner,"stability ball",waist
+0274.gif,crunch_floor.gif,"Crunch Floor",Abs,Isolation,beginner,"body weight",waist
+0276.gif,dead_bug.gif,"Dead Bug",Abs,Isolation,beginner,"body weight",waist
+0277.gif,decline_crunch.gif,"Decline Crunch",Abs,Isolation,beginner,"body weight",waist
+0279.gif,decline_push_up.gif,"Decline Push Up",Chest,Compound,beginner,"body weight",chest
+0282.gif,decline_sit_up.gif,"Decline Sit Up",Abs,Isolation,beginner,"body weight",waist
+0283.gif,diamond_push_up.gif,"Diamond Push Up",Triceps,Compound,beginner,"body weight","upper arms"
+0284.gif,donkey_calf_raise.gif,"Donkey Calf Raise",Calves,Isolation,beginner,"body weight","lower legs"
+0285.gif,dumbbell_alternate_biceps_curl.gif,"Dumbbell Alternate Biceps Curl",Biceps,Isolation,intermediate,dumbbell,"upper arms"
+0286.gif,dumbbell_alternate_side_press.gif,"Dumbbell Alternate Side Press",Shoulders,Isolation,intermediate,dumbbell,shoulders
+0287.gif,dumbbell_arnold_press_v2.gif,"Dumbbell Arnold Press V. 2",Shoulders,Isolation,intermediate,dumbbell,shoulders
+0288.gif,dumbbell_around_pullover.gif,"Dumbbell Around Pullover",Chest,Isolation,intermediate,dumbbell,chest
+0289.gif,dumbbell_bench_press.gif,"Dumbbell Bench Press",Chest,Compound,intermediate,dumbbell,chest
+0290.gif,dumbbell_bench_seated_press.gif,"Dumbbell Bench Seated Press",Shoulders,Isolation,intermediate,dumbbell,shoulders
+0291.gif,dumbbell_bench_squat.gif,"Dumbbell Bench Squat",Glutes,Compound,intermediate,dumbbell,"upper legs"
+0292.gif,dumbbell_one_arm_bent_over_row.gif,"Dumbbell One Arm Bent Over Row","Back (Upper Back)",Compound,intermediate,dumbbell,back
+0293.gif,dumbbell_bent_over_row.gif,"Dumbbell Bent Over Row","Back (Upper Back)",Compound,intermediate,dumbbell,back
+0294.gif,dumbbell_biceps_curl.gif,"Dumbbell Biceps Curl",Biceps,Isolation,intermediate,dumbbell,"upper arms"
+0295.gif,dumbbell_clean.gif,"Dumbbell Clean",Glutes,Compound,intermediate,dumbbell,"upper legs"
+0296.gif,dumbbell_close_grip_press_proper.gif,"Dumbbell Close Grip Press",Triceps,Isolation,intermediate,dumbbell,"upper arms"
+0297.gif,dumbbell_concentration_curl.gif,"Dumbbell Concentration Curl",Biceps,Isolation,intermediate,dumbbell,"upper arms"
+0298.gif,dumbbell_cross_body_hammer_curl.gif,"Dumbbell Cross Body Hammer Curl",Biceps,Isolation,intermediate,dumbbell,"upper arms"
+0299.gif,dumbbell_cuban_press.gif,"Dumbbell Cuban Press",Shoulders,Isolation,intermediate,dumbbell,shoulders
+0300.gif,dumbbell_deadlift.gif,"Dumbbell Deadlift",Glutes,Compound,intermediate,dumbbell,"upper legs"
+0301.gif,dumbbell_decline_bench_press.gif,"Dumbbell Decline Bench Press",Chest,Compound,intermediate,dumbbell,chest
+0302.gif,dumbbell_decline_fly.gif,"Dumbbell Decline Fly",Chest,Isolation,intermediate,dumbbell,chest
+0303.gif,dumbbell_decline_hammer_press.gif,"Dumbbell Decline Hammer Press",Chest,Isolation,intermediate,dumbbell,chest
+0304.gif,dumbbell_decline_shrug_v2.gif,"Dumbbell Decline Shrug V. 2","Back (Traps)",Isolation,intermediate,dumbbell,back
+0305.gif,dumbbell_decline_shrug.gif,"Dumbbell Decline Shrug","Back (Traps)",Isolation,intermediate,dumbbell,back
+0306.gif,dumbbell_decline_triceps_extension.gif,"Dumbbell Decline Triceps Extension",Triceps,Isolation,intermediate,dumbbell,"upper arms"
+0307.gif,dumbbell_decline_twist_fly.gif,"Dumbbell Decline Twist Fly",Chest,Isolation,intermediate,dumbbell,chest
+0308.gif,dumbbell_fly.gif,"Dumbbell Fly",Chest,Isolation,intermediate,dumbbell,chest
+0309.gif,dumbbell_front_raise_v2.gif,"Dumbbell Front Raise V. 2",Shoulders,Isolation,intermediate,dumbbell,shoulders
+0310.gif,dumbbell_front_raise.gif,"Dumbbell Front Raise",Shoulders,Isolation,intermediate,dumbbell,shoulders
+0311.gif,dumbbell_full_can_lateral_raise.gif,"Dumbbell Full Can Lateral Raise",Shoulders,Isolation,intermediate,dumbbell,shoulders
+0312.gif,dumbbell_hammer_curl_v2.gif,"Dumbbell Hammer Curl V. 2",Biceps,Isolation,intermediate,dumbbell,"upper arms"
+0313.gif,dumbbell_hammer_curl.gif,"Dumbbell Hammer Curl",Biceps,Isolation,intermediate,dumbbell,"upper arms"
+0314.gif,dumbbell_incline_bench_press.gif,"Dumbbell Incline Bench Press",Chest,Compound,intermediate,dumbbell,chest
+0315.gif,dumbbell_incline_biceps_curl.gif,"Dumbbell Incline Biceps Curl",Biceps,Isolation,intermediate,dumbbell,"upper arms"
+0316.gif,dumbbell_incline_breeding.gif,"Dumbbell Incline Breeding",Chest,Isolation,intermediate,dumbbell,chest
+0317.gif,dumbbell_incline_curl_v2.gif,"Dumbbell Incline Curl V. 2",Biceps,Isolation,intermediate,dumbbell,"upper arms"
+0318.gif,dumbbell_incline_curl.gif,"Dumbbell Incline Curl",Biceps,Isolation,intermediate,dumbbell,"upper arms"
+0319.gif,dumbbell_incline_fly.gif,"Dumbbell Incline Fly",Chest,Isolation,intermediate,dumbbell,chest
+0320.gif,dumbbell_incline_hammer_curl.gif,"Dumbbell Incline Hammer Curl",Biceps,Isolation,intermediate,dumbbell,"upper arms"
+0321.gif,dumbbell_incline_hammer_press.gif,"Dumbbell Incline Hammer Press",Chest,Isolation,intermediate,dumbbell,chest
+0322.gif,dumbbell_incline_inner_biceps_curl.gif,"Dumbbell Incline Inner Biceps Curl",Biceps,Isolation,intermediate,dumbbell,"upper arms"
+0323.gif,dumbbell_incline_one_arm_lateral_raise.gif,"Dumbbell Incline One Arm Lateral Raise",Shoulders,Isolation,intermediate,dumbbell,shoulders
+0324.gif,dumbbell_incline_palm_in_press.gif,"Dumbbell Incline Palm In Press",Chest,Isolation,intermediate,dumbbell,chest
+0325.gif,dumbbell_incline_raise.gif,"Dumbbell Incline Raise",Shoulders,Isolation,intermediate,dumbbell,shoulders
+0326.gif,dumbbell_incline_rear_lateral_raise.gif,"Dumbbell Incline Rear Lateral Raise",Shoulders,Isolation,intermediate,dumbbell,shoulders
+0327.gif,dumbbell_incline_row.gif,"Dumbbell Incline Row","Back (Upper Back)",Compound,intermediate,dumbbell,back
+0328.gif,dumbbell_incline_shoulder_raise.gif,"Dumbbell Incline Shoulder Raise",Core,Isolation,intermediate,dumbbell,chest
+0329.gif,dumbbell_incline_shrug.gif,"Dumbbell Incline Shrug","Back (Traps)",Isolation,intermediate,dumbbell,back
+0330.gif,dumbbell_incline_triceps_extension.gif,"Dumbbell Incline Triceps Extension",Triceps,Isolation,intermediate,dumbbell,"upper arms"
+0331.gif,dumbbell_incline_twisted_flyes.gif,"Dumbbell Incline Twisted Flyes",Chest,Isolation,intermediate,dumbbell,chest
+0332.gif,dumbbell_iron_cross.gif,"Dumbbell Iron Cross",Shoulders,Isolation,intermediate,dumbbell,shoulders
+0333.gif,dumbbell_kickback.gif,"Dumbbell Kickback",Triceps,Isolation,intermediate,dumbbell,"upper arms"
+0334.gif,dumbbell_lateral_raise.gif,"Dumbbell Lateral Raise",Shoulders,Isolation,intermediate,dumbbell,shoulders
+0335.gif,dumbbell_lateral_to_front_raise.gif,"Dumbbell Lateral To Front Raise",Shoulders,Isolation,intermediate,dumbbell,shoulders
+0336.gif,dumbbell_lunge.gif,"Dumbbell Lunge",Glutes,Compound,intermediate,dumbbell,"upper legs"
+0337.gif,dumbbell_lying_extension_across_face.gif,"Dumbbell Lying Extension (across Face)",Triceps,Isolation,intermediate,dumbbell,"upper arms"
+0338.gif,dumbbell_lying_elbow_press.gif,"Dumbbell Lying Elbow Press",Triceps,Isolation,intermediate,dumbbell,"upper arms"
+0339.gif,dumbbell_lying_femoral.gif,"Dumbbell Lying Femoral",Hamstrings,Isolation,intermediate,dumbbell,"upper legs"
+0340.gif,dumbbell_lying_hammer_press.gif,"Dumbbell Lying Hammer Press",Chest,Isolation,intermediate,dumbbell,chest
+0341.gif,dumbbell_lying_one_arm_deltoid_rear.gif,"Dumbbell Lying One Arm Deltoid Rear",Shoulders,Isolation,intermediate,dumbbell,shoulders
+0342.gif,dumbbell_lying_one_arm_press_v2.gif,"Dumbbell Lying One Arm Press V. 2",Chest,Isolation,intermediate,dumbbell,chest
+0343.gif,dumbbell_lying_one_arm_press.gif,"Dumbbell Lying One Arm Press",Chest,Isolation,intermediate,dumbbell,chest
+0344.gif,dumbbell_lying_one_arm_pronated_triceps_extension.gif,"Dumbbell Lying One Arm Pronated Triceps Extension",Triceps,Isolation,intermediate,dumbbell,"upper arms"
+0345.gif,dumbbell_lying_one_arm_rear_lateral_raise.gif,"Dumbbell Lying One Arm Rear Lateral Raise",Shoulders,Isolation,intermediate,dumbbell,shoulders
+0346.gif,dumbbell_lying_one_arm_supinated_triceps_extension.gif,"Dumbbell Lying One Arm Supinated Triceps Extension",Triceps,Isolation,intermediate,dumbbell,"upper arms"
+0347.gif,dumbbell_lying_pronation.gif,"Dumbbell Lying Pronation",Forearms,Isolation,intermediate,dumbbell,"lower arms"
+0348.gif,dumbbell_lying_rear_lateral_raise.gif,"Dumbbell Lying Rear Lateral Raise",Shoulders,Isolation,intermediate,dumbbell,shoulders
+0349.gif,dumbbell_lying_supination.gif,"Dumbbell Lying Supination",Forearms,Isolation,intermediate,dumbbell,"lower arms"
+0350.gif,dumbbell_lying_supine_curl.gif,"Dumbbell Lying Supine Curl",Biceps,Isolation,intermediate,dumbbell,"upper arms"
+0351.gif,dumbbell_lying_triceps_extension.gif,"Dumbbell Lying Triceps Extension",Triceps,Isolation,intermediate,dumbbell,"upper arms"
+0352.gif,dumbbell_neutral_grip_bench_press.gif,"Dumbbell Neutral Grip Bench Press",Triceps,Compound,intermediate,dumbbell,"upper arms"
+0353.gif,dumbbell_one_arm_concentration_curl_on_stability_ball.gif,"Dumbbell One Arm Concentration Curl (on Stability Ball)",Biceps,Isolation,intermediate,dumbbell,"upper arms"
+0354.gif,dumbbell_one_arm_kickback.gif,"Dumbbell One Arm Kickback",Triceps,Isolation,intermediate,dumbbell,"upper arms"
+0355.gif,dumbbell_one_arm_lateral_raise.gif,"Dumbbell One Arm Lateral Raise",Shoulders,Isolation,intermediate,dumbbell,shoulders
+0356.gif,dumbbell_one_arm_lateral_raise_with_support.gif,"Dumbbell One Arm Lateral Raise With Support",Shoulders,Isolation,intermediate,dumbbell,shoulders
+0358.gif,dumbbell_one_arm_reverse_wrist_curl.gif,"Dumbbell One Arm Reverse Wrist Curl",Forearms,Isolation,intermediate,dumbbell,"lower arms"
+0359.gif,dumbbell_one_arm_reverse_fly_with_support.gif,"Dumbbell One Arm Reverse Fly (with Support)",Shoulders,Isolation,intermediate,dumbbell,shoulders
+0360.gif,dumbbell_one_arm_shoulder_press_v2.gif,"Dumbbell One Arm Shoulder Press V. 2",Shoulders,Compound,intermediate,dumbbell,shoulders
+0361.gif,dumbbell_one_arm_shoulder_press.gif,"Dumbbell One Arm Shoulder Press",Shoulders,Compound,intermediate,dumbbell,shoulders
+0362.gif,dumbbell_one_arm_triceps_extension_on_bench.gif,"Dumbbell One Arm Triceps Extension (on Bench)",Triceps,Isolation,intermediate,dumbbell,"upper arms"
+0363.gif,dumbbell_one_arm_upright_row.gif,"Dumbbell One Arm Upright Row",Shoulders,Compound,intermediate,dumbbell,shoulders
+0364.gif,dumbbell_one_arm_wrist_curl.gif,"Dumbbell One Arm Wrist Curl",Forearms,Isolation,intermediate,dumbbell,"lower arms"
+0365.gif,dumbbell_over_bench_neutral_wrist_curl.gif,"Dumbbell Over Bench Neutral Wrist Curl",Biceps,Isolation,intermediate,dumbbell,"upper arms"
+0366.gif,dumbbell_over_bench_one_arm_neutral_wrist_curl.gif,"Dumbbell Over Bench One Arm Neutral Wrist Curl",Biceps,Isolation,intermediate,dumbbell,"upper arms"
+0367.gif,dumbbell_over_bench_one_arm_wrist_curl.gif,"Dumbbell Over Bench One Arm Wrist Curl",Forearms,Isolation,intermediate,dumbbell,"lower arms"
+0368.gif,dumbbell_over_bench_revers_wrist_curl.gif,"Dumbbell Over Bench Revers Wrist Curl",Forearms,Isolation,intermediate,dumbbell,"lower arms"
+0369.gif,dumbbell_over_bench_wrist_curl.gif,"Dumbbell Over Bench Wrist Curl",Forearms,Isolation,intermediate,dumbbell,"lower arms"
+0370.gif,dumbbell_peacher_hammer_curl.gif,"Dumbbell Peacher Hammer Curl",Biceps,Isolation,intermediate,dumbbell,"upper arms"
+0371.gif,dumbbell_plyo_squat.gif,"Dumbbell Plyo Squat",Glutes,Compound,advance,dumbbell,"upper legs"
+0372.gif,dumbbell_preacher_curl.gif,"Dumbbell Preacher Curl",Biceps,Isolation,intermediate,dumbbell,"upper arms"
+0373.gif,dumbbell_pronate_grip_triceps_extension.gif,"Dumbbell Pronate Grip Triceps Extension",Triceps,Isolation,intermediate,dumbbell,"upper arms"
+0374.gif,dumbbell_prone_incline_curl.gif,"Dumbbell Prone Incline Curl",Biceps,Isolation,intermediate,dumbbell,"upper arms"
+0375.gif,dumbbell_pullover.gif,"Dumbbell Pullover",Chest,Isolation,intermediate,dumbbell,chest
+0376.gif,dumbbell_raise.gif,"Dumbbell Raise",Shoulders,Isolation,intermediate,dumbbell,shoulders
+0377.gif,dumbbell_rear_delt_row_shoulder.gif,"Dumbbell Rear Delt Row Shoulder",Shoulders,Isolation,intermediate,dumbbell,shoulders
+0378.gif,dumbbell_rear_fly.gif,"Dumbbell Rear Fly",Shoulders,Isolation,intermediate,dumbbell,shoulders
+0379.gif,dumbbell_rear_lateral_raise_support_head.gif,"Dumbbell Rear Lateral Raise (support Head)",Shoulders,Isolation,intermediate,dumbbell,shoulders
+0380.gif,dumbbell_rear_lateral_raise.gif,"Dumbbell Rear Lateral Raise",Shoulders,Isolation,intermediate,dumbbell,shoulders
+0381.gif,dumbbell_rear_lunge.gif,"Dumbbell Rear Lunge",Glutes,Compound,intermediate,dumbbell,"upper legs"
+0382.gif,dumbbell_revers_grip_biceps_curl.gif,"Dumbbell Revers Grip Biceps Curl",Biceps,Isolation,intermediate,dumbbell,"upper arms"
+0383.gif,dumbbell_reverse_fly.gif,"Dumbbell Reverse Fly",Shoulders,Isolation,intermediate,dumbbell,shoulders
+0384.gif,dumbbell_reverse_preacher_curl.gif,"Dumbbell Reverse Preacher Curl",Biceps,Isolation,intermediate,dumbbell,"upper arms"
+0385.gif,dumbbell_reverse_wrist_curl.gif,"Dumbbell Reverse Wrist Curl",Forearms,Isolation,intermediate,dumbbell,"lower arms"
+0386.gif,dumbbell_rotation_reverse_fly.gif,"Dumbbell Rotation Reverse Fly",Shoulders,Isolation,intermediate,dumbbell,shoulders
+0387.gif,dumbbell_seated_alternate_front_raise.gif,"Dumbbell Seated Alternate Front Raise",Shoulders,Isolation,intermediate,dumbbell,shoulders
+0388.gif,dumbbell_seated_alternate_press.gif,"Dumbbell Seated Alternate Press",Shoulders,Isolation,intermediate,dumbbell,shoulders
+0389.gif,dumbbell_seated_bench_extension.gif,"Dumbbell Seated Bench Extension",Triceps,Isolation,intermediate,dumbbell,"upper arms"
+0390.gif,dumbbell_seated_biceps_curl_on_stability_ball.gif,"Dumbbell Seated Biceps Curl (on Stability Ball)",Biceps,Isolation,intermediate,dumbbell,"upper arms"
+0391.gif,dumbbell_seated_curl.gif,"Dumbbell Seated Curl",Biceps,Isolation,intermediate,dumbbell,"upper arms"
+0392.gif,dumbbell_seated_front_raise.gif,"Dumbbell Seated Front Raise",Shoulders,Isolation,intermediate,dumbbell,shoulders
+0393.gif,dumbbell_seated_inner_biceps_curl.gif,"Dumbbell Seated Inner Biceps Curl",Biceps,Isolation,intermediate,dumbbell,"upper arms"
+0394.gif,dumbbell_seated_kickback.gif,"Dumbbell Seated Kickback",Triceps,Isolation,intermediate,dumbbell,"upper arms"
+0395.gif,dumbbell_seated_lateral_raise_v2.gif,"Dumbbell Seated Lateral Raise V. 2",Shoulders,Isolation,intermediate,dumbbell,shoulders
+0396.gif,dumbbell_seated_lateral_raise.gif,"Dumbbell Seated Lateral Raise",Shoulders,Isolation,intermediate,dumbbell,shoulders
+0397.gif,dumbbell_seated_neutral_wrist_curl.gif,"Dumbbell Seated Neutral Wrist Curl",Biceps,Isolation,intermediate,dumbbell,"upper arms"
+0398.gif,dumbbell_seated_one_arm_kickback.gif,"Dumbbell Seated One Arm Kickback",Triceps,Isolation,intermediate,dumbbell,"upper arms"
+0399.gif,dumbbell_seated_one_arm_rotate.gif,"Dumbbell Seated One Arm Rotate",Forearms,Isolation,intermediate,dumbbell,"lower arms"
+0400.gif,dumbbell_seated_one_leg_calf_raise.gif,"Dumbbell Seated One Leg Calf Raise",Calves,Isolation,intermediate,dumbbell,"lower legs"
+0401.gif,dumbbell_seated_palms_up_wrist_curl.gif,"Dumbbell Seated Palms Up Wrist Curl",Forearms,Isolation,intermediate,dumbbell,"lower arms"
+0402.gif,dumbbell_seated_preacher_curl.gif,"Dumbbell Seated Preacher Curl",Biceps,Isolation,intermediate,dumbbell,"upper arms"
+0403.gif,dumbbell_seated_revers_grip_concentration_curl.gif,"Dumbbell Seated Revers Grip Concentration Curl",Biceps,Isolation,intermediate,dumbbell,"upper arms"
+0404.gif,dumbbell_seated_shoulder_press_parallel_grip.gif,"Dumbbell Seated Shoulder Press (parallel Grip)",Shoulders,Compound,intermediate,dumbbell,shoulders
+0405.gif,dumbbell_seated_shoulder_press.gif,"Dumbbell Seated Shoulder Press",Shoulders,Compound,intermediate,dumbbell,shoulders
+0406.gif,dumbbell_shrug.gif,"Dumbbell Shrug","Back (Traps)",Isolation,intermediate,dumbbell,back
+0407.gif,dumbbell_side_bend.gif,"Dumbbell Side Bend",Abs,Isolation,intermediate,dumbbell,waist
+0408.gif,dumbbell_side_lying_one_hand_raise.gif,"Dumbbell Side Lying One Hand Raise",Shoulders,Isolation,intermediate,dumbbell,shoulders
+0409.gif,dumbbell_single_leg_calf_raise.gif,"Dumbbell Single Leg Calf Raise",Calves,Isolation,intermediate,dumbbell,"lower legs"
+0410.gif,dumbbell_single_leg_split_squat.gif,"Dumbbell Single Leg Split Squat",Quads,Compound,intermediate,dumbbell,"upper legs"
+0411.gif,dumbbell_single_leg_squat.gif,"Dumbbell Single Leg Squat",Glutes,Compound,intermediate,dumbbell,"upper legs"
+0413.gif,dumbbell_squat.gif,"Dumbbell Squat",Glutes,Compound,intermediate,dumbbell,"upper legs"
+0414.gif,dumbbell_standing_alternate_overhead_press.gif,"Dumbbell Standing Alternate Overhead Press",Shoulders,Compound,intermediate,dumbbell,shoulders
+0415.gif,dumbbell_standing_alternate_raise.gif,"Dumbbell Standing Alternate Raise",Shoulders,Isolation,intermediate,dumbbell,shoulders
+0416.gif,dumbbell_standing_biceps_curl.gif,"Dumbbell Standing Biceps Curl",Biceps,Isolation,intermediate,dumbbell,"upper arms"
+0417.gif,dumbbell_standing_calf_raise.gif,"Dumbbell Standing Calf Raise",Calves,Isolation,intermediate,dumbbell,"lower legs"
+0418.gif,dumbbell_standing_concentration_curl.gif,"Dumbbell Standing Concentration Curl",Biceps,Isolation,intermediate,dumbbell,"upper arms"
+0419.gif,dumbbell_standing_front_raise_above_head.gif,"Dumbbell Standing Front Raise Above Head",Shoulders,Isolation,intermediate,dumbbell,shoulders
+0420.gif,dumbbell_standing_kickback.gif,"Dumbbell Standing Kickback",Triceps,Isolation,intermediate,dumbbell,"upper arms"
+0421.gif,dumbbell_standing_one_arm_concentration_curl.gif,"Dumbbell Standing One Arm Concentration Curl",Biceps,Isolation,intermediate,dumbbell,"upper arms"
+0422.gif,dumbbell_standing_one_arm_curl_over_incline_bench_proper.gif,"Dumbbell Standing One Arm Curl (over Incline Bench)",Biceps,Isolation,intermediate,dumbbell,"upper arms"
+0423.gif,dumbbell_standing_one_arm_extension.gif,"Dumbbell Standing One Arm Extension",Triceps,Isolation,intermediate,dumbbell,"upper arms"
+0424.gif,dumbbell_standing_one_arm_palm_in_press.gif,"Dumbbell Standing One Arm Palm In Press",Shoulders,Isolation,intermediate,dumbbell,shoulders
+0425.gif,dumbbell_standing_one_arm_reverse_curl.gif,"Dumbbell Standing One Arm Reverse Curl",Biceps,Isolation,intermediate,dumbbell,"upper arms"
+0426.gif,dumbbell_standing_overhead_press.gif,"Dumbbell Standing Overhead Press",Shoulders,Compound,intermediate,dumbbell,shoulders
+0427.gif,dumbbell_standing_palms_in_press.gif,"Dumbbell Standing Palms In Press",Shoulders,Isolation,intermediate,dumbbell,shoulders
+0428.gif,dumbbell_standing_preacher_curl.gif,"Dumbbell Standing Preacher Curl",Biceps,Isolation,intermediate,dumbbell,"upper arms"
+0429.gif,dumbbell_standing_reverse_curl.gif,"Dumbbell Standing Reverse Curl",Biceps,Isolation,intermediate,dumbbell,"upper arms"
+0430.gif,dumbbell_standing_triceps_extension.gif,"Dumbbell Standing Triceps Extension",Triceps,Isolation,intermediate,dumbbell,"upper arms"
+0431.gif,dumbbell_step_up.gif,"Dumbbell Step Up",Glutes,Compound,intermediate,dumbbell,"upper legs"
+0432.gif,dumbbell_stiff_leg_deadlift.gif,"Dumbbell Stiff Leg Deadlift",Glutes,Compound,intermediate,dumbbell,"upper legs"
+0433.gif,dumbbell_straight_arm_pullover.gif,"Dumbbell Straight Arm Pullover",Chest,Isolation,intermediate,dumbbell,chest
+0434.gif,dumbbell_straight_leg_deadlift.gif,"Dumbbell Straight Leg Deadlift",Glutes,Compound,intermediate,dumbbell,"upper legs"
+0436.gif,dumbbell_tate_press.gif,"Dumbbell Tate Press",Triceps,Isolation,intermediate,dumbbell,"upper arms"
+0437.gif,dumbbell_upright_row.gif,"Dumbbell Upright Row",Shoulders,Compound,intermediate,dumbbell,shoulders
+0438.gif,dumbbell_w_press.gif,"Dumbbell W Press",Shoulders,Isolation,intermediate,dumbbell,shoulders
+0439.gif,dumbbell_zottman_curl.gif,"Dumbbell Zottman Curl",Biceps,Isolation,intermediate,dumbbell,"upper arms"
+0443.gif,elbow_to_knee.gif,"Elbow To Knee",Abs,Isolation,beginner,"body weight",waist
+0445.gif,ez_barbell_anti_gravity_press.gif,"Ez Barbell Anti Gravity Press",Shoulders,Isolation,intermediate,"ez barbell",shoulders
+0446.gif,ez_barbell_close_grip_curl.gif,"Ez Barbell Close Grip Curl",Biceps,Isolation,intermediate,"ez barbell","upper arms"
+0447.gif,ez_barbell_curl.gif,"Ez Barbell Curl",Biceps,Isolation,intermediate,"ez barbell","upper arms"
+0448.gif,ez_barbell_decline_close_grip_face_press.gif,"Ez Barbell Decline Close Grip Face Press",Triceps,Isolation,intermediate,"ez barbell","upper arms"
+0449.gif,ez_barbell_incline_triceps_extension.gif,"Ez Barbell Incline Triceps Extension",Triceps,Isolation,intermediate,"ez barbell","upper arms"
+0450.gif,ez_barbell_jm_bench_press.gif,"Ez Barbell Jm Bench Press",Triceps,Compound,intermediate,"ez barbell","upper arms"
+0451.gif,ez_barbell_reverse_grip_curl.gif,"Ez Barbell Reverse Grip Curl",Biceps,Isolation,intermediate,"ez barbell","upper arms"
+0452.gif,ez_barbell_reverse_grip_preacher_curl.gif,"Ez Barbell Reverse Grip Preacher Curl",Biceps,Isolation,intermediate,"ez barbell","upper arms"
+0453.gif,ez_barbell_seated_triceps_extension.gif,"Ez Barbell Seated Triceps Extension",Triceps,Isolation,intermediate,"ez barbell","upper arms"
+0454.gif,ez_barbell_spider_curl_proper.gif,"Ez Barbell Spider Curl",Biceps,Isolation,intermediate,"ez barbell","upper arms"
+0455.gif,finger_curls.gif,"Finger Curls",Forearms,Isolation,intermediate,barbell,"lower arms"
+0456.gif,flexion_leg_sit_up_bent_knee.gif,"Flexion Leg Sit Up (bent Knee)",Abs,Isolation,beginner,"body weight",waist
+0457.gif,flexion_leg_sit_up_straight_arm.gif,"Flexion Leg Sit Up (straight Arm)",Abs,Isolation,beginner,"body weight",waist
+0458.gif,floor_fly_with_barbell.gif,"Floor Fly (with Barbell)",Chest,Isolation,intermediate,barbell,chest
+0459.gif,flutter_kicks.gif,"Flutter Kicks",Glutes,Isolation,beginner,"body weight","upper legs"
+0464.gif,front_plank_with_twist.gif,"Front Plank With Twist",Abs,Isolation,beginner,"body weight",waist
+0466.gif,gironda_sternum_chin.gif,"Gironda Sternum Chin","Back (Lats)",Isolation,beginner,"body weight",back
+0467.gif,gorilla_chin.gif,"Gorilla Chin",Abs,Isolation,beginner,"body weight",waist
+0469.gif,groin_crunch.gif,"Groin Crunch",Abs,Isolation,beginner,"body weight",waist
+0471.gif,handstand_push_up.gif,"Handstand Push Up",Triceps,Compound,advance,"body weight","upper arms"
+0472.gif,hanging_leg_raise.gif,"Hanging Leg Raise",Abs,Isolation,intermediate,"body weight",waist
+0473.gif,hanging_pike.gif,"Hanging Pike",Abs,Isolation,beginner,"body weight",waist
+0474.gif,hanging_straight_leg_hip_raise.gif,"Hanging Straight Leg Hip Raise",Abs,Isolation,beginner,"body weight",waist
+0475.gif,hanging_straight_leg_raise.gif,"Hanging Straight Leg Raise",Abs,Isolation,beginner,"body weight",waist
+0476.gif,hanging_straight_twisting_leg_hip_raise.gif,"Hanging Straight Twisting Leg Hip Raise",Abs,Isolation,beginner,"body weight",waist
+0484.gif,hip_raise_bent_knee.gif,"Hip Raise (bent Knee)",Abs,Isolation,beginner,"body weight",waist
+0488.gif,hyperextension_on_bench.gif,"Hyperextension (on Bench)","Lower Back",Isolation,beginner,"body weight",back
+0489.gif,hyperextension.gif,Hyperextension,"Lower Back",Isolation,beginner,"body weight",back
+0490.gif,incline_close_grip_push_up.gif,"Incline Close Grip Push Up",Triceps,Compound,beginner,"body weight","upper arms"
+0491.gif,incline_leg_hip_raise_leg_straight.gif,"Incline Leg Hip Raise (leg Straight)",Abs,Isolation,beginner,"body weight",waist
+0492.gif,incline_push_up_depth_jump.gif,"Incline Push Up Depth Jump",Chest,Isolation,advance,"body weight",chest
+0493.gif,pushup_incline_prevention.gif,"Incline Push Up",Chest,Compound,beginner,"body weight",chest
+0494.gif,incline_reverse_grip_push_up.gif,"Incline Reverse Grip Push Up",Chest,Compound,beginner,"body weight",chest
+0495.gif,incline_twisting_sit_up.gif,"Incline Twisting Sit Up",Abs,Isolation,beginner,"body weight",waist
+0496.gif,inverse_leg_curl_bench_support.gif,"Inverse Leg Curl (bench Support)",Hamstrings,Isolation,beginner,"body weight","upper legs"
+0497.gif,inverted_row_v2.gif,"Inverted Row V. 2","Back (Upper Back)",Compound,intermediate,"body weight",back
+0498.gif,inverted_row_with_straps.gif,"Inverted Row With Straps","Back (Upper Back)",Compound,intermediate,"body weight",back
+0499.gif,inverted_row.gif,"Inverted Row","Back (Upper Back)",Compound,intermediate,"body weight",back
+0500.gif,isometric_wipers.gif,"Isometric Wipers",Chest,Isolation,beginner,"body weight",chest
+0501.gif,jack_burpee.gif,"Jack Burpee",Cardio,Compound,beginner,"body weight",cardio
+0507.gif,jackknife_sit_up.gif,"Jackknife Sit Up",Abs,Isolation,beginner,"body weight",waist
+0508.gif,janda_sit_up.gif,"Janda Sit Up",Abs,Isolation,beginner,"body weight",waist
+0513.gif,jump_squat_v2.gif,"Jump Squat V. 2",Glutes,Compound,advance,"body weight","upper legs"
+0514.gif,jump_squat.gif,"Jump Squat",Glutes,Compound,advance,"body weight","upper legs"
+0517.gif,kettlebell_advanced_windmill.gif,"Kettlebell Advanced Windmill",Abs,Isolation,intermediate,kettlebell,waist
+0518.gif,kettlebell_alternating_hang_clean.gif,"Kettlebell Alternating Hang Clean",Forearms,Compound,advance,kettlebell,"lower arms"
+0519.gif,kettlebell_alternating_press_on_floor.gif,"Kettlebell Alternating Press On Floor",Chest,Isolation,intermediate,kettlebell,chest
+0520.gif,kettlebell_alternating_press.gif,"Kettlebell Alternating Press",Shoulders,Isolation,intermediate,kettlebell,shoulders
+0521.gif,kettlebell_alternating_renegade_row.gif,"Kettlebell Alternating Renegade Row","Back (Upper Back)",Compound,intermediate,kettlebell,back
+0522.gif,kettlebell_alternating_row.gif,"Kettlebell Alternating Row","Back (Upper Back)",Compound,intermediate,kettlebell,back
+0523.gif,kettlebell_arnold_press.gif,"Kettlebell Arnold Press",Shoulders,Isolation,intermediate,kettlebell,shoulders
+0524.gif,kettlebell_bent_press.gif,"Kettlebell Bent Press",Abs,Isolation,intermediate,kettlebell,waist
+0525.gif,kettlebell_bottoms_up_clean_from_the_hang_position.gif,"Kettlebell Bottoms Up Clean From The Hang Position",Biceps,Compound,intermediate,kettlebell,"upper arms"
+0526.gif,kettlebell_double_alternating_hang_clean.gif,"Kettlebell Double Alternating Hang Clean",Biceps,Compound,advance,kettlebell,"upper arms"
+0527.gif,kettlebell_double_jerk.gif,"Kettlebell Double Jerk",Shoulders,Isolation,advance,kettlebell,shoulders
+0528.gif,kettlebell_double_push_press.gif,"Kettlebell Double Push Press",Shoulders,Isolation,intermediate,kettlebell,shoulders
+0529.gif,kettlebell_double_snatch.gif,"Kettlebell Double Snatch",Shoulders,Compound,advance,kettlebell,shoulders
+0530.gif,kettlebell_double_windmill.gif,"Kettlebell Double Windmill",Abs,Isolation,intermediate,kettlebell,waist
+0531.gif,kettlebell_extended_range_one_arm_press_on_floor.gif,"Kettlebell Extended Range One Arm Press On Floor",Chest,Isolation,intermediate,kettlebell,chest
+0532.gif,kettlebell_figure_8.gif,"Kettlebell Figure 8",Abs,Isolation,intermediate,kettlebell,waist
+0533.gif,kettlebell_front_squat.gif,"Kettlebell Front Squat",Glutes,Compound,intermediate,kettlebell,"upper legs"
+0534.gif,goblet_squat_kettlebell.gif,"Kettlebell Goblet Squat",Glutes,Compound,intermediate,kettlebell,"upper legs"
+0535.gif,kettlebell_hang_clean.gif,"Kettlebell Hang Clean",Hamstrings,Compound,advance,kettlebell,"upper legs"
+0536.gif,kettlebell_lunge_pass_through.gif,"Kettlebell Lunge Pass Through",Glutes,Compound,intermediate,kettlebell,"upper legs"
+0537.gif,kettlebell_one_arm_clean_and_jerk.gif,"Kettlebell One Arm Clean And Jerk",Shoulders,Compound,advance,kettlebell,shoulders
+0538.gif,kettlebell_one_arm_jerk.gif,"Kettlebell One Arm Jerk",Shoulders,Isolation,advance,kettlebell,shoulders
+0539.gif,kettlebell_one_arm_military_press_to_the_side.gif,"Kettlebell One Arm Military Press To The Side",Shoulders,Compound,intermediate,kettlebell,shoulders
+0540.gif,kettlebell_one_arm_push_press.gif,"Kettlebell One Arm Push Press",Shoulders,Isolation,advance,kettlebell,shoulders
+0541.gif,kettlebell_one_arm_row.gif,"Kettlebell One Arm Row","Back (Upper Back)",Compound,intermediate,kettlebell,back
+0542.gif,kettlebell_one_arm_snatch.gif,"Kettlebell One Arm Snatch",Shoulders,Compound,advance,kettlebell,shoulders
+0543.gif,kettlebell_pirate_supper_legs.gif,"Kettlebell Pirate Supper Legs",Shoulders,Isolation,intermediate,kettlebell,shoulders
+0544.gif,kettlebell_pistol_squat.gif,"Kettlebell Pistol Squat",Glutes,Compound,advance,kettlebell,"upper legs"
+0545.gif,kettlebell_plyo_push_up.gif,"Kettlebell Plyo Push Up",Chest,Compound,advance,kettlebell,chest
+0546.gif,kettlebell_seated_press.gif,"Kettlebell Seated Press",Shoulders,Isolation,intermediate,kettlebell,shoulders
+0547.gif,kettlebell_seesaw_press.gif,"Kettlebell Seesaw Press",Shoulders,Isolation,intermediate,kettlebell,shoulders
+0548.gif,kettlebell_sumo_high_pull.gif,"Kettlebell Sumo High Pull","Back (Traps)",Isolation,intermediate,kettlebell,back
+0549.gif,kettlebell_swing.gif,"Kettlebell Swing",Glutes,Isolation,intermediate,kettlebell,"upper legs"
+0550.gif,kettlebell_thruster.gif,"Kettlebell Thruster",Shoulders,Compound,intermediate,kettlebell,shoulders
+0551.gif,kettlebell_turkish_get_up_squat_style.gif,"Kettlebell Turkish Get Up (squat Style)",Glutes,Compound,intermediate,kettlebell,"upper legs"
+0552.gif,kettlebell_two_arm_clean.gif,"Kettlebell Two Arm Clean",Shoulders,Compound,intermediate,kettlebell,shoulders
+0553.gif,kettlebell_two_arm_military_press.gif,"Kettlebell Two Arm Military Press",Shoulders,Compound,intermediate,kettlebell,shoulders
+0554.gif,kettlebell_windmill.gif,"Kettlebell Windmill",Abs,Isolation,intermediate,kettlebell,waist
+0555.gif,kick_out_sit.gif,"Kick Out Sit",Hamstrings,Isolation,beginner,"body weight","upper legs"
+0558.gif,kipping_muscle_up.gif,"Kipping Muscle Up","Back (Lats)",Isolation,advance,"body weight",back
+0562.gif,landmine_180.gif,"Landmine 180",Abs,Isolation,intermediate,barbell,waist
+0570.gif,leg_pull_in_flat_bench.gif,"Leg Pull In Flat Bench",Abs,Isolation,beginner,"body weight",waist
+0571.gif,lever_alternating_narrow_grip_seated_row.gif,"Lever Alternating Narrow Grip Seated Row","Back (Upper Back)",Compound,beginner,"leverage machine",back
+0572.gif,lever_assisted_chin_up.gif,"Lever Assisted Chin Up","Back (Lats)",Compound,beginner,"leverage machine",back
+0573.gif,lever_back_extension.gif,"Lever Back Extension","Lower Back",Isolation,beginner,"leverage machine",back
+0574.gif,lever_bent_over_row.gif,"Lever Bent Over Row","Back (Upper Back)",Compound,intermediate,barbell,back
+0575.gif,lever_bicep_curl.gif,"Lever Bicep Curl",Biceps,Isolation,beginner,"leverage machine","upper arms"
+0576.gif,lever_chest_press_proper.gif,"Lever Chest Press",Chest,Compound,beginner,"leverage machine",chest
+0577.gif,lever_chest_press_var2.gif,"Lever Chest Press",Chest,Compound,beginner,"leverage machine",chest
+0578.gif,lever_deadlift.gif,"Lever Deadlift",Glutes,Compound,beginner,"leverage machine","upper legs"
+0579.gif,lever_front_pulldown.gif,"Lever Front Pulldown","Back (Lats)",Compound,beginner,"leverage machine",back
+0580.gif,lever_gripless_shrug.gif,"Lever Gripless Shrug","Back (Traps)",Isolation,beginner,"leverage machine",back
+0581.gif,lever_high_row.gif,"Lever High Row","Back (Upper Back)",Compound,beginner,"leverage machine",back
+0582.gif,lever_kneeling_leg_curl.gif,"Lever Kneeling Leg Curl",Hamstrings,Isolation,beginner,"leverage machine","upper legs"
+0583.gif,lever_kneeling_twist.gif,"Lever Kneeling Twist",Abs,Isolation,beginner,"leverage machine",waist
+0584.gif,lever_lateral_raise.gif,"Lever Lateral Raise",Shoulders,Isolation,beginner,"leverage machine",shoulders
+0585.gif,lever_leg_extension.gif,"Lever Leg Extension",Quads,Isolation,beginner,"leverage machine","upper legs"
+0586.gif,lever_lying_leg_curl.gif,"Lever Lying Leg Curl",Hamstrings,Isolation,beginner,"leverage machine","upper legs"
+0587.gif,lever_military_press.gif,"Lever Military Press",Shoulders,Compound,beginner,"leverage machine",shoulders
+0588.gif,lever_narrow_grip_seated_row.gif,"Lever Narrow Grip Seated Row","Back (Upper Back)",Compound,beginner,"leverage machine",back
+0589.gif,lever_one_arm_bent_over_row.gif,"Lever One Arm Bent Over Row","Back (Upper Back)",Compound,intermediate,barbell,back
+0590.gif,lever_one_arm_shoulder_press.gif,"Lever One Arm Shoulder Press",Shoulders,Compound,beginner,"leverage machine",shoulders
+0591.gif,lever_overhand_triceps_dip.gif,"Lever Overhand Triceps Dip",Triceps,Compound,beginner,"leverage machine","upper arms"
+0592.gif,lever_preacher_curl.gif,"Lever Preacher Curl",Biceps,Isolation,beginner,"leverage machine","upper arms"
+0593.gif,lever_reverse_hyperextension.gif,"Lever Reverse Hyperextension",Glutes,Isolation,beginner,"leverage machine","upper legs"
+0594.gif,lever_seated_calf_raise.gif,"Lever Seated Calf Raise",Calves,Isolation,beginner,"leverage machine","lower legs"
+0595.gif,lever_seated_crunch_chest_pad.gif,"Lever Seated Crunch (chest Pad)",Abs,Isolation,beginner,"leverage machine",waist
+0596.gif,lever_seated_fly.gif,"Lever Seated Fly",Chest,Isolation,beginner,"leverage machine",chest
+0597.gif,lever_seated_hip_abduction.gif,"Lever Seated Hip Abduction",Abductors,Isolation,beginner,"leverage machine","upper legs"
+0598.gif,lever_seated_hip_adduction.gif,"Lever Seated Hip Adduction",Adductors,Isolation,beginner,"leverage machine","upper legs"
+0599.gif,lever_seated_leg_curl.gif,"Lever Seated Leg Curl",Hamstrings,Isolation,beginner,"leverage machine","upper legs"
+0600.gif,lever_seated_leg_raise_crunch.gif,"Lever Seated Leg Raise Crunch",Abs,Isolation,beginner,"leverage machine",waist
+0601.gif,lever_seated_reverse_fly_parallel_grip.gif,"Lever Seated Reverse Fly (parallel Grip)",Shoulders,Isolation,beginner,"leverage machine",shoulders
+0602.gif,lever_seated_reverse_fly.gif,"Lever Seated Reverse Fly",Shoulders,Isolation,beginner,"leverage machine",shoulders
+0603.gif,lever_shoulder_press.gif,"Lever Shoulder Press",Shoulders,Compound,beginner,"leverage machine",shoulders
+0604.gif,lever_shrug.gif,"Lever Shrug","Back (Traps)",Isolation,beginner,"leverage machine",back
+0605.gif,lever_standing_calf_raise.gif,"Lever Standing Calf Raise",Calves,Isolation,beginner,"leverage machine","lower legs"
+0606.gif,lever_t_bar_row.gif,"Lever T Bar Row","Back (Upper Back)",Compound,beginner,"leverage machine",back
+0607.gif,lever_triceps_extension.gif,"Lever Triceps Extension",Triceps,Isolation,beginner,"leverage machine","upper arms"
+0613.gif,lying_side_quads_stretch.gif,"Lying (side) Quads Stretch",Quads,Isolation,beginner,"body weight","upper legs"
+0620.gif,lying_leg_raise_flat_bench.gif,"Lying Leg Raise Flat Bench",Abs,Isolation,beginner,"body weight",waist
+0624.gif,march_sit_wall.gif,"March Sit (wall)",Glutes,Isolation,beginner,"body weight","upper legs"
+0627.gif,mixed_grip_chin_up.gif,"Mixed Grip Chin Up","Back (Lats)",Compound,intermediate,"body weight",back
+0628.gif,monster_walk.gif,"Monster Walk",Glutes,Isolation,beginner,"body weight","upper legs"
+0630.gif,mountain_climber.gif,"Mountain Climber",Cardio,Compound,beginner,"body weight",cardio
+0631.gif,muscle_up.gif,"Muscle Up","Back (Lats)",Isolation,advance,"body weight",back
+0634.gif,negative_crunch.gif,"Negative Crunch",Abs,Isolation,beginner,"body weight",waist
+0635.gif,oblique_crunches_floor.gif,"Oblique Crunches Floor",Abs,Isolation,beginner,"body weight",waist
+0636.gif,olympic_barbell_hammer_curl.gif,"Olympic Barbell Hammer Curl",Biceps,Isolation,advance,"olympic barbell","upper arms"
+0637.gif,olympic_barbell_triceps_extension.gif,"Olympic Barbell Triceps Extension",Triceps,Isolation,advance,"olympic barbell","upper arms"
+0638.gif,one_arm_chin_up.gif,"One Arm Chin Up","Back (Lats)",Compound,intermediate,"body weight",back
+0639.gif,one_arm_dip.gif,"One Arm Dip",Triceps,Compound,intermediate,"body weight","upper arms"
+0640.gif,one_arm_slam_with_medicine_ball.gif,"One Arm Slam (with Medicine Ball)",Abs,Isolation,beginner,"medicine ball",waist
+0641.gif,otis_up.gif,"Otis Up",Abs,Isolation,intermediate,weighted,waist
+0642.gif,outside_leg_kick_push_up.gif,"Outside Leg Kick Push Up",Glutes,Compound,beginner,"body weight","upper legs"
+0643.gif,overhead_triceps_stretch.gif,"Overhead Triceps Stretch",Triceps,Isolation,beginner,"body weight","upper arms"
+0648.gif,power_clean.gif,"Power Clean",Hamstrings,Compound,advance,barbell,"upper legs"
+0650.gif,pull_in_on_stability_ball.gif,"Pull In (on Stability Ball)",Abs,Isolation,beginner,"stability ball",waist
+0651.gif,pull_up_neutral_grip.gif,"Pull Up (neutral Grip)","Back (Lats)",Isolation,beginner,"body weight",back
+0652.gif,pull_up.gif,"Pull Up","Back (Lats)",Compound,intermediate,"body weight",back
+0653.gif,push_up_bosu_ball.gif,"Push Up (bosu Ball)",Chest,Compound,beginner,"bosu ball",chest
+0655.gif,push_up_on_stability_ball_proper.gif,"Push Up (on Stability Ball)",Chest,Compound,beginner,"stability ball",chest
+0656.gif,push_up_on_stability_ball_var2.gif,"Push Up (on Stability Ball)",Chest,Compound,beginner,"stability ball",chest
+0658.gif,push_up_wall_v2.gif,"Push Up (wall) V. 2",Chest,Compound,beginner,"body weight",chest
+0659.gif,pushup_wall_prevention.gif,"Push Up (wall)",Chest,Compound,beginner,"body weight",chest
+0660.gif,push_up_close_grip_off_dumbbell.gif,"Push Up Close Grip Off Dumbbell",Triceps,Compound,intermediate,dumbbell,"upper arms"
+0661.gif,push_up_inside_leg_kick.gif,"Push Up Inside Leg Kick",Glutes,Compound,beginner,"body weight","upper legs"
+0662.gif,pushup_proper.gif,"Push Up",Chest,Compound,beginner,"body weight",chest
+0663.gif,push_up_medicine_ball.gif,"Push Up Medicine Ball",Chest,Compound,beginner,"medicine ball",chest
+0664.gif,push_up_to_side_plank.gif,"Push Up To Side Plank",Abs,Compound,beginner,"body weight",waist
+0666.gif,raise_single_arm_push_up.gif,"Raise Single Arm Push Up",Chest,Compound,beginner,"body weight",chest
+0668.gif,rear_decline_bridge.gif,"Rear Decline Bridge",Glutes,Isolation,beginner,"body weight","upper legs"
+0669.gif,rear_deltoid_stretch.gif,"Rear Deltoid Stretch",Shoulders,Isolation,beginner,"body weight",shoulders
+0670.gif,rear_pull_up.gif,"Rear Pull Up","Back (Lats)",Compound,intermediate,"body weight",back
+0672.gif,reverse_dip.gif,"Reverse Dip",Triceps,Compound,intermediate,"body weight","upper arms"
+0673.gif,reverse_grip_machine_lat_pulldown.gif,"Reverse Grip Machine Lat Pulldown","Back (Lats)",Compound,beginner,"leverage machine",back
+0674.gif,reverse_grip_pull_up.gif,"Reverse Grip Pull Up","Back (Lats)",Compound,intermediate,"body weight",back
+0675.gif,reverse_hyper_extension_on_stability_ball.gif,"Reverse Hyper Extension (on Stability Ball)",Glutes,Isolation,beginner,"stability ball","upper legs"
+0677.gif,ring_dips.gif,"Ring Dips",Triceps,Compound,intermediate,"body weight","upper arms"
+0678.gif,rocky_pull_up_pulldown.gif,"Rocky Pull Up Pulldown","Back (Lats)",Compound,intermediate,"body weight",back
+0680.gif,rope_climb.gif,"Rope Climb","Back (Upper Back)",Isolation,intermediate,rope,back
+0684.gif,run_equipment.gif,"Run (equipment)",Cardio,Isolation,beginner,"body weight",cardio
+0685.gif,run.gif,Run,Cardio,Isolation,beginner,"body weight",cardio
+0687.gif,russian_twist.gif,"Russian Twist",Abs,Isolation,beginner,"body weight",waist
+0688.gif,scapular_pull_up.gif,"Scapular Pull Up","Back (Traps)",Compound,intermediate,"body weight",back
+0689.gif,seated_leg_raise.gif,"Seated Leg Raise",Abs,Isolation,beginner,"body weight",waist
+0690.gif,seated_lower_back_stretch.gif,"Seated Lower Back Stretch","Back (Lats)",Isolation,beginner,"body weight",back
+0691.gif,seated_side_crunch_wall.gif,"Seated Side Crunch (wall)",Abs,Isolation,beginner,"body weight",waist
+0696.gif,self_assisted_inverse_leg_curl_on_floor.gif,"Self Assisted Inverse Leg Curl (on Floor)",Hamstrings,Isolation,beginner,"body weight","upper legs"
+0697.gif,self_assisted_inverse_leg_curl_proper.gif,"Self Assisted Inverse Leg Curl",Hamstrings,Isolation,beginner,"body weight","upper legs"
+0699.gif,shoulder_tap_push_up.gif,"Shoulder Tap Push Up",Chest,Compound,beginner,"body weight",chest
+0705.gif,side_bridge_v2.gif,"Side Bridge V. 2",Abs,Isolation,beginner,"body weight",waist
+0709.gif,side_hip_on_parallel_bars.gif,"Side Hip (on Parallel Bars)",Abs,Isolation,beginner,"body weight",waist
+0710.gif,side_hip_abduction.gif,"Side Hip Abduction",Abductors,Isolation,beginner,"body weight","upper legs"
+0716.gif,side_push_neck_stretch.gif,"Side Push Neck Stretch",Neck,Isolation,beginner,"body weight",neck
+0717.gif,side_push_up.gif,"Side Push Up",Triceps,Compound,beginner,"body weight","upper arms"
+0720.gif,side_to_side_chin.gif,"Side To Side Chin","Back (Lats)",Isolation,beginner,"body weight",back
+0721.gif,side_wrist_pull_stretch.gif,"Side Wrist Pull Stretch",Forearms,Isolation,beginner,"body weight","lower arms"
+0725.gif,single_arm_push_up.gif,"Single Arm Push Up",Chest,Compound,beginner,"body weight",chest
+0727.gif,single_leg_calf_raise_on_a_dumbbell.gif,"Single Leg Calf Raise (on A Dumbbell)",Calves,Isolation,intermediate,dumbbell,"lower legs"
+0730.gif,single_leg_platform_slide.gif,"Single Leg Platform Slide",Hamstrings,Isolation,beginner,"body weight","upper legs"
+0735.gif,sit_up_v2.gif,"Sit Up V. 2",Abs,Isolation,beginner,"body weight",waist
+0738.gif,sled_45_degree_calf_press.gif,"Sled 45в° Calf Press",Calves,Isolation,beginner,"sled machine","lower legs"
+0739.gif,sled_45_degree_leg_press.gif,"Sled 45в° Leg Press",Glutes,Compound,beginner,"sled machine","upper legs"
+0740.gif,sled_45_degree_leg_wide_press.gif,"Sled 45в° Leg Wide Press",Glutes,Isolation,beginner,"sled machine","upper legs"
+0741.gif,sled_closer_hack_squat.gif,"Sled Closer Hack Squat",Glutes,Compound,beginner,"sled machine","upper legs"
+0742.gif,sled_forward_angled_calf_raise.gif,"Sled Forward Angled Calf Raise",Calves,Isolation,beginner,"sled machine","lower legs"
+0743.gif,sled_hack_squat.gif,"Sled Hack Squat",Glutes,Compound,beginner,"sled machine","upper legs"
+0744.gif,sled_lying_squat.gif,"Sled Lying Squat",Glutes,Compound,beginner,"sled machine","upper legs"
+0746.gif,smith_back_shrug.gif,"Smith Back Shrug","Back (Traps)",Isolation,beginner,"smith machine",back
+0747.gif,smith_behind_neck_press.gif,"Smith Behind Neck Press",Shoulders,Isolation,beginner,"smith machine",shoulders
+0748.gif,smith_bench_press.gif,"Smith Bench Press",Chest,Compound,beginner,"smith machine",chest
+0749.gif,smith_bent_knee_good_morning.gif,"Smith Bent Knee Good Morning",Glutes,Isolation,beginner,"smith machine","upper legs"
+0750.gif,smith_chair_squat.gif,"Smith Chair Squat",Quads,Compound,beginner,"smith machine","upper legs"
+0751.gif,smith_close_grip_bench_press.gif,"Smith Close Grip Bench Press",Triceps,Compound,beginner,"smith machine","upper arms"
+0752.gif,smith_deadlift.gif,"Smith Deadlift",Glutes,Compound,beginner,"smith machine","upper legs"
+0753.gif,smith_decline_bench_press.gif,"Smith Decline Bench Press",Chest,Compound,beginner,"smith machine",chest
+0754.gif,smith_decline_reverse_grip_press.gif,"Smith Decline Reverse Grip Press",Chest,Isolation,beginner,"smith machine",chest
+0755.gif,smith_hack_squat.gif,"Smith Hack Squat",Glutes,Compound,beginner,"smith machine","upper legs"
+0756.gif,smith_hip_raise.gif,"Smith Hip Raise",Abs,Isolation,beginner,"smith machine",waist
+0757.gif,smith_incline_bench_press.gif,"Smith Incline Bench Press",Chest,Compound,beginner,"smith machine",chest
+0758.gif,smith_incline_reverse_grip_press.gif,"Smith Incline Reverse Grip Press",Chest,Isolation,beginner,"smith machine",chest
+0759.gif,smith_incline_shoulder_raises.gif,"Smith Incline Shoulder Raises",Core,Isolation,beginner,"smith machine",chest
+0760.gif,smith_leg_press.gif,"Smith Leg Press",Glutes,Compound,beginner,"smith machine","upper legs"
+0761.gif,smith_narrow_row.gif,"Smith Narrow Row","Back (Upper Back)",Compound,beginner,"smith machine",back
+0762.gif,smith_rear_delt_row.gif,"Smith Rear Delt Row",Shoulders,Compound,beginner,"smith machine",shoulders
+0763.gif,smith_reverse_calf_raises_proper.gif,"Smith Reverse Calf Raises",Calves,Isolation,beginner,"smith machine","lower legs"
+0764.gif,smith_reverse_grip_press.gif,"Smith Reverse Grip Press",Chest,Isolation,beginner,"smith machine",chest
+0765.gif,smith_seated_shoulder_press.gif,"Smith Seated Shoulder Press",Shoulders,Compound,beginner,"smith machine",shoulders
+0766.gif,smith_shoulder_press.gif,"Smith Shoulder Press",Shoulders,Compound,beginner,"smith machine",shoulders
+0767.gif,smith_shrug.gif,"Smith Shrug","Back (Traps)",Isolation,beginner,"smith machine",back
+0768.gif,smith_single_leg_split_squat.gif,"Smith Single Leg Split Squat",Quads,Compound,beginner,"smith machine","upper legs"
+0769.gif,smith_sprint_lunge.gif,"Smith Sprint Lunge",Glutes,Compound,beginner,"smith machine","upper legs"
+0770.gif,smith_squat.gif,"Smith Squat",Glutes,Compound,beginner,"smith machine","upper legs"
+0771.gif,smith_standing_back_wrist_curl.gif,"Smith Standing Back Wrist Curl",Forearms,Isolation,beginner,"smith machine","lower arms"
+0772.gif,smith_standing_behind_head_military_press.gif,"Smith Standing Behind Head Military Press",Shoulders,Compound,beginner,"smith machine",shoulders
+0773.gif,smith_standing_leg_calf_raise.gif,"Smith Standing Leg Calf Raise",Calves,Isolation,beginner,"smith machine","lower legs"
+0774.gif,smith_standing_military_press.gif,"Smith Standing Military Press",Shoulders,Compound,beginner,"smith machine",shoulders
+0775.gif,smith_upright_row.gif,"Smith Upright Row",Shoulders,Compound,beginner,"smith machine",shoulders
+0776.gif,snatch_pull.gif,"Snatch Pull",Quads,Compound,advance,barbell,"upper legs"
+0777.gif,spell_caster.gif,"Spell Caster",Abs,Isolation,intermediate,dumbbell,waist
+0778.gif,spider_crawl_push_up.gif,"Spider Crawl Push Up",Glutes,Isolation,beginner,"body weight","upper legs"
+0786.gif,squat_jerk.gif,"Squat Jerk",Quads,Compound,advance,barbell,"upper legs"
+0788.gif,standing_behind_neck_press.gif,"Standing Behind Neck Press",Shoulders,Isolation,intermediate,barbell,shoulders
+0794.gif,standing_lateral_stretch.gif,"Standing Lateral Stretch","Back (Lats)",Isolation,beginner,"body weight",back
+0795.gif,standing_single_leg_curl.gif,"Standing Single Leg Curl",Hamstrings,Isolation,beginner,"body weight","upper legs"
+0796.gif,standing_wheel_rollerout.gif,"Standing Wheel Rollerout",Abs,Isolation,beginner,"wheel roller",waist
+0798.gif,stationary_bike_walk.gif,"Stationary Bike Walk",Cardio,Compound,beginner,"leverage machine",cardio
+0803.gif,superman_push_up.gif,"Superman Push Up",Chest,Compound,beginner,"body weight",chest
+0805.gif,suspended_abdominal_fallout.gif,"Suspended Abdominal Fallout",Abs,Isolation,beginner,"body weight",waist
+0806.gif,suspended_push_up.gif,"Suspended Push Up",Chest,Compound,beginner,"body weight",chest
+0807.gif,suspended_reverse_crunch.gif,"Suspended Reverse Crunch",Abs,Isolation,beginner,"body weight",waist
+0808.gif,suspended_row.gif,"Suspended Row","Back (Upper Back)",Compound,beginner,"body weight",back
+0809.gif,suspended_split_squat.gif,"Suspended Split Squat",Quads,Compound,beginner,"body weight","upper legs"
+0811.gif,trap_bar_deadlift.gif,"Trap Bar Deadlift",Glutes,Compound,intermediate,"trap bar","upper legs"
+0812.gif,triceps_dip_bench_leg.gif,"Triceps Dip (bench Leg)",Triceps,Compound,intermediate,"body weight","upper arms"
+0813.gif,triceps_dip_between_benches.gif,"Triceps Dip (between Benches)",Triceps,Compound,intermediate,"body weight","upper arms"
+0814.gif,triceps_dip.gif,"Triceps Dip",Triceps,Compound,intermediate,"body weight","upper arms"
+0815.gif,triceps_dips_floor.gif,"Triceps Dips Floor",Triceps,Compound,intermediate,"body weight","upper arms"
+0816.gif,triceps_press.gif,"Triceps Press",Triceps,Isolation,beginner,"body weight","upper arms"
+0817.gif,triceps_stretch.gif,"Triceps Stretch",Triceps,Isolation,beginner,"body weight","upper arms"
+0818.gif,twin_handle_parallel_grip_lat_pulldown.gif,"Twin Handle Parallel Grip Lat Pulldown","Back (Lats)",Compound,intermediate,cable,back
+0826.gif,vertical_leg_raise_on_parallel_bars.gif,"Vertical Leg Raise (on Parallel Bars)",Abs,Isolation,beginner,"body weight",waist
+0830.gif,weighted_bench_dip.gif,"Weighted Bench Dip",Triceps,Compound,intermediate,weighted,"upper arms"
+0832.gif,weighted_crunch.gif,"Weighted Crunch",Abs,Isolation,intermediate,weighted,waist
+0833.gif,weighted_donkey_calf_raise.gif,"Weighted Donkey Calf Raise",Calves,Isolation,intermediate,weighted,"lower legs"
+0834.gif,weighted_front_raise.gif,"Weighted Front Raise",Shoulders,Isolation,intermediate,weighted,shoulders
+0835.gif,weighted_hyperextension_on_stability_ball.gif,"Weighted Hyperextension (on Stability Ball)","Lower Back",Isolation,intermediate,weighted,back
+0840.gif,weighted_overhead_crunch_on_stability_ball.gif,"Weighted Overhead Crunch (on Stability Ball)",Abs,Isolation,intermediate,weighted,waist
+0841.gif,weighted_pull_up.gif,"Weighted Pull Up","Back (Lats)",Compound,intermediate,weighted,back
+0844.gif,weighted_round_arm.gif,"Weighted Round Arm",Shoulders,Isolation,intermediate,weighted,shoulders
+0845.gif,weighted_russian_twist_legs_up.gif,"Weighted Russian Twist (legs Up)",Abs,Isolation,intermediate,weighted,waist
+0846.gif,weighted_russian_twist.gif,"Weighted Russian Twist",Abs,Isolation,intermediate,weighted,waist
+0847.gif,weighted_seated_bicep_curl_on_stability_ball.gif,"Weighted Seated Bicep Curl (on Stability Ball)",Biceps,Isolation,beginner,"medicine ball","upper arms"
+0849.gif,weighted_seated_twist_on_stability_ball.gif,"Weighted Seated Twist (on Stability Ball)",Abs,Isolation,intermediate,weighted,waist
+0850.gif,weighted_side_bend_on_stability_ball.gif,"Weighted Side Bend (on Stability Ball)",Abs,Isolation,intermediate,weighted,waist
+0851.gif,weighted_sissy_squat.gif,"Weighted Sissy Squat",Quads,Compound,intermediate,weighted,"upper legs"
+0852.gif,weighted_squat.gif,"Weighted Squat",Glutes,Compound,intermediate,weighted,"upper legs"
+0853.gif,weighted_standing_curl.gif,"Weighted Standing Curl",Biceps,Isolation,intermediate,weighted,"upper arms"
+0854.gif,weighted_standing_hand_squeeze.gif,"Weighted Standing Hand Squeeze",Forearms,Isolation,intermediate,weighted,"lower arms"
+0856.gif,weighted_svend_press.gif,"Weighted Svend Press",Chest,Isolation,intermediate,weighted,chest
+0857.gif,wheel_rollerout.gif,"Wheel Rollerout",Abs,Isolation,beginner,"wheel roller",waist
+0858.gif,wind_sprints.gif,"Wind Sprints",Abs,Isolation,beginner,"body weight",waist
+0859.gif,wrist_rollerer.gif,"Wrist Rollerer",Forearms,Isolation,beginner,weighted,"lower arms"
+0860.gif,cable_kickback.gif,"Cable Kickback",Triceps,Isolation,intermediate,cable,"upper arms"
+0861.gif,cable_seated_row.gif,"Cable Seated Row","Back (Upper Back)",Compound,intermediate,cable,back
+0862.gif,cable_twist_up_down.gif,"Cable Twist (up Down)",Abs,Isolation,intermediate,cable,waist
+0863.gif,dumbbell_lying_external_shoulder_rotation.gif,"Dumbbell Lying External Shoulder Rotation",Shoulders,Isolation,intermediate,dumbbell,shoulders
+0864.gif,dumbbell_upright_shoulder_external_rotation.gif,"Dumbbell Upright Shoulder External Rotation",Shoulders,Isolation,intermediate,dumbbell,shoulders
+0865.gif,lying_leg_hip_raise.gif,"Lying Leg Hip Raise",Abs,Isolation,beginner,"body weight",waist
+0866.gif,weighted_hanging_leg_hip_raise.gif,"Weighted Hanging Leg Hip Raise",Abs,Isolation,intermediate,weighted,waist
+0868.gif,cable_curl.gif,"Cable Curl",Biceps,Isolation,intermediate,cable,"upper arms"
+0869.gif,lever_shoulder_press_v2.gif,"Lever Shoulder Press V. 2",Shoulders,Compound,beginner,"leverage machine",shoulders
+0870.gif,butt_ups.gif,"Butt Ups",Abs,Isolation,beginner,"body weight",waist
+0871.gif,tuck_crunch.gif,"Tuck Crunch",Abs,Isolation,beginner,"body weight",waist
+0872.gif,reverse_crunch.gif,"Reverse Crunch",Abs,Isolation,beginner,"body weight",waist
+0873.gif,cable_reverse_crunch.gif,"Cable Reverse Crunch",Abs,Isolation,intermediate,cable,waist
+0874.gif,cable_standing_crunch_with_rope_attachment.gif,"Cable Standing Crunch (with Rope Attachment)",Abs,Isolation,intermediate,cable,waist
+0968.gif,band_alternating_biceps_curl.gif,"Band Alternating Biceps Curl",Biceps,Isolation,beginner,band,"upper arms"
+0969.gif,band_alternating_v_up.gif,"Band Alternating V Up",Abs,Isolation,beginner,band,waist
+0970.gif,band_assisted_pull_up.gif,"Band Assisted Pull Up","Back (Lats)",Compound,beginner,band,back
+0971.gif,band_assisted_wheel_rollerout.gif,"Band Assisted Wheel Rollerout",Abs,Isolation,beginner,band,waist
+0972.gif,band_bicycle_crunch.gif,"Band Bicycle Crunch",Abs,Isolation,beginner,band,waist
+0974.gif,band_close_grip_pulldown.gif,"Band Close Grip Pulldown","Back (Lats)",Compound,beginner,band,back
+0975.gif,band_close_grip_push_up.gif,"Band Close Grip Push Up",Triceps,Compound,beginner,band,"upper arms"
+0976.gif,band_concentration_curl.gif,"Band Concentration Curl",Biceps,Isolation,beginner,band,"upper arms"
+0977.gif,band_front_lateral_raise.gif,"Band Front Lateral Raise",Shoulders,Isolation,beginner,band,shoulders
+0978.gif,band_front_raise.gif,"Band Front Raise",Shoulders,Isolation,beginner,band,shoulders
+0979.gif,band_horizontal_pallof_press.gif,"Band Horizontal Pallof Press",Abs,Isolation,beginner,band,waist
+0980.gif,band_bent_over_hip_extension.gif,"Band Bent Over Hip Extension",Glutes,Isolation,beginner,band,"upper legs"
+0981.gif,band_jack_knife_sit_up.gif,"Band Jack Knife Sit Up",Abs,Isolation,beginner,band,waist
+0983.gif,band_kneeling_one_arm_pulldown.gif,"Band Kneeling One Arm Pulldown","Back (Lats)",Compound,beginner,band,back
+0984.gif,band_lying_hip_internal_rotation.gif,"Band Lying Hip Internal Rotation",Glutes,Isolation,beginner,band,"upper legs"
+0985.gif,band_kneeling_twisting_crunch.gif,"Band Kneeling Twisting Crunch",Abs,Isolation,beginner,band,waist
+0986.gif,band_one_arm_overhead_biceps_curl.gif,"Band One Arm Overhead Biceps Curl",Biceps,Isolation,beginner,band,"upper arms"
+0987.gif,band_one_arm_single_leg_split_squat.gif,"Band One Arm Single Leg Split Squat",Quads,Compound,beginner,band,"upper legs"
+0988.gif,band_one_arm_standing_low_row.gif,"Band One Arm Standing Low Row","Back (Upper Back)",Compound,beginner,band,back
+0989.gif,band_one_arm_twisting_chest_press.gif,"Band One Arm Twisting Chest Press",Chest,Compound,beginner,band,chest
+0990.gif,band_one_arm_twisting_seated_row.gif,"Band One Arm Twisting Seated Row","Back (Upper Back)",Compound,beginner,band,back
+0991.gif,band_pull_through.gif,"Band Pull Through",Glutes,Isolation,beginner,band,"upper legs"
+0992.gif,band_push_sit_up.gif,"Band Push Sit Up",Abs,Isolation,beginner,band,waist
+0993.gif,band_reverse_fly.gif,"Band Reverse Fly",Shoulders,Isolation,beginner,band,shoulders
+0994.gif,band_reverse_wrist_curl.gif,"Band Reverse Wrist Curl",Forearms,Isolation,beginner,band,"lower arms"
+0996.gif,band_seated_hip_internal_rotation.gif,"Band Seated Hip Internal Rotation",Glutes,Isolation,beginner,band,"upper legs"
+0997.gif,band_shoulder_press.gif,"Band Shoulder Press",Shoulders,Compound,beginner,band,shoulders
+0998.gif,band_side_triceps_extension.gif,"Band Side Triceps Extension",Triceps,Isolation,beginner,band,"upper arms"
+0999.gif,band_single_leg_calf_raise.gif,"Band Single Leg Calf Raise",Calves,Isolation,beginner,band,"lower legs"
+1000.gif,band_single_leg_reverse_calf_raise.gif,"Band Single Leg Reverse Calf Raise",Calves,Isolation,beginner,band,"lower legs"
+1001.gif,band_single_leg_split_squat.gif,"Band Single Leg Split Squat",Quads,Compound,beginner,band,"upper legs"
+1002.gif,band_lying_straight_leg_raise.gif,"Band Lying Straight Leg Raise",Abs,Isolation,beginner,band,waist
+1003.gif,band_squat_row.gif,"Band Squat Row",Glutes,Compound,beginner,band,"upper legs"
+1004.gif,band_squat.gif,"Band Squat",Glutes,Compound,beginner,band,"upper legs"
+1005.gif,band_standing_crunch.gif,"Band Standing Crunch",Abs,Isolation,beginner,band,waist
+1007.gif,band_standing_twisting_crunch.gif,"Band Standing Twisting Crunch",Abs,Isolation,beginner,band,waist
+1008.gif,band_step_up.gif,"Band Step Up",Glutes,Compound,beginner,band,"upper legs"
+1009.gif,band_stiff_leg_deadlift.gif,"Band Stiff Leg Deadlift",Glutes,Compound,beginner,band,"upper legs"
+1010.gif,band_straight_leg_deadlift.gif,"Band Straight Leg Deadlift","Lower Back",Compound,beginner,band,back
+1011.gif,band_seated_twist.gif,"Band Seated Twist",Abs,Isolation,beginner,band,waist
+1012.gif,band_twisting_overhead_press.gif,"Band Twisting Overhead Press",Shoulders,Compound,beginner,band,shoulders
+1013.gif,band_underhand_pulldown.gif,"Band Underhand Pulldown","Back (Lats)",Compound,beginner,band,back
+1014.gif,band_v_up.gif,"Band V Up",Abs,Isolation,beginner,band,waist
+1015.gif,band_vertical_pallof_press.gif,"Band Vertical Pallof Press",Abs,Isolation,beginner,band,waist
+1016.gif,band_wrist_curl.gif,"Band Wrist Curl",Forearms,Isolation,beginner,band,"lower arms"
+1017.gif,band_y_raise.gif,"Band Y Raise",Shoulders,Isolation,beginner,band,shoulders
+1018.gif,band_shrug.gif,"Band Shrug","Back (Traps)",Isolation,beginner,band,back
+1022.gif,band_standing_rear_delt_row.gif,"Band Standing Rear Delt Row",Shoulders,Compound,beginner,band,shoulders
+1023.gif,band_straight_back_stiff_leg_deadlift.gif,"Band Straight Back Stiff Leg Deadlift",Glutes,Compound,beginner,band,"upper legs"
+1160.gif,burpee.gif,Burpee,Cardio,Compound,beginner,"body weight",cardio
+1167.gif,dynamic_chest_stretch_male.gif,"Dynamic Chest Stretch (male)",Chest,Isolation,beginner,"body weight",chest
+1201.gif,dumbbell_burpee.gif,"Dumbbell Burpee",Cardio,Compound,intermediate,dumbbell,cardio
+1253.gif,lever_donkey_calf_raise.gif,"Lever Donkey Calf Raise",Calves,Isolation,beginner,"leverage machine","lower legs"
+1254.gif,band_bench_press.gif,"Band Bench Press",Chest,Compound,beginner,band,chest
+1255.gif,barbell_decline_pullover.gif,"Barbell Decline Pullover",Chest,Isolation,intermediate,barbell,chest
+1256.gif,barbell_reverse_grip_decline_bench_press.gif,"Barbell Reverse Grip Decline Bench Press",Chest,Compound,intermediate,barbell,chest
+1257.gif,barbell_reverse_grip_incline_bench_press.gif,"Barbell Reverse Grip Incline Bench Press",Chest,Compound,intermediate,barbell,chest
+1258.gif,barbell_wide_reverse_grip_bench_press.gif,"Barbell Wide Reverse Grip Bench Press",Chest,Compound,intermediate,barbell,chest
+1259.gif,behind_head_chest_stretch.gif,"Behind Head Chest Stretch",Chest,Isolation,beginner,assisted,chest
+1260.gif,cable_decline_one_arm_press.gif,"Cable Decline One Arm Press",Chest,Isolation,intermediate,cable,chest
+1261.gif,cable_decline_press.gif,"Cable Decline Press",Chest,Isolation,intermediate,cable,chest
+1262.gif,cable_one_arm_decline_chest_fly.gif,"Cable One Arm Decline Chest Fly",Chest,Isolation,intermediate,cable,chest
+1263.gif,cable_one_arm_fly_on_exercise_ball.gif,"Cable One Arm Fly On Exercise Ball",Chest,Isolation,intermediate,cable,chest
+1264.gif,cable_one_arm_incline_fly_on_exercise_ball.gif,"Cable One Arm Incline Fly On Exercise Ball",Chest,Isolation,intermediate,cable,chest
+1265.gif,cable_one_arm_incline_press.gif,"Cable One Arm Incline Press",Chest,Isolation,intermediate,cable,chest
+1266.gif,cable_one_arm_incline_press_on_exercise_ball.gif,"Cable One Arm Incline Press On Exercise Ball",Chest,Isolation,intermediate,cable,chest
+1267.gif,cable_one_arm_press_on_exercise_ball.gif,"Cable One Arm Press On Exercise Ball",Chest,Isolation,intermediate,cable,chest
+1268.gif,cable_press_on_exercise_ball.gif,"Cable Press On Exercise Ball",Chest,Isolation,intermediate,cable,chest
+1269.gif,cable_standing_up_straight_crossovers.gif,"Cable Standing Up Straight Crossovers",Chest,Isolation,intermediate,cable,chest
+1270.gif,cable_upper_chest_crossovers.gif,"Cable Upper Chest Crossovers",Chest,Isolation,intermediate,cable,chest
+1271.gif,chest_and_front_of_shoulder_stretch.gif,"Chest And Front Of Shoulder Stretch",Chest,Isolation,beginner,"body weight",chest
+1272.gif,chest_stretch_with_exercise_ball.gif,"Chest Stretch With Exercise Ball",Chest,Isolation,beginner,"stability ball",chest
+1273.gif,clap_push_up.gif,"Clap Push Up",Chest,Isolation,beginner,"body weight",chest
+1274.gif,deep_push_up.gif,"Deep Push Up",Chest,Isolation,intermediate,dumbbell,chest
+1275.gif,drop_push_up.gif,"Drop Push Up",Chest,Isolation,beginner,"body weight",chest
+1276.gif,dumbbell_decline_one_arm_fly.gif,"Dumbbell Decline One Arm Fly",Chest,Isolation,intermediate,dumbbell,chest
+1277.gif,dumbbell_fly_on_exercise_ball.gif,"Dumbbell Fly On Exercise Ball",Chest,Isolation,intermediate,dumbbell,chest
+1278.gif,dumbbell_incline_fly_on_exercise_ball.gif,"Dumbbell Incline Fly On Exercise Ball",Chest,Isolation,intermediate,dumbbell,chest
+1279.gif,dumbbell_incline_one_arm_fly.gif,"Dumbbell Incline One Arm Fly",Chest,Isolation,intermediate,dumbbell,chest
+1280.gif,dumbbell_incline_one_arm_fly_on_exercise_ball.gif,"Dumbbell Incline One Arm Fly On Exercise Ball",Chest,Isolation,intermediate,dumbbell,chest
+1281.gif,dumbbell_incline_one_arm_press.gif,"Dumbbell Incline One Arm Press",Chest,Isolation,intermediate,dumbbell,chest
+1282.gif,dumbbell_incline_one_arm_press_on_exercise_ball.gif,"Dumbbell Incline One Arm Press On Exercise Ball",Chest,Isolation,intermediate,dumbbell,chest
+1283.gif,dumbbell_incline_press_on_exercise_ball.gif,"Dumbbell Incline Press On Exercise Ball",Chest,Isolation,intermediate,dumbbell,chest
+1284.gif,dumbbell_lying_pullover_on_exercise_ball.gif,"Dumbbell Lying Pullover On Exercise Ball",Chest,Isolation,intermediate,dumbbell,chest
+1285.gif,dumbbell_one_arm_bench_fly.gif,"Dumbbell One Arm Bench Fly",Chest,Isolation,intermediate,dumbbell,chest
+1286.gif,dumbbell_one_arm_chest_fly_on_exercise_ball.gif,"Dumbbell One Arm Chest Fly On Exercise Ball",Chest,Isolation,intermediate,dumbbell,chest
+1287.gif,dumbbell_one_arm_decline_chest_press.gif,"Dumbbell One Arm Decline Chest Press",Chest,Compound,intermediate,dumbbell,chest
+1288.gif,dumbbell_one_arm_fly_on_exercise_ball.gif,"Dumbbell One Arm Fly On Exercise Ball",Chest,Isolation,intermediate,dumbbell,chest
+1289.gif,dumbbell_one_arm_incline_chest_press.gif,"Dumbbell One Arm Incline Chest Press",Chest,Compound,intermediate,dumbbell,chest
+1290.gif,dumbbell_one_arm_press_on_exercise_ball.gif,"Dumbbell One Arm Press On Exercise Ball",Chest,Isolation,intermediate,dumbbell,chest
+1291.gif,dumbbell_one_arm_pullover_on_exercise_ball.gif,"Dumbbell One Arm Pullover On Exercise Ball",Chest,Isolation,intermediate,dumbbell,chest
+1292.gif,dumbbell_one_leg_fly_on_exercise_ball.gif,"Dumbbell One Leg Fly On Exercise Ball",Chest,Isolation,intermediate,dumbbell,chest
+1293.gif,dumbbell_press_on_exercise_ball.gif,"Dumbbell Press On Exercise Ball",Chest,Isolation,intermediate,dumbbell,chest
+1294.gif,dumbbell_pullover_hip_extension_on_exercise_ball.gif,"Dumbbell Pullover Hip Extension On Exercise Ball",Chest,Isolation,intermediate,dumbbell,chest
+1295.gif,dumbbell_pullover_on_exercise_ball.gif,"Dumbbell Pullover On Exercise Ball",Chest,Isolation,intermediate,dumbbell,chest
+1296.gif,exercise_ball_pike_push_up.gif,"Exercise Ball Pike Push Up",Chest,Isolation,beginner,"stability ball",chest
+1297.gif,isometric_chest_squeeze.gif,"Isometric Chest Squeeze",Chest,Isolation,beginner,"body weight",chest
+1298.gif,kettlebell_one_arm_floor_press.gif,"Kettlebell One Arm Floor Press",Chest,Isolation,intermediate,kettlebell,chest
+1299.gif,lever_incline_chest_press.gif,"Lever Incline Chest Press",Chest,Compound,beginner,"leverage machine",chest
+1300.gif,lever_decline_chest_press.gif,"Lever Decline Chest Press",Chest,Compound,beginner,"leverage machine",chest
+1301.gif,machine_inner_chest_press.gif,"Machine Inner Chest Press",Chest,Compound,beginner,"leverage machine",chest
+1302.gif,medicine_ball_chest_pass.gif,"Medicine Ball Chest Pass",Chest,Isolation,beginner,"medicine ball",chest
+1303.gif,medicine_ball_chest_push_from_3_point_stance.gif,"Medicine Ball Chest Push From 3 Point Stance",Chest,Isolation,beginner,"medicine ball",chest
+1304.gif,medicine_ball_chest_push_multiple_response.gif,"Medicine Ball Chest Push Multiple Response",Chest,Isolation,beginner,"medicine ball",chest
+1305.gif,medicine_ball_chest_push_single_response.gif,"Medicine Ball Chest Push Single Response",Chest,Isolation,beginner,"medicine ball",chest
+1306.gif,plyo_push_up.gif,"Plyo Push Up",Chest,Isolation,advance,"body weight",chest
+1307.gif,push_up_on_bosu_ball.gif,"Push Up On Bosu Ball",Chest,Isolation,beginner,"bosu ball",chest
+1308.gif,smith_wide_grip_bench_press.gif,"Smith Wide Grip Bench Press",Chest,Compound,beginner,"smith machine",chest
+1309.gif,smith_wide_grip_decline_bench_press.gif,"Smith Wide Grip Decline Bench Press",Chest,Compound,beginner,"smith machine",chest
+1310.gif,weighted_drop_push_up.gif,"Weighted Drop Push Up",Chest,Isolation,intermediate,weighted,chest
+1311.gif,wide_hand_push_up.gif,"Wide Hand Push Up",Chest,Isolation,beginner,"body weight",chest
+1312.gif,medicine_ball_chest_push_with_run_release.gif,"Medicine Ball Chest Push With Run Release",Chest,Isolation,beginner,"medicine ball",chest
+1313.gif,lever_unilateral_row.gif,"Lever Unilateral Row","Back (Upper Back)",Compound,beginner,"leverage machine",back
+1314.gif,back_extension_on_exercise_ball.gif,"Back Extension On Exercise Ball","Lower Back",Isolation,beginner,"stability ball",back
+1316.gif,barbell_bent_arm_pullover.gif,"Barbell Bent Arm Pullover","Back (Lats)",Isolation,intermediate,barbell,back
+1317.gif,barbell_reverse_grip_incline_bench_row.gif,"Barbell Reverse Grip Incline Bench Row","Back (Upper Back)",Compound,intermediate,barbell,back
+1318.gif,cable_incline_bench_row.gif,"Cable Incline Bench Row","Back (Upper Back)",Compound,intermediate,cable,back
+1319.gif,cable_palm_rotational_row.gif,"Cable Palm Rotational Row","Back (Upper Back)",Compound,intermediate,cable,back
+1320.gif,cable_rope_crossover_seated_row.gif,"Cable Rope Crossover Seated Row","Back (Upper Back)",Isolation,intermediate,cable,back
+1321.gif,cable_rope_elevated_seated_row.gif,"Cable Rope Elevated Seated Row","Back (Upper Back)",Compound,intermediate,cable,back
+1322.gif,cable_rope_extension_incline_bench_row.gif,"Cable Rope Extension Incline Bench Row","Back (Upper Back)",Compound,intermediate,cable,back
+1323.gif,cable_rope_seated_row.gif,"Cable Rope Seated Row","Back (Upper Back)",Compound,intermediate,cable,back
+1324.gif,cable_upper_row.gif,"Cable Upper Row","Back (Upper Back)",Compound,intermediate,cable,back
+1325.gif,cable_wide_grip_rear_pulldown_behind_neck.gif,"Cable Wide Grip Rear Pulldown Behind Neck","Back (Lats)",Compound,intermediate,cable,back
+1326.gif,chin_up.gif,"Chin Up","Back (Lats)",Compound,intermediate,"body weight",back
+1327.gif,close_grip_chin_up.gif,"Close Grip Chin Up","Back (Lats)",Compound,intermediate,"body weight",back
+1328.gif,dumbbell_lying_rear_delt_row.gif,"Dumbbell Lying Rear Delt Row","Back (Upper Back)",Compound,intermediate,dumbbell,back
+1329.gif,dumbbell_palm_rotational_bent_over_row.gif,"Dumbbell Palm Rotational Bent Over Row","Back (Upper Back)",Compound,intermediate,dumbbell,back
+1330.gif,dumbbell_reverse_grip_incline_bench_one_arm_row.gif,"Dumbbell Reverse Grip Incline Bench One Arm Row","Back (Upper Back)",Compound,intermediate,dumbbell,back
+1331.gif,dumbbell_reverse_grip_incline_bench_two_arm_row.gif,"Dumbbell Reverse Grip Incline Bench Two Arm Row","Back (Upper Back)",Compound,intermediate,dumbbell,back
+1332.gif,exercise_ball_alternating_arm_ups.gif,"Exercise Ball Alternating Arm Ups","Back (Lats)",Isolation,beginner,"stability ball",back
+1333.gif,exercise_ball_back_extension_with_arms_extended.gif,"Exercise Ball Back Extension With Arms Extended","Lower Back",Isolation,beginner,"stability ball",back
+1334.gif,exercise_ball_back_extension_with_hands_behind_head.gif,"Exercise Ball Back Extension With Hands Behind Head","Lower Back",Isolation,beginner,"stability ball",back
+1335.gif,exercise_ball_back_extension_with_knees_off_ground.gif,"Exercise Ball Back Extension With Knees Off Ground","Lower Back",Isolation,beginner,"stability ball",back
+1336.gif,exercise_ball_back_extension_with_rotation.gif,"Exercise Ball Back Extension With Rotation","Lower Back",Isolation,beginner,"stability ball",back
+1338.gif,exercise_ball_hug.gif,"Exercise Ball Hug","Lower Back",Isolation,beginner,"stability ball",back
+1339.gif,exercise_ball_lat_stretch.gif,"Exercise Ball Lat Stretch","Back (Lats)",Isolation,beginner,"stability ball",back
+1341.gif,exercise_ball_lower_back_stretch_pyramid.gif,"Exercise Ball Lower Back Stretch (pyramid)","Back (Lats)",Isolation,beginner,"stability ball",back
+1342.gif,exercise_ball_lying_side_lat_stretch.gif,"Exercise Ball Lying Side Lat Stretch","Back (Lats)",Isolation,beginner,"stability ball",back
+1343.gif,exercise_ball_prone_leg_raise.gif,"Exercise Ball Prone Leg Raise","Lower Back",Isolation,beginner,"stability ball",back
+1344.gif,ez_bar_reverse_grip_bent_over_row.gif,"Ez Bar Reverse Grip Bent Over Row","Back (Upper Back)",Compound,intermediate,"ez barbell",back
+1345.gif,kettlebell_two_arm_row.gif,"Kettlebell Two Arm Row","Back (Upper Back)",Compound,intermediate,kettlebell,back
+1346.gif,kneeling_lat_stretch.gif,"Kneeling Lat Stretch","Back (Lats)",Isolation,beginner,"body weight",back
+1347.gif,lever_one_arm_lateral_wide_pulldown.gif,"Lever One Arm Lateral Wide Pulldown","Back (Lats)",Compound,beginner,"leverage machine",back
+1348.gif,lever_reverse_grip_vertical_row.gif,"Lever Reverse Grip Vertical Row","Back (Upper Back)",Compound,beginner,"leverage machine",back
+1349.gif,lever_reverse_t_bar_row.gif,"Lever Reverse T Bar Row","Back (Upper Back)",Compound,beginner,"leverage machine",back
+1350.gif,lever_seated_row.gif,"Lever Seated Row","Back (Upper Back)",Compound,beginner,"leverage machine",back
+1351.gif,lever_t_bar_reverse_grip_row.gif,"Lever T Bar Reverse Grip Row","Back (Upper Back)",Compound,beginner,"leverage machine",back
+1352.gif,lower_back_curl.gif,"Lower Back Curl","Lower Back",Isolation,beginner,"body weight",back
+1353.gif,medicine_ball_catch_and_overhead_throw.gif,"Medicine Ball Catch And Overhead Throw","Back (Lats)",Isolation,beginner,"medicine ball",back
+1354.gif,medicine_ball_overhead_slam.gif,"Medicine Ball Overhead Slam","Back (Upper Back)",Isolation,beginner,"medicine ball",back
+1355.gif,one_arm_against_wall.gif,"One Arm Against Wall","Back (Lats)",Isolation,beginner,"body weight",back
+1356.gif,lever_one_arm_lateral_high_row.gif,"Lever One Arm Lateral High Row","Back (Upper Back)",Compound,beginner,"leverage machine",back
+1358.gif,side_lying_floor_stretch.gif,"Side Lying Floor Stretch","Back (Lats)",Isolation,beginner,"body weight",back
+1359.gif,smith_bent_over_row.gif,"Smith Bent Over Row","Back (Upper Back)",Compound,beginner,"smith machine",back
+1360.gif,smith_one_arm_row.gif,"Smith One Arm Row","Back (Upper Back)",Compound,beginner,"smith machine",back
+1361.gif,smith_reverse_grip_bent_over_row.gif,"Smith Reverse Grip Bent Over Row","Back (Upper Back)",Compound,beginner,"smith machine",back
+1362.gif,sphinx.gif,Sphinx,"Lower Back",Isolation,beginner,"body weight",back
+1363.gif,spine_stretch.gif,"Spine Stretch","Lower Back",Isolation,beginner,"body weight",back
+1364.gif,standing_pelvic_tilt.gif,"Standing Pelvic Tilt","Lower Back",Isolation,beginner,"body weight",back
+1365.gif,upper_back_stretch.gif,"Upper Back Stretch","Back (Upper Back)",Isolation,beginner,"body weight",back
+1366.gif,upward_facing_dog.gif,"Upward Facing Dog","Lower Back",Isolation,beginner,"body weight",back
+1367.gif,wide_grip_rear_pull_up.gif,"Wide Grip Rear Pull Up","Back (Lats)",Compound,intermediate,"body weight",back
+1368.gif,ankle_circles.gif,"Ankle Circles",Calves,Isolation,beginner,"body weight","lower legs"
+1369.gif,band_two_legs_calf_raise_band_under_both_legs_v2.gif,"Band Two Legs Calf Raise   (band Under Both Legs) V. 2",Calves,Isolation,beginner,band,"lower legs"
+1370.gif,barbell_floor_calf_raise.gif,"Barbell Floor Calf Raise",Calves,Isolation,intermediate,barbell,"lower legs"
+1371.gif,barbell_seated_calf_raise_var2.gif,"Barbell Seated Calf Raise",Calves,Isolation,intermediate,barbell,"lower legs"
+1372.gif,barbell_standing_calf_raise.gif,"Barbell Standing Calf Raise",Calves,Isolation,intermediate,barbell,"lower legs"
+1373.gif,bodyweight_standing_calf_raise.gif,"Bodyweight Standing Calf Raise",Calves,Isolation,beginner,"body weight","lower legs"
+1374.gif,box_jump_down_with_one_leg_stabilization.gif,"Box Jump Down With One Leg Stabilization",Calves,Isolation,advance,"body weight","lower legs"
+1375.gif,cable_standing_calf_raise.gif,"Cable Standing Calf Raise",Calves,Isolation,intermediate,cable,"lower legs"
+1376.gif,cable_standing_one_leg_calf_raise.gif,"Cable Standing One Leg Calf Raise",Calves,Isolation,intermediate,cable,"lower legs"
+1377.gif,calf_stretch_with_hands_against_wall.gif,"Calf Stretch With Hands Against Wall",Calves,Isolation,beginner,"body weight","lower legs"
+1378.gif,calf_stretch_with_rope.gif,"Calf Stretch With Rope",Calves,Isolation,beginner,rope,"lower legs"
+1379.gif,dumbbell_seated_calf_raise.gif,"Dumbbell Seated Calf Raise",Calves,Isolation,intermediate,dumbbell,"lower legs"
+1380.gif,dumbbell_seated_one_leg_calf_raise_hammer_grip.gif,"Dumbbell Seated One Leg Calf Raise   Hammer Grip",Calves,Isolation,intermediate,dumbbell,"lower legs"
+1381.gif,dumbbell_seated_one_leg_calf_raise_palm_up.gif,"Dumbbell Seated One Leg Calf Raise   Palm Up",Calves,Isolation,intermediate,dumbbell,"lower legs"
+1382.gif,exercise_ball_on_the_wall_calf_raise.gif,"Exercise Ball On The Wall Calf Raise",Calves,Isolation,intermediate,dumbbell,"lower legs"
+1383.gif,hack_calf_raise.gif,"Hack Calf Raise",Calves,Isolation,beginner,"sled machine","lower legs"
+1384.gif,hack_one_leg_calf_raise.gif,"Hack One Leg Calf Raise",Calves,Isolation,beginner,"sled machine","lower legs"
+1385.gif,lever_seated_squat_calf_raise_on_leg_press_machine.gif,"Lever Seated Squat Calf Raise On Leg Press Machine",Calves,Isolation,beginner,"leverage machine","lower legs"
+1386.gif,one_leg_donkey_calf_raise.gif,"One Leg Donkey Calf Raise",Calves,Isolation,beginner,"body weight","lower legs"
+1387.gif,one_leg_floor_calf_raise.gif,"One Leg Floor Calf Raise",Calves,Isolation,beginner,"body weight","lower legs"
+1388.gif,peroneals_stretch.gif,"Peroneals Stretch",Calves,Isolation,beginner,rope,"lower legs"
+1389.gif,posterior_tibialis_stretch.gif,"Posterior Tibialis Stretch",Calves,Isolation,beginner,rope,"lower legs"
+1390.gif,seated_calf_stretch_male.gif,"Seated Calf Stretch (male)",Calves,Isolation,beginner,"body weight","lower legs"
+1391.gif,sled_calf_press_on_leg_press.gif,"Sled Calf Press On Leg Press",Calves,Compound,beginner,"sled machine","lower legs"
+1392.gif,sled_one_leg_calf_press_on_leg_press.gif,"Sled One Leg Calf Press On Leg Press",Calves,Compound,beginner,"sled machine","lower legs"
+1393.gif,smith_one_leg_floor_calf_raise.gif,"Smith One Leg Floor Calf Raise",Calves,Isolation,beginner,"smith machine","lower legs"
+1394.gif,smith_reverse_calf_raises_var2.gif,"Smith Reverse Calf Raises",Calves,Isolation,beginner,"smith machine","lower legs"
+1395.gif,smith_seated_one_leg_calf_raise.gif,"Smith Seated One Leg Calf Raise",Calves,Isolation,beginner,"smith machine","lower legs"
+1396.gif,smith_toe_raise.gif,"Smith Toe Raise",Calves,Isolation,beginner,"smith machine","lower legs"
+1397.gif,standing_calves.gif,"Standing Calves",Calves,Isolation,beginner,"body weight","lower legs"
+1398.gif,standing_calves_calf_stretch.gif,"Standing Calves Calf Stretch",Calves,Isolation,beginner,"body weight","lower legs"
+1399.gif,bench_dip_on_floor.gif,"Bench Dip On Floor",Triceps,Compound,intermediate,"body weight","upper arms"
+1401.gif,muscle_up_on_vertical_bar.gif,"Muscle Up (on Vertical Bar)","Back (Lats)",Isolation,advance,"body weight",back
+1403.gif,neck_side_stretch.gif,"Neck Side Stretch",Neck,Isolation,beginner,"body weight",neck
+1405.gif,back_pec_stretch.gif,"Back Pec Stretch","Back (Lats)",Isolation,beginner,"body weight",back
+1407.gif,calf_push_stretch_with_hands_against_wall.gif,"Calf Push Stretch With Hands Against Wall",Calves,Isolation,beginner,"body weight","lower legs"
+1408.gif,band_hip_lift.gif,"Band Hip Lift",Glutes,Isolation,beginner,band,"upper legs"
+1409.gif,barbell_glute_bridge.gif,"Barbell Glute Bridge",Glutes,Compound,intermediate,barbell,"upper legs"
+1410.gif,barbell_lateral_lunge.gif,"Barbell Lateral Lunge",Glutes,Compound,intermediate,barbell,"upper legs"
+1411.gif,barbell_palms_down_wrist_curl_over_a_bench.gif,"Barbell Palms Down Wrist Curl Over A Bench",Forearms,Isolation,intermediate,barbell,"lower arms"
+1412.gif,barbell_palms_up_wrist_curl_over_a_bench.gif,"Barbell Palms Up Wrist Curl Over A Bench",Forearms,Isolation,intermediate,barbell,"lower arms"
+1413.gif,cable_reverse_one_arm_curl.gif,"Cable Reverse One Arm Curl",Biceps,Isolation,intermediate,cable,"upper arms"
+1414.gif,dumbbell_one_arm_reverse_preacher_curl.gif,"Dumbbell One Arm Reverse Preacher Curl",Biceps,Isolation,intermediate,dumbbell,"upper arms"
+1415.gif,dumbbell_one_arm_seated_neutral_wrist_curl.gif,"Dumbbell One Arm Seated Neutral Wrist Curl",Forearms,Isolation,intermediate,dumbbell,"lower arms"
+1416.gif,exercise_ball_one_leg_prone_lower_body_rotation.gif,"Exercise Ball One Leg Prone Lower Body Rotation",Glutes,Isolation,beginner,"stability ball","upper legs"
+1417.gif,exercise_ball_one_legged_diagonal_kick_hamstring_curl.gif,"Exercise Ball One Legged Diagonal Kick Hamstring Curl",Glutes,Isolation,beginner,"stability ball","upper legs"
+1418.gif,hug_keens_to_chest.gif,"Hug Keens To Chest",Glutes,Isolation,beginner,"body weight","upper legs"
+1419.gif,iron_cross_stretch.gif,"Iron Cross Stretch",Glutes,Isolation,beginner,"body weight","upper legs"
+1420.gif,kneeling_jump_squat.gif,"Kneeling Jump Squat",Glutes,Compound,advance,barbell,"upper legs"
+1421.gif,modified_push_up_to_lower_arms.gif,"Modified Push Up To Lower Arms",Forearms,Isolation,beginner,"body weight","lower arms"
+1422.gif,pelvic_tilt_into_bridge.gif,"Pelvic Tilt Into Bridge",Glutes,Isolation,beginner,"body weight","upper legs"
+1423.gif,reverse_hyper_on_flat_bench.gif,"Reverse Hyper On Flat Bench",Glutes,Isolation,beginner,"body weight","upper legs"
+1424.gif,seated_glute_stretch.gif,"Seated Glute Stretch",Glutes,Isolation,beginner,"body weight","upper legs"
+1425.gif,sled_45_degrees_one_leg_press.gif,"Sled 45 Degrees One Leg Press",Glutes,Compound,beginner,"sled machine","upper legs"
+1426.gif,smith_seated_wrist_curl.gif,"Smith Seated Wrist Curl",Forearms,Isolation,beginner,"smith machine","lower arms"
+1427.gif,straight_leg_outer_hip_abductor.gif,"Straight Leg Outer Hip Abductor",Abductors,Isolation,beginner,"body weight","upper legs"
+1428.gif,wrist_circles.gif,"Wrist Circles",Forearms,Isolation,beginner,"body weight","lower arms"
+1429.gif,wide_grip_pull_up.gif,"Wide Grip Pull Up","Back (Lats)",Compound,intermediate,"body weight",back
+1430.gif,chest_dip_on_dip_pull_up_cage.gif,"Chest Dip (on Dip Pull Up Cage)",Chest,Compound,intermediate,"body weight",chest
+1431.gif,assisted_standing_chin_up.gif,"Assisted Standing Chin Up","Back (Lats)",Compound,beginner,"leverage machine",back
+1432.gif,assisted_standing_pull_up.gif,"Assisted Standing Pull Up","Back (Lats)",Compound,beginner,"leverage machine",back
+1433.gif,smith_front_squat_clean_grip.gif,"Smith Front Squat (clean Grip)",Glutes,Compound,beginner,"smith machine","upper legs"
+1434.gif,smith_low_bar_squat.gif,"Smith Low Bar Squat",Glutes,Compound,beginner,"smith machine","upper legs"
+1435.gif,barbell_low_bar_squat.gif,"Barbell Low Bar Squat",Glutes,Compound,intermediate,barbell,"upper legs"
+1436.gif,barbell_high_bar_squat.gif,"Barbell High Bar Squat",Glutes,Compound,intermediate,barbell,"upper legs"
+1437.gif,dumbbell_finger_curls.gif,"Dumbbell Finger Curls",Forearms,Isolation,intermediate,dumbbell,"lower arms"
+1438.gif,kettlebell_seated_two_arm_military_press.gif,"Kettlebell Seated Two Arm Military Press",Shoulders,Compound,intermediate,kettlebell,shoulders
+1439.gif,lever_gripless_shrug_v2.gif,"Lever Gripless Shrug V. 2","Back (Traps)",Isolation,beginner,"leverage machine",back
+1441.gif,dumbbell_over_bench_one_arm_reverse_wrist_curl.gif,"Dumbbell Over Bench One Arm Reverse Wrist Curl",Forearms,Isolation,intermediate,dumbbell,"lower arms"
+1451.gif,lever_seated_dip.gif,"Lever Seated Dip",Triceps,Compound,beginner,"leverage machine","upper arms"
+1452.gif,lever_seated_crunch.gif,"Lever Seated Crunch",Abs,Isolation,beginner,"leverage machine",waist
+1456.gif,barbell_standing_close_grip_military_press.gif,"Barbell Standing Close Grip Military Press",Shoulders,Compound,intermediate,barbell,shoulders
+1457.gif,barbell_standing_wide_military_press.gif,"Barbell Standing Wide Military Press",Shoulders,Compound,intermediate,barbell,shoulders
+1458.gif,ez_barbell_seated_curls.gif,"Ez Barbell Seated Curls",Biceps,Isolation,intermediate,"ez barbell","upper arms"
+1459.gif,dumbbell_romanian_deadlift.gif,"Dumbbell Romanian Deadlift",Glutes,Compound,intermediate,dumbbell,"upper legs"
+1460.gif,walking_lunge.gif,"Walking Lunge",Glutes,Compound,beginner,"body weight","upper legs"
+1461.gif,barbell_full_squat_back_pov.gif,"Barbell Full Squat (back Pov)",Glutes,Compound,intermediate,barbell,"upper legs"
+1462.gif,barbell_full_squat_side_pov.gif,"Barbell Full Squat (side Pov)",Glutes,Compound,intermediate,barbell,"upper legs"
+1463.gif,sled_45_degree_leg_press_side_pov.gif,"Sled 45° Leg Press (side Pov)",Glutes,Compound,beginner,"sled machine","upper legs"
+1464.gif,sled_45_degree_leg_press_back_pov.gif,"Sled 45в° Leg Press (back Pov)",Glutes,Compound,beginner,"sled machine","upper legs"
+1466.gif,twist_hip_lift.gif,"Twist Hip Lift",Glutes,Isolation,beginner,"body weight","upper legs"
+1467.gif,push_up_on_lower_arms.gif,"Push Up On Lower Arms",Triceps,Compound,beginner,"body weight","upper arms"
+1468.gif,crab_twist_toe_touch.gif,"Crab Twist Toe Touch",Abs,Isolation,beginner,"body weight",waist
+1471.gif,inchworm.gif,Inchworm,Abs,Isolation,beginner,"body weight",waist
+1472.gif,forward_jump.gif,"Forward Jump",Quads,Isolation,beginner,"body weight","upper legs"
+1473.gif,backward_jump.gif,"Backward Jump",Quads,Isolation,beginner,"body weight","upper legs"
+1476.gif,one_leg_squat.gif,"One Leg Squat",Glutes,Compound,beginner,"body weight","upper legs"
+1479.gif,lever_incline_chest_press_v2.gif,"Lever Incline Chest Press V. 2",Chest,Compound,beginner,"leverage machine",chest
+1489.gif,sissy_squat.gif,"Sissy Squat",Quads,Compound,beginner,"body weight","upper legs"
+1490.gif,standing_calf_raise_on_a_staircase.gif,"Standing Calf Raise (on A Staircase)",Calves,Isolation,beginner,"body weight","lower legs"
+1494.gif,butterfly_yoga_pose.gif,"Butterfly Yoga Pose",Adductors,Isolation,beginner,"body weight","upper legs"
+1495.gif,oblique_crunch_v2.gif,"Oblique Crunch V. 2",Abs,Isolation,beginner,"body weight",waist
+1496.gif,sledge_hammer.gif,"Sledge Hammer",Abs,Isolation,intermediate,hammer,waist
+1511.gif,hamstring_stretch.gif,"Hamstring Stretch",Hamstrings,Isolation,beginner,"body weight","upper legs"
+1512.gif,all_fours_squad_stretch.gif,"All Fours Squad Stretch",Quads,Isolation,beginner,"body weight","upper legs"
+1545.gif,barbell_full_zercher_squat.gif,"Barbell Full Zercher Squat",Glutes,Compound,intermediate,barbell,"upper legs"
+1548.gif,chair_leg_extended_stretch.gif,"Chair Leg Extended Stretch",Quads,Isolation,beginner,"body weight","upper legs"
+1559.gif,exercise_ball_hip_flexor_stretch.gif,"Exercise Ball Hip Flexor Stretch",Glutes,Isolation,beginner,"stability ball","upper legs"
+1560.gif,exercise_ball_seated_hamstring_stretch.gif,"Exercise Ball Seated Hamstring Stretch",Hamstrings,Isolation,beginner,"stability ball","upper legs"
+1564.gif,intermediate_hip_flexor_and_quad_stretch.gif,"Intermediate Hip Flexor And Quad Stretch",Quads,Isolation,beginner,rope,"upper legs"
+1576.gif,leg_up_hamstring_stretch.gif,"Leg Up Hamstring Stretch",Hamstrings,Isolation,beginner,"body weight","upper legs"
+1582.gif,reclining_big_toe_pose_with_rope.gif,"Reclining Big Toe Pose With Rope",Hamstrings,Isolation,intermediate,rope,"upper legs"
+1585.gif,runners_stretch.gif,"Runners Stretch",Hamstrings,Isolation,beginner,"body weight","upper legs"
+1587.gif,seated_wide_angle_pose_sequence.gif,"Seated Wide Angle Pose Sequence",Hamstrings,Isolation,beginner,"body weight","upper legs"
+1599.gif,standing_hamstring_and_calf_stretch_with_strap.gif,"Standing Hamstring And Calf Stretch With Strap",Hamstrings,Isolation,beginner,rope,"upper legs"
+1604.gif,world_greatest_stretch.gif,"World Greatest Stretch",Hamstrings,Isolation,beginner,"body weight","upper legs"
+1614.gif,lever_preacher_curl_v2.gif,"Lever Preacher Curl V. 2",Biceps,Isolation,beginner,"leverage machine","upper arms"
+1615.gif,lever_hammer_grip_preacher_curl.gif,"Lever Hammer Grip Preacher Curl",Biceps,Isolation,beginner,"leverage machine","upper arms"
+1616.gif,lever_reverse_grip_preacher_curl.gif,"Lever Reverse Grip Preacher Curl",Biceps,Isolation,beginner,"leverage machine","upper arms"
+1617.gif,dumbbell_decline_one_arm_hammer_press.gif,"Dumbbell Decline One Arm Hammer Press",Triceps,Isolation,intermediate,dumbbell,"upper arms"
+1618.gif,dumbbell_incline_hammer_press_on_exercise_ball.gif,"Dumbbell Incline Hammer Press On Exercise Ball",Triceps,Isolation,intermediate,dumbbell,"upper arms"
+1619.gif,dumbbell_incline_one_arm_hammer_press.gif,"Dumbbell Incline One Arm Hammer Press",Triceps,Isolation,intermediate,dumbbell,"upper arms"
+1620.gif,dumbbell_incline_one_arm_hammer_press_on_exercise_ball.gif,"Dumbbell Incline One Arm Hammer Press On Exercise Ball",Triceps,Isolation,intermediate,dumbbell,"upper arms"
+1621.gif,dumbbell_one_arm_hammer_press_on_exercise_ball.gif,"Dumbbell One Arm Hammer Press On Exercise Ball",Triceps,Isolation,intermediate,dumbbell,"upper arms"
+1622.gif,dumbbell_one_arm_reverse_grip_press.gif,"Dumbbell One Arm Reverse Grip Press",Chest,Isolation,intermediate,dumbbell,chest
+1623.gif,dumbbell_palms_in_incline_bench_press.gif,"Dumbbell Palms In Incline Bench Press",Triceps,Compound,intermediate,dumbbell,"upper arms"
+1624.gif,dumbbell_reverse_bench_press.gif,"Dumbbell Reverse Bench Press",Chest,Compound,intermediate,dumbbell,chest
+1625.gif,smith_machine_decline_close_grip_bench_press.gif,"Smith Machine Decline Close Grip Bench Press",Triceps,Compound,beginner,"smith machine","upper arms"
+1626.gif,smith_machine_reverse_decline_close_grip_bench_press.gif,"Smith Machine Reverse Decline Close Grip Bench Press",Chest,Compound,beginner,"smith machine",chest
+1627.gif,ez_barbell_close_grip_preacher_curl.gif,"Ez Barbell Close Grip Preacher Curl",Biceps,Isolation,intermediate,"ez barbell","upper arms"
+1628.gif,ez_barbell_spider_curl_var2.gif,"Ez Barbell Spider Curl",Biceps,Isolation,intermediate,"ez barbell","upper arms"
+1629.gif,barbell_standing_wide_grip_biceps_curl.gif,"Barbell Standing Wide Grip Biceps Curl",Biceps,Isolation,intermediate,barbell,"upper arms"
+1630.gif,cable_close_grip_curl.gif,"Cable Close Grip Curl",Biceps,Isolation,intermediate,cable,"upper arms"
+1631.gif,cable_concentration_curl.gif,"Cable Concentration Curl",Biceps,Isolation,intermediate,cable,"upper arms"
+1632.gif,cable_drag_curl.gif,"Cable Drag Curl",Biceps,Isolation,intermediate,cable,"upper arms"
+1633.gif,cable_one_arm_preacher_curl.gif,"Cable One Arm Preacher Curl",Biceps,Isolation,intermediate,cable,"upper arms"
+1634.gif,cable_lying_bicep_curl.gif,"Cable Lying Bicep Curl",Biceps,Isolation,intermediate,cable,"upper arms"
+1635.gif,cable_one_arm_reverse_preacher_curl.gif,"Cable One Arm Reverse Preacher Curl",Biceps,Isolation,intermediate,cable,"upper arms"
+1636.gif,cable_overhead_curl.gif,"Cable Overhead Curl",Biceps,Isolation,intermediate,cable,"upper arms"
+1637.gif,cable_overhead_curl_on_exercise_ball.gif,"Cable Overhead Curl On Exercise Ball",Biceps,Isolation,intermediate,cable,"upper arms"
+1638.gif,cable_pulldown_bicep_curl.gif,"Cable Pulldown Bicep Curl",Biceps,Isolation,intermediate,cable,"upper arms"
+1639.gif,cable_rope_hammer_preacher_curl.gif,"Cable Rope Hammer Preacher Curl",Biceps,Isolation,intermediate,cable,"upper arms"
+1640.gif,cable_rope_one_arm_hammer_preacher_curl.gif,"Cable Rope One Arm Hammer Preacher Curl",Biceps,Isolation,intermediate,cable,"upper arms"
+1641.gif,cable_seated_curl.gif,"Cable Seated Curl",Biceps,Isolation,intermediate,cable,"upper arms"
+1642.gif,cable_seated_one_arm_concentration_curl.gif,"Cable Seated One Arm Concentration Curl",Biceps,Isolation,intermediate,cable,"upper arms"
+1643.gif,cable_seated_overhead_curl.gif,"Cable Seated Overhead Curl",Biceps,Isolation,intermediate,cable,"upper arms"
+1644.gif,cable_squatting_curl.gif,"Cable Squatting Curl",Biceps,Isolation,intermediate,cable,"upper arms"
+1645.gif,cable_two_arm_curl_on_incline_bench.gif,"Cable Two Arm Curl On Incline Bench",Biceps,Isolation,intermediate,cable,"upper arms"
+1646.gif,dumbbell_alternate_hammer_preacher_curl.gif,"Dumbbell Alternate Hammer Preacher Curl",Biceps,Isolation,intermediate,dumbbell,"upper arms"
+1647.gif,dumbbell_alternate_preacher_curl.gif,"Dumbbell Alternate Preacher Curl",Biceps,Isolation,intermediate,dumbbell,"upper arms"
+1648.gif,dumbbell_alternate_seated_hammer_curl.gif,"Dumbbell Alternate Seated Hammer Curl",Biceps,Isolation,intermediate,dumbbell,"upper arms"
+1649.gif,dumbbell_alternating_bicep_curl_with_leg_raised_on_exercise_ball.gif,"Dumbbell Alternating Bicep Curl With Leg Raised On Exercise Ball",Biceps,Isolation,intermediate,dumbbell,"upper arms"
+1650.gif,dumbbell_alternating_seated_bicep_curl_on_exercise_ball.gif,"Dumbbell Alternating Seated Bicep Curl On Exercise Ball",Biceps,Isolation,intermediate,dumbbell,"upper arms"
+1651.gif,dumbbell_bicep_curl_lunge_with_bowling_motion.gif,"Dumbbell Bicep Curl Lunge With Bowling Motion",Biceps,Isolation,intermediate,dumbbell,"upper arms"
+1652.gif,dumbbell_bicep_curl_on_exercise_ball_with_leg_raised.gif,"Dumbbell Bicep Curl On Exercise Ball With Leg Raised",Biceps,Isolation,intermediate,dumbbell,"upper arms"
+1653.gif,dumbbell_bicep_curl_with_stork_stance.gif,"Dumbbell Bicep Curl With Stork Stance",Biceps,Isolation,intermediate,dumbbell,"upper arms"
+1654.gif,dumbbell_biceps_curl_reverse.gif,"Dumbbell Biceps Curl Reverse",Biceps,Isolation,intermediate,dumbbell,"upper arms"
+1655.gif,dumbbell_biceps_curl_squat.gif,"Dumbbell Biceps Curl Squat",Biceps,Isolation,intermediate,dumbbell,"upper arms"
+1656.gif,dumbbell_biceps_curl_v_sit_on_bosu_ball.gif,"Dumbbell Biceps Curl V Sit On Bosu Ball",Biceps,Isolation,intermediate,dumbbell,"upper arms"
+1657.gif,dumbbell_cross_body_hammer_curl_v2.gif,"Dumbbell Cross Body Hammer Curl V. 2",Biceps,Isolation,intermediate,dumbbell,"upper arms"
+1658.gif,dumbbell_lunge_with_bicep_curl.gif,"Dumbbell Lunge With Bicep Curl",Biceps,Isolation,intermediate,dumbbell,"upper arms"
+1659.gif,dumbbell_hammer_curl_on_exercise_ball.gif,"Dumbbell Hammer Curl On Exercise Ball",Biceps,Isolation,intermediate,dumbbell,"upper arms"
+1660.gif,dumbbell_kneeling_bicep_curl_exercise_ball.gif,"Dumbbell Kneeling Bicep Curl Exercise Ball",Biceps,Isolation,intermediate,dumbbell,"upper arms"
+1661.gif,dumbbell_lying_supine_biceps_curl.gif,"Dumbbell Lying Supine Biceps Curl",Biceps,Isolation,intermediate,dumbbell,"upper arms"
+1662.gif,dumbbell_lying_wide_curl.gif,"Dumbbell Lying Wide Curl",Biceps,Isolation,intermediate,dumbbell,"upper arms"
+1663.gif,dumbbell_one_arm_hammer_preacher_curl.gif,"Dumbbell One Arm Hammer Preacher Curl",Biceps,Isolation,intermediate,dumbbell,"upper arms"
+1664.gif,dumbbell_high_curl.gif,"Dumbbell High Curl",Biceps,Isolation,intermediate,dumbbell,"upper arms"
+1665.gif,dumbbell_one_arm_prone_curl.gif,"Dumbbell One Arm Prone Curl",Biceps,Isolation,intermediate,dumbbell,"upper arms"
+1666.gif,dumbbell_one_arm_prone_hammer_curl.gif,"Dumbbell One Arm Prone Hammer Curl",Biceps,Isolation,intermediate,dumbbell,"upper arms"
+1667.gif,dumbbell_one_arm_reverse_spider_curl.gif,"Dumbbell One Arm Reverse Spider Curl",Biceps,Isolation,intermediate,dumbbell,"upper arms"
+1668.gif,dumbbell_one_arm_seated_bicep_curl_on_exercise_ball.gif,"Dumbbell One Arm Seated Bicep Curl On Exercise Ball",Biceps,Isolation,intermediate,dumbbell,"upper arms"
+1669.gif,dumbbell_one_arm_seated_hammer_curl.gif,"Dumbbell One Arm Seated Hammer Curl",Biceps,Isolation,intermediate,dumbbell,"upper arms"
+1670.gif,dumbbell_one_arm_standing_curl.gif,"Dumbbell One Arm Standing Curl",Biceps,Isolation,intermediate,dumbbell,"upper arms"
+1671.gif,dumbbell_one_arm_standing_hammer_curl.gif,"Dumbbell One Arm Standing Hammer Curl",Biceps,Isolation,intermediate,dumbbell,"upper arms"
+1672.gif,dumbbell_one_arm_zottman_preacher_curl.gif,"Dumbbell One Arm Zottman Preacher Curl",Biceps,Isolation,intermediate,dumbbell,"upper arms"
+1673.gif,dumbbell_preacher_curl_over_exercise_ball.gif,"Dumbbell Preacher Curl Over Exercise Ball",Biceps,Isolation,intermediate,dumbbell,"upper arms"
+1674.gif,dumbbell_prone_incline_hammer_curl.gif,"Dumbbell Prone Incline Hammer Curl",Biceps,Isolation,intermediate,dumbbell,"upper arms"
+1675.gif,dumbbell_reverse_spider_curl.gif,"Dumbbell Reverse Spider Curl",Biceps,Isolation,intermediate,dumbbell,"upper arms"
+1676.gif,dumbbell_seated_alternate_hammer_curl_on_exercise_ball.gif,"Dumbbell Seated Alternate Hammer Curl On Exercise Ball",Biceps,Isolation,intermediate,dumbbell,"upper arms"
+1677.gif,dumbbell_seated_bicep_curl.gif,"Dumbbell Seated Bicep Curl",Biceps,Isolation,intermediate,dumbbell,"upper arms"
+1678.gif,dumbbell_seated_hammer_curl.gif,"Dumbbell Seated Hammer Curl",Biceps,Isolation,intermediate,dumbbell,"upper arms"
+1679.gif,dumbbell_seated_one_arm_bicep_curl_on_exercise_ball_with_leg_raised.gif,"Dumbbell Seated One Arm Bicep Curl On Exercise Ball With Leg Raised",Biceps,Isolation,intermediate,dumbbell,"upper arms"
+1680.gif,dumbbell_standing_one_arm_curl_over_incline_bench_var2.gif,"Dumbbell Standing One Arm Curl Over Incline Bench",Biceps,Isolation,intermediate,dumbbell,"upper arms"
+1682.gif,ez_bar_seated_close_grip_concentration_curl.gif,"Ez Bar Seated Close Grip Concentration Curl",Biceps,Isolation,intermediate,"ez barbell","upper arms"
+1683.gif,smith_machine_bicep_curl.gif,"Smith Machine Bicep Curl",Biceps,Isolation,beginner,"smith machine","upper arms"
+1684.gif,dumbbell_step_up_single_leg_balance_with_bicep_curl.gif,"Dumbbell Step Up Single Leg Balance With Bicep Curl",Biceps,Isolation,intermediate,dumbbell,"upper arms"
+1685.gif,squat_to_overhead_reach.gif,"Squat To Overhead Reach",Quads,Compound,beginner,"body weight","upper legs"
+1686.gif,squat_to_overhead_reach_with_twist.gif,"Squat To Overhead Reach With Twist",Quads,Compound,beginner,"body weight","upper legs"
+1687.gif,posterior_step_to_overhead_reach.gif,"Posterior Step To Overhead Reach",Abs,Isolation,beginner,"body weight",waist
+1688.gif,lunge_with_twist.gif,"Lunge With Twist",Abs,Compound,beginner,"body weight",waist
+1689.gif,push_and_pull_bodyweight.gif,"Push And Pull Bodyweight",Chest,Isolation,beginner,"body weight",chest
+1700.gif,dumbbell_push_press.gif,"Dumbbell Push Press",Shoulders,Isolation,intermediate,dumbbell,shoulders
+1701.gif,medicine_ball_close_grip_push_up.gif,"Medicine Ball Close Grip Push Up",Triceps,Isolation,beginner,"medicine ball","upper arms"
+1705.gif,squat_on_bosu_ball.gif,"Squat On Bosu Ball",Quads,Compound,beginner,"bosu ball","upper legs"
+1707.gif,prone_twist_on_stability_ball.gif,"Prone Twist On Stability Ball",Abs,Isolation,beginner,"stability ball",waist
+1708.gif,assisted_lying_calves_stretch.gif,"Assisted Lying Calves Stretch",Calves,Isolation,beginner,assisted,"lower legs"
+1709.gif,assisted_lying_glutes_stretch.gif,"Assisted Lying Glutes Stretch",Glutes,Isolation,beginner,assisted,"upper legs"
+1710.gif,assisted_lying_gluteus_and_piriformis_stretch.gif,"Assisted Lying Gluteus And Piriformis Stretch",Glutes,Isolation,beginner,assisted,"upper legs"
+1712.gif,assisted_side_lying_adductor_stretch.gif,"Assisted Side Lying Adductor Stretch",Adductors,Isolation,beginner,assisted,"upper legs"
+1713.gif,assisted_prone_lying_quads_stretch.gif,"Assisted Prone Lying Quads Stretch",Quads,Isolation,beginner,assisted,"upper legs"
+1714.gif,assisted_prone_rectus_femoris_stretch.gif,"Assisted Prone Rectus Femoris Stretch",Abs,Isolation,beginner,assisted,waist
+1716.gif,assisted_seated_pectoralis_major_stretch_with_stability_ball.gif,"Assisted Seated Pectoralis Major Stretch With Stability Ball",Chest,Isolation,beginner,assisted,chest
+1717.gif,cable_squat_row_with_rope_attachment.gif,"Cable Squat Row (with Rope Attachment)","Back (Lats)",Compound,intermediate,cable,back
+1718.gif,barbell_seated_close_grip_behind_neck_triceps_extension.gif,"Barbell Seated Close Grip Behind Neck Triceps Extension",Triceps,Isolation,intermediate,barbell,"upper arms"
+1719.gif,barbell_incline_close_grip_bench_press.gif,"Barbell Incline Close Grip Bench Press",Triceps,Compound,intermediate,barbell,"upper arms"
+1720.gif,barbell_lying_back_of_the_head_tricep_extension.gif,"Barbell Lying Back Of The Head Tricep Extension",Triceps,Isolation,intermediate,barbell,"upper arms"
+1721.gif,barbell_reverse_grip_skullcrusher.gif,"Barbell Reverse Grip Skullcrusher",Triceps,Isolation,intermediate,barbell,"upper arms"
+1722.gif,cable_high_pulley_overhead_tricep_extension.gif,"Cable High Pulley Overhead Tricep Extension",Triceps,Isolation,intermediate,cable,"upper arms"
+1723.gif,cable_one_arm_tricep_pushdown.gif,"Cable One Arm Tricep Pushdown",Triceps,Isolation,intermediate,cable,"upper arms"
+1724.gif,cable_rope_high_pulley_overhead_tricep_extension.gif,"Cable Rope High Pulley Overhead Tricep Extension",Triceps,Isolation,intermediate,cable,"upper arms"
+1725.gif,cable_rope_incline_tricep_extension.gif,"Cable Rope Incline Tricep Extension",Triceps,Isolation,intermediate,cable,"upper arms"
+1726.gif,cable_rope_lying_on_floor_tricep_extension.gif,"Cable Rope Lying On Floor Tricep Extension",Triceps,Isolation,intermediate,cable,"upper arms"
+1727.gif,cable_standing_reverse_grip_one_arm_overhead_tricep_extension.gif,"Cable Standing Reverse Grip One Arm Overhead Tricep Extension",Triceps,Isolation,intermediate,cable,"upper arms"
+1728.gif,cable_two_arm_tricep_kickback.gif,"Cable Two Arm Tricep Kickback",Triceps,Isolation,intermediate,cable,"upper arms"
+1729.gif,dumbbell_lying_alternate_extension.gif,"Dumbbell Lying Alternate Extension",Triceps,Isolation,intermediate,dumbbell,"upper arms"
+1730.gif,dumbbell_seated_bent_over_alternate_kickback.gif,"Dumbbell Seated Bent Over Alternate Kickback",Triceps,Isolation,intermediate,dumbbell,"upper arms"
+1731.gif,dumbbell_close_grip_press_var2.gif,"Dumbbell Close Grip Press",Triceps,Isolation,intermediate,dumbbell,"upper arms"
+1732.gif,dumbbell_forward_lunge_triceps_extension.gif,"Dumbbell Forward Lunge Triceps Extension",Triceps,Isolation,intermediate,dumbbell,"upper arms"
+1733.gif,dumbbell_incline_two_arm_extension.gif,"Dumbbell Incline Two Arm Extension",Triceps,Isolation,intermediate,dumbbell,"upper arms"
+1734.gif,dumbbell_kickbacks_on_exercise_ball.gif,"Dumbbell Kickbacks On Exercise Ball",Triceps,Isolation,intermediate,dumbbell,"upper arms"
+1735.gif,dumbbell_lying_single_extension.gif,"Dumbbell Lying Single Extension",Triceps,Isolation,intermediate,dumbbell,"upper arms"
+1736.gif,dumbbell_one_arm_french_press_on_exercise_ball.gif,"Dumbbell One Arm French Press On Exercise Ball",Triceps,Isolation,intermediate,dumbbell,"upper arms"
+1737.gif,dumbbell_seated_bent_over_triceps_extension.gif,"Dumbbell Seated Bent Over Triceps Extension",Triceps,Isolation,intermediate,dumbbell,"upper arms"
+1738.gif,dumbbell_seated_reverse_grip_one_arm_overhead_tricep_extension.gif,"Dumbbell Seated Reverse Grip One Arm Overhead Tricep Extension",Triceps,Isolation,intermediate,dumbbell,"upper arms"
+1739.gif,dumbbell_standing_alternating_tricep_kickback.gif,"Dumbbell Standing Alternating Tricep Kickback",Triceps,Isolation,intermediate,dumbbell,"upper arms"
+1740.gif,dumbbell_standing_bent_over_one_arm_triceps_extension.gif,"Dumbbell Standing Bent Over One Arm Triceps Extension",Triceps,Isolation,intermediate,dumbbell,"upper arms"
+1741.gif,dumbbell_standing_bent_over_two_arm_triceps_extension.gif,"Dumbbell Standing Bent Over Two Arm Triceps Extension",Triceps,Isolation,intermediate,dumbbell,"upper arms"
+1742.gif,dumbbell_tricep_kickback_with_stork_stance.gif,"Dumbbell Tricep Kickback With Stork Stance",Triceps,Isolation,intermediate,dumbbell,"upper arms"
+1743.gif,dumbbell_twisting_bench_press.gif,"Dumbbell Twisting Bench Press",Triceps,Compound,intermediate,dumbbell,"upper arms"
+1744.gif,exercise_ball_dip.gif,"Exercise Ball Dip",Triceps,Compound,beginner,"stability ball","upper arms"
+1745.gif,exercise_ball_seated_triceps_stretch.gif,"Exercise Ball Seated Triceps Stretch",Triceps,Isolation,beginner,"stability ball","upper arms"
+1746.gif,exercise_ball_supine_triceps_extension.gif,"Exercise Ball Supine Triceps Extension",Triceps,Isolation,intermediate,dumbbell,"upper arms"
+1747.gif,ez_bar_french_press_on_exercise_ball.gif,"Ez Bar French Press On Exercise Ball",Triceps,Isolation,intermediate,"ez barbell","upper arms"
+1748.gif,ez_bar_lying_close_grip_triceps_extension_behind_head.gif,"Ez Bar Lying Close Grip Triceps Extension Behind Head",Triceps,Isolation,intermediate,"ez barbell","upper arms"
+1749.gif,ez_bar_standing_french_press.gif,"Ez Bar Standing French Press",Triceps,Isolation,intermediate,"ez barbell","upper arms"
+1750.gif,medicine_ball_supine_chest_throw.gif,"Medicine Ball Supine Chest Throw",Triceps,Isolation,beginner,"medicine ball","upper arms"
+1751.gif,barbell_pin_presses.gif,"Barbell Pin Presses",Triceps,Isolation,intermediate,barbell,"upper arms"
+1752.gif,smith_machine_incline_tricep_extension.gif,"Smith Machine Incline Tricep Extension",Triceps,Isolation,beginner,"smith machine","upper arms"
+1753.gif,three_bench_dip.gif,"Three Bench Dip",Triceps,Compound,intermediate,"body weight","upper arms"
+1754.gif,weighted_three_bench_dips.gif,"Weighted Three Bench Dips",Triceps,Compound,intermediate,weighted,"upper arms"
+1755.gif,weighted_tricep_dips.gif,"Weighted Tricep Dips",Triceps,Compound,intermediate,weighted,"upper arms"
+1756.gif,barbell_single_leg_deadlift.gif,"Barbell Single Leg Deadlift",Glutes,Compound,intermediate,barbell,"upper legs"
+1757.gif,dumbbell_single_leg_deadlift.gif,"Dumbbell Single Leg Deadlift",Glutes,Compound,intermediate,dumbbell,"upper legs"
+1758.gif,assisted_sit_up.gif,"Assisted Sit Up",Abs,Isolation,beginner,assisted,waist
+1759.gif,single_leg_squat_pistol_male.gif,"Single Leg Squat (pistol) Male",Glutes,Compound,advance,"body weight","upper legs"
+1760.gif,goblet_squat.gif,"Dumbbell Goblet Squat",Quads,Compound,intermediate,dumbbell,"upper legs"
+1761.gif,hanging_oblique_knee_raise.gif,"Hanging Oblique Knee Raise",Abs,Isolation,beginner,"body weight",waist
+1763.gif,shoulder_grip_pull_up.gif,"Shoulder Grip Pull Up","Back (Lats)",Compound,intermediate,"body weight",back
+1764.gif,hanging_leg_hip_raise.gif,"Hanging Leg Hip Raise",Abs,Isolation,beginner,"body weight",waist
+1765.gif,dumbbell_upright_row_back_pov.gif,"Dumbbell Upright Row (back Pov)",Shoulders,Compound,intermediate,dumbbell,shoulders
+1766.gif,self_assisted_inverse_leg_curl_var2.gif,"Self Assisted Inverse Leg Curl",Hamstrings,Isolation,beginner,"body weight","upper legs"
+1767.gif,weighted_triceps_dip_on_high_parallel_bars.gif,"Weighted Triceps Dip On High Parallel Bars",Triceps,Compound,intermediate,weighted,"upper arms"
+1769.gif,bodyweight_side_lying_biceps_curl.gif,"Bodyweight Side Lying Biceps Curl",Biceps,Isolation,beginner,"body weight","upper arms"
+1770.gif,biceps_leg_concentration_curl.gif,"Biceps Leg Concentration Curl",Biceps,Isolation,beginner,"body weight","upper arms"
+1771.gif,bodyweight_kneeling_triceps_extension.gif,"Bodyweight Kneeling Triceps Extension",Triceps,Isolation,beginner,"body weight","upper arms"
+1772.gif,elbow_lift_reverse_push_up.gif,"Elbow Lift   Reverse Push Up","Back (Upper Back)",Compound,beginner,"body weight",back
+1773.gif,one_arm_towel_row.gif,"One Arm Towel Row","Back (Upper Back)",Compound,beginner,"body weight",back
+1774.gif,side_bridge_hip_abduction.gif,"Side Bridge Hip Abduction",Abductors,Isolation,beginner,"body weight","upper legs"
+1775.gif,side_plank_hip_adduction.gif,"Side Plank Hip Adduction",Adductors,Isolation,beginner,"body weight","upper legs"
+2133.gif,farmers_walk.gif,"Farmers Walk",Quads,Isolation,intermediate,dumbbell,"upper legs"
+2135.gif,weighted_front_plank.gif,"Weighted Front Plank",Abs,Isolation,intermediate,weighted,waist
+2136.gif,dumbbell_cuban_press_v2.gif,"Dumbbell Cuban Press V. 2",Shoulders,Isolation,intermediate,dumbbell,shoulders
+2137.gif,dumbbell_arnold_press.gif,"Dumbbell Arnold Press",Shoulders,Isolation,intermediate,dumbbell,shoulders
+2138.gif,stationary_bike_run_v3.gif,"Stationary Bike Run V. 3",Cardio,Compound,beginner,"stationary bike",cardio
+2139.gif,hands_bike.gif,"Hands Bike",Chest,Compound,intermediate,"upper body ergometer",chest
+2141.gif,walk_elliptical_cross_trainer.gif,"Walk Elliptical Cross Trainer",Cardio,Compound,beginner,"elliptical machine",cardio
+2142.gif,ski_ergometer.gif,"Ski Ergometer",Triceps,Compound,beginner,"skierg machine","upper arms"
+2143.gif,dumbbell_standing_around_world.gif,"Dumbbell Standing Around World",Shoulders,Isolation,intermediate,dumbbell,shoulders
+2144.gif,cable_seated_chest_press.gif,"Cable Seated Chest Press",Chest,Compound,intermediate,cable,chest
+2186.gif,ez_barbell_decline_triceps_extension.gif,"Ez Barbell Decline Triceps Extension",Triceps,Isolation,intermediate,"ez barbell","upper arms"
+2187.gif,barbell_reverse_close_grip_bench_press.gif,"Barbell Reverse Close Grip Bench Press",Triceps,Compound,intermediate,barbell,"upper arms"
+2188.gif,dumbbell_seated_triceps_extension.gif,"Dumbbell Seated Triceps Extension",Triceps,Isolation,intermediate,dumbbell,"upper arms"
+2189.gif,dumbbells_seated_triceps_extension.gif,"Dumbbells Seated Triceps Extension",Triceps,Isolation,intermediate,dumbbell,"upper arms"
+2202.gif,roller_hip_stretch.gif,"Roller Hip Stretch",Glutes,Isolation,beginner,roller,"upper legs"
+2203.gif,roller_seated_shoulder_flexor_depresor_retractor.gif,"Roller Seated Shoulder Flexor Depresor Retractor",Chest,Isolation,beginner,roller,chest
+2204.gif,roller_body_saw.gif,"Roller Body Saw",Abs,Isolation,beginner,roller,waist
+2205.gif,roller_hip_lat_stretch.gif,"Roller Hip Lat Stretch",Glutes,Isolation,beginner,roller,"upper legs"
+2206.gif,roller_reverse_crunch.gif,"Roller Reverse Crunch",Abs,Isolation,beginner,roller,waist
+2207.gif,roller_side_lat_stretch.gif,"Roller Side Lat Stretch","Back (Lats)",Isolation,beginner,roller,back
+2208.gif,roller_back_stretch.gif,"Roller Back Stretch","Lower Back",Isolation,beginner,roller,back
+2209.gif,roller_seated_single_leg_shoulder_flexor_depresor_retractor.gif,"Roller Seated Single Leg Shoulder Flexor Depresor Retractor",Chest,Isolation,beginner,roller,chest
+2271.gif,left_hook_boxing.gif,"Left Hook. Boxing",Shoulders,Isolation,beginner,"body weight",shoulders
+2285.gif,lever_pullover.gif,"Lever Pullover","Back (Lats)",Isolation,beginner,"leverage machine",back
+2286.gif,lever_hip_extension_v2.gif,"Lever Hip Extension V. 2",Glutes,Isolation,beginner,"leverage machine","upper legs"
+2287.gif,lever_alternate_leg_press.gif,"Lever Alternate Leg Press",Quads,Compound,beginner,"leverage machine","upper legs"
+2288.gif,lever_gripper_hands.gif,"Lever Gripper Hands",Forearms,Isolation,beginner,"leverage machine","lower arms"
+2289.gif,lever_calf_press.gif,"Lever Calf Press",Calves,Isolation,beginner,"leverage machine","lower legs"
+2292.gif,dumbbell_rear_delt_raise.gif,"Dumbbell Rear Delt Raise",Shoulders,Isolation,intermediate,dumbbell,shoulders
+2293.gif,dumbbell_standing_zottman_preacher_curl.gif,"Dumbbell Standing Zottman Preacher Curl",Biceps,Isolation,intermediate,dumbbell,"upper arms"
+2294.gif,dumbbell_zottman_preacher_curl.gif,"Dumbbell Zottman Preacher Curl",Biceps,Isolation,intermediate,dumbbell,"upper arms"
+2297.gif,stability_ball_crunch_full_range_hands_behind_head.gif,"Stability Ball Crunch (full Range Hands Behind Head)",Abs,Isolation,beginner,"stability ball",waist
+2298.gif,inverted_row_on_bench.gif,"Inverted Row On Bench","Back (Upper Back)",Compound,intermediate,"body weight",back
+2300.gif,inverted_row_bent_knees.gif,"Inverted Row Bent Knees","Back (Upper Back)",Compound,intermediate,"body weight",back
+2311.gif,walking_on_stepmill.gif,"Walking On Stepmill",Cardio,Compound,beginner,"stepmill machine",cardio
+2312.gif,lying_elbow_to_knee.gif,"Lying Elbow To Knee",Abs,Isolation,beginner,"body weight",waist
+2315.gif,lever_rotary_calf.gif,"Lever Rotary Calf",Calves,Isolation,beginner,"leverage machine","lower legs"
+2317.gif,dumbbell_seated_bent_arm_lateral_raise.gif,"Dumbbell Seated Bent Arm Lateral Raise",Shoulders,Isolation,intermediate,dumbbell,shoulders
+2318.gif,lever_shoulder_press_v3.gif,"Lever Shoulder Press V. 3",Shoulders,Compound,beginner,"leverage machine",shoulders
+2321.gif,dumbbell_standing_inner_biceps_curl_v2.gif,"Dumbbell Standing Inner Biceps Curl V. 2",Biceps,Isolation,intermediate,dumbbell,"upper arms"
+2327.gif,dumbbell_reverse_grip_row_female.gif,"Dumbbell Reverse Grip Row (female)","Back (Upper Back)",Compound,intermediate,dumbbell,back
+2328.gif,narrow_push_up_on_exercise_ball.gif,"Narrow Push Up On Exercise Ball",Triceps,Compound,beginner,"stability ball","upper arms"
+2329.gif,spine_twist.gif,"Spine Twist",Abs,Isolation,beginner,"body weight",waist
+2330.gif,cable_lat_pulldown_full_range_of_motion.gif,"Cable Lat Pulldown Full Range Of Motion","Back (Lats)",Compound,intermediate,cable,back
+2331.gif,cycle_cross_trainer.gif,"Cycle Cross Trainer",Cardio,Isolation,beginner,"leverage machine",cardio
+2333.gif,arm_slingers_hanging_straight_legs.gif,"Arm Slingers Hanging Straight Legs",Abs,Isolation,beginner,"body weight",waist
+2334.gif,sled_lying_calf_press.gif,"Sled Lying Calf Press",Calves,Isolation,beginner,"sled machine","lower legs"
+2335.gif,lever_seated_calf_press.gif,"Lever Seated Calf Press",Calves,Isolation,beginner,"leverage machine","lower legs"
+2355.gif,arm_slingers_hanging_bent_knee_legs.gif,"Arm Slingers Hanging Bent Knee Legs",Abs,Isolation,beginner,"body weight",waist
+2363.gif,wide_grip_chest_dip_on_high_parallel_bars.gif,"Wide Grip Chest Dip On High Parallel Bars",Chest,Compound,intermediate,"body weight",chest
+2364.gif,assisted_wide_grip_chest_dip_kneeling.gif,"Assisted Wide Grip Chest Dip (kneeling)",Chest,Compound,beginner,"leverage machine",chest
+2368.gif,split_squats.gif,"Split Squats",Quads,Isolation,beginner,"body weight","upper legs"
+2371.gif,weighted_russian_twist_v2.gif,"Weighted Russian Twist V. 2",Abs,Isolation,intermediate,weighted,waist
+2397.gif,dumbbell_scott_press.gif,"Dumbbell Scott Press",Shoulders,Isolation,intermediate,dumbbell,shoulders
+2398.gif,close_grip_push_up_on_knees.gif,"Close Grip Push Up (on Knees)",Triceps,Compound,beginner,"body weight","upper arms"
+2399.gif,cable_seated_twist.gif,"Cable Seated Twist",Abs,Isolation,intermediate,cable,waist
+2400.gif,inverse_leg_curl_on_pull_up_cable_machine.gif,"Inverse Leg Curl (on Pull Up Cable Machine)",Hamstrings,Isolation,intermediate,"body weight","upper legs"
+2401.gif,dumbbell_biceps_curl_with_arm_blaster.gif,"Dumbbell Biceps Curl (with Arm Blaster)",Biceps,Isolation,intermediate,dumbbell,"upper arms"
+2402.gif,dumbbell_hammer_curls_with_arm_blaster.gif,"Dumbbell Hammer Curls (with Arm Blaster)",Biceps,Isolation,intermediate,dumbbell,"upper arms"
+2403.gif,dumbbell_alternate_biceps_curl_with_arm_blaster.gif,"Dumbbell Alternate Biceps Curl (with Arm Blaster)",Biceps,Isolation,intermediate,dumbbell,"upper arms"
+2404.gif,ez_bar_biceps_curl_with_arm_blaster.gif,"Ez Bar Biceps Curl (with Arm Blaster)",Biceps,Isolation,intermediate,"ez barbell","upper arms"
+2405.gif,cable_triceps_pushdown_v_bar_with_arm_blaster.gif,"Cable Triceps Pushdown (v Bar) (with Arm Blaster)",Triceps,Isolation,intermediate,cable,"upper arms"
+2406.gif,cable_reverse_grip_triceps_pushdown_sz_bar_with_arm_blaster.gif,"Cable Reverse Grip Triceps Pushdown (sz Bar) (with Arm Blaster)",Triceps,Isolation,intermediate,cable,"upper arms"
+2407.gif,barbell_biceps_curl_with_arm_blaster.gif,"Barbell Biceps Curl (with Arm Blaster)",Biceps,Isolation,intermediate,barbell,"upper arms"
+2414.gif,barbell_standing_concentration_curl.gif,"Barbell Standing Concentration Curl",Biceps,Isolation,intermediate,barbell,"upper arms"
+2429.gif,frog_crunch.gif,"Frog Crunch",Abs,Isolation,beginner,"body weight",waist
+2432.gif,ez_bar_close_grip_bench_press.gif,"Ez Bar Close Grip Bench Press",Triceps,Compound,intermediate,"ez barbell","upper arms"
+2459.gif,tire_flip.gif,"Tire Flip",Glutes,Isolation,advance,tire,"upper legs"
+2462.gif,chest_dip_on_straight_bar.gif,"Chest Dip On Straight Bar",Chest,Compound,intermediate,"body weight",chest
+2464.gif,cable_thibaudeau_kayak_row.gif,"Cable Thibaudeau Kayak Row","Back (Lats)",Compound,intermediate,cable,back
+2466.gif,bridge_mountain_climber_cross_body.gif,"Bridge   Mountain Climber (cross Body)",Abs,Compound,beginner,"body weight",waist
+2470.gif,dumbbell_lying_on_floor_rear_delt_raise.gif,"Dumbbell Lying On Floor Rear Delt Raise",Shoulders,Isolation,intermediate,dumbbell,shoulders
+2567.gif,seated_piriformis_stretch.gif,"Seated Piriformis Stretch",Glutes,Isolation,beginner,"body weight","upper legs"
+2571.gif,rocking_frog_stretch.gif,"Rocking Frog Stretch",Glutes,Isolation,beginner,"body weight","upper legs"
+2611.gif,lever_horizontal_one_leg_press.gif,"Lever Horizontal One Leg Press",Glutes,Compound,beginner,"leverage machine","upper legs"
+2612.gif,jump_rope.gif,"Jump Rope",Cardio,Compound,intermediate,rope,cardio
+2616.gif,cable_lateral_pulldown_with_v_bar.gif,"Cable Lateral Pulldown With V Bar","Back (Lats)",Compound,intermediate,cable,back
+2705.gif,dumbbell_lying_pronation_on_floor.gif,"Dumbbell Lying Pronation On Floor",Forearms,Isolation,intermediate,dumbbell,"lower arms"
+2706.gif,dumbbell_lying_supination_on_floor.gif,"Dumbbell Lying Supination On Floor",Forearms,Isolation,intermediate,dumbbell,"lower arms"
+2736.gif,lever_reverse_grip_lateral_pulldown.gif,"Lever Reverse Grip Lateral Pulldown","Back (Lats)",Compound,beginner,"leverage machine",back
+2741.gif,ez_barbell_standing_wide_grip_biceps_curl.gif,"Ez Barbell Standing Wide Grip Biceps Curl",Biceps,Isolation,intermediate,"ez barbell","upper arms"
+2796.gif,dumbbell_step_up_lunge.gif,"Dumbbell Step Up Lunge",Quads,Compound,intermediate,dumbbell,"upper legs"
+2798.gif,barbell_squat_jump_step_rear_lunge.gif,"Barbell Squat Jump Step Rear Lunge",Quads,Compound,intermediate,barbell,"upper legs"
+2799.gif,barbell_sitted_alternate_leg_raise.gif,"Barbell Sitted Alternate Leg Raise",Abs,Isolation,intermediate,barbell,waist
+2800.gif,barbell_sitted_alternate_leg_raise_female.gif,"Barbell Sitted Alternate Leg Raise (female)",Abs,Isolation,intermediate,barbell,waist
+2801.gif,twisted_leg_raise_female.gif,"Twisted Leg Raise (female)",Abs,Isolation,beginner,"body weight",waist
+2802.gif,twisted_leg_raise.gif,"Twisted Leg Raise",Abs,Isolation,beginner,"body weight",waist
+2803.gif,dumbbell_supported_squat.gif,"Dumbbell Supported Squat",Quads,Compound,intermediate,dumbbell,"upper legs"
+2805.gif,dumbbell_single_leg_deadlift_with_stepbox_support.gif,"Dumbbell Single Leg Deadlift With Stepbox Support",Glutes,Compound,intermediate,dumbbell,"upper legs"
+2808.gif,dumbbell_sumo_pull_through.gif,"Dumbbell Sumo Pull Through",Glutes,Isolation,intermediate,dumbbell,"upper legs"
+2810.gif,barbell_split_squat_v2.gif,"Barbell Split Squat V. 2",Quads,Compound,intermediate,barbell,"upper legs"
+2812.gif,dumbbell_step_up_split_squat.gif,"Dumbbell Step Up Split Squat",Quads,Compound,intermediate,dumbbell,"upper legs"
+2963.gif,captains_chair_straight_leg_raise.gif,"Captains Chair Straight Leg Raise",Abs,Isolation,beginner,"body weight",waist
+2987.gif,weighted_close_grip_chin_up_on_dip_cage.gif,"Weighted Close Grip Chin Up On Dip Cage","Back (Lats)",Compound,intermediate,weighted,back
+3006.gif,resistance_band_seated_hip_abduction.gif,"Resistance Band Seated Hip Abduction",Abductors,Isolation,beginner,"resistance band","upper legs"
+3007.gif,resistance_band_leg_extension.gif,"Resistance Band Leg Extension",Quads,Isolation,beginner,"resistance band","upper legs"
+3010.gif,ez_bar_lying_bent_arms_pullover.gif,"Ez Bar Lying Bent Arms Pullover","Back (Lats)",Isolation,intermediate,"ez barbell",back
+3011.gif,incline_scapula_push_up.gif,"Incline Scapula Push Up",Core,Isolation,beginner,"body weight",chest
+3012.gif,scapula_dips.gif,"Scapula Dips","Back (Traps)",Compound,intermediate,"body weight",back
+3013.gif,low_glute_bridge_on_floor.gif,"Low Glute Bridge On Floor",Glutes,Compound,beginner,"body weight","upper legs"
+3016.gif,curl_up.gif,"Curl Up",Abs,Isolation,beginner,"body weight",waist
+3017.gif,barbell_pendlay_row.gif,"Barbell Pendlay Row","Back (Upper Back)",Compound,intermediate,barbell,back
+3019.gif,bench_pull_ups.gif,"Bench Pull Ups","Back (Lats)",Isolation,beginner,"body weight",back
+3021.gif,scapula_push_up.gif,"Scapula Push Up",Core,Compound,beginner,"body weight",chest
+3116.gif,band_fixed_back_underhand_pulldown.gif,"Band Fixed Back Underhand Pulldown","Back (Lats)",Compound,beginner,band,back
+3117.gif,band_fixed_back_close_grip_pulldown.gif,"Band Fixed Back Close Grip Pulldown","Back (Lats)",Compound,beginner,band,back
+3119.gif,potty_squat.gif,"Potty Squat",Abs,Compound,beginner,"body weight",waist
+3122.gif,resistance_band_seated_shoulder_press.gif,"Resistance Band Seated Shoulder Press",Shoulders,Compound,beginner,"resistance band",shoulders
+3123.gif,resistance_band_seated_biceps_curl.gif,"Resistance Band Seated Biceps Curl",Biceps,Isolation,beginner,"resistance band","upper arms"
+3124.gif,resistance_band_seated_chest_press.gif,"Resistance Band Seated Chest Press",Chest,Compound,beginner,"resistance band",chest
+3132.gif,potty_squat_with_support.gif,"Potty Squat With Support",Glutes,Compound,beginner,"body weight","upper legs"
+3142.gif,smith_sumo_squat.gif,"Smith Sumo Squat",Glutes,Compound,beginner,"smith machine","upper legs"
+3144.gif,resistance_band_seated_straight_back_row.gif,"Resistance Band Seated Straight Back Row","Back (Upper Back)",Compound,beginner,"resistance band",back
+3145.gif,push_up_plus.gif,"Push Up Plus",Chest,Compound,beginner,"body weight",chest
+3147.gif,pelvic_tilt.gif,"Pelvic Tilt",Abs,Isolation,beginner,"body weight",waist
+3156.gif,bodyweight_standing_close_grip_one_arm_row.gif,"Bodyweight Standing Close Grip One Arm Row","Back (Upper Back)",Compound,beginner,"body weight",back
+3158.gif,bodyweight_standing_close_grip_row.gif,"Bodyweight Standing Close Grip Row","Back (Upper Back)",Compound,beginner,"body weight",back
+3161.gif,bodyweight_standing_one_arm_row_with_towel.gif,"Bodyweight Standing One Arm Row (with Towel)","Back (Upper Back)",Compound,beginner,"body weight",back
+3162.gif,bodyweight_standing_one_arm_row.gif,"Bodyweight Standing One Arm Row","Back (Upper Back)",Compound,beginner,"body weight",back
+3165.gif,bodyweight_standing_row_with_towel.gif,"Bodyweight Standing Row (with Towel)","Back (Upper Back)",Compound,beginner,"body weight",back
+3166.gif,bodyweight_standing_row.gif,"Bodyweight Standing Row","Back (Upper Back)",Compound,beginner,"body weight",back
+3167.gif,bodyweight_squatting_row_with_towel.gif,"Bodyweight Squatting Row (with Towel)","Back (Upper Back)",Compound,beginner,"body weight",back
+3168.gif,bodyweight_squatting_row.gif,"Bodyweight Squatting Row","Back (Upper Back)",Compound,beginner,"body weight",back
+3193.gif,glute_ham_raise.gif,"Glute Ham Raise",Hamstrings,Isolation,beginner,"body weight","upper legs"
+3194.gif,frankenstein_squat.gif,"Frankenstein Squat",Glutes,Compound,intermediate,barbell,"upper legs"
+3195.gif,lever_lying_two_one_leg_curl.gif,"Lever Lying Two One Leg Curl",Hamstrings,Isolation,beginner,"leverage machine","upper legs"
+3200.gif,lever_bent_over_row_with_v_bar.gif,"Lever Bent Over Row With V Bar","Back (Upper Back)",Compound,beginner,"leverage machine",back
+3201.gif,quarter_sit_up.gif,"Quarter Sit Up",Abs,Isolation,beginner,"body weight",waist
+3202.gif,half_sit_up_male.gif,"Half Sit Up (male)",Abs,Isolation,beginner,"body weight",waist
+3203.gif,prisoner_half_sit_up_male.gif,"Prisoner Half Sit Up (male)",Abs,Isolation,beginner,"body weight",waist
+3204.gif,arms_overhead_full_sit_up_male.gif,"Arms Overhead Full Sit Up (male)",Abs,Isolation,beginner,"body weight",waist
+3211.gif,pushup_knee_prevention.gif,"Kneeling Push Up (male)",Chest,Compound,beginner,"body weight",chest
+3212.gif,basic_toe_touch_male.gif,"Basic Toe Touch (male)",Glutes,Isolation,beginner,"body weight","upper legs"
+3213.gif,side_to_side_toe_touch_male.gif,"Side To Side Toe Touch (male)",Abs,Isolation,beginner,"body weight",waist
+3214.gif,arms_apart_circular_toe_touch_male.gif,"Arms Apart Circular Toe Touch (male)",Glutes,Isolation,beginner,"body weight","upper legs"
+3215.gif,hands_reversed_clasped_circular_toe_touch_male.gif,"Hands Reversed Clasped Circular Toe Touch (male)",Glutes,Isolation,beginner,"body weight","upper legs"
+3216.gif,chest_tap_push_up_male.gif,"Chest Tap Push Up (male)",Chest,Compound,beginner,"body weight",chest
+3217.gif,modified_hindu_push_up_male.gif,"Modified Hindu Push Up (male)",Chest,Compound,beginner,"body weight",chest
+3218.gif,hands_clasped_circular_toe_touch_male.gif,"Hands Clasped Circular Toe Touch (male)",Glutes,Isolation,beginner,"body weight","upper legs"
+3219.gif,scissor_jumps_male.gif,"Scissor Jumps (male)",Cardio,Isolation,beginner,"body weight",cardio
+3220.gif,astride_jumps_male.gif,"Astride Jumps (male)",Cardio,Isolation,beginner,"body weight",cardio
+3221.gif,half_knee_bends_male.gif,"Half Knee Bends (male)",Cardio,Isolation,beginner,"body weight",cardio
+3222.gif,semi_squat_jump_male.gif,"Semi Squat Jump (male)",Cardio,Compound,beginner,"body weight",cardio
+3223.gif,star_jump_male.gif,"Star Jump (male)",Cardio,Isolation,beginner,"body weight",cardio
+3224.gif,jack_jump_male.gif,"Jack Jump (male)",Cardio,Isolation,beginner,"body weight",cardio
+3231.gif,two_toe_touch_male.gif,"Two Toe Touch (male)","Lower Back",Isolation,beginner,"body weight",back
+3234.gif,hyght_dumbbell_fly.gif,"Hyght Dumbbell Fly",Chest,Isolation,intermediate,dumbbell,chest
+3235.gif,cable_assisted_inverse_leg_curl.gif,"Cable Assisted Inverse Leg Curl",Hamstrings,Isolation,intermediate,cable,"upper legs"
+3236.gif,resistance_band_hip_thrusts_on_knees_female.gif,"Resistance Band Hip Thrusts On Knees (female)",Glutes,Compound,beginner,"resistance band","upper legs"
+3237.gif,landmine_lateral_raise.gif,"Landmine Lateral Raise",Shoulders,Isolation,intermediate,barbell,shoulders
+3239.gif,kneeling_plank_tap_shoulder_male.gif,"Kneeling Plank Tap Shoulder (male)",Abs,Isolation,beginner,"body weight",waist
+3240.gif,exercise_ball_on_the_wall_calf_raise_tennis_ball_between_knees.gif,"Exercise Ball On The Wall Calf Raise (tennis Ball Between Knees)",Calves,Isolation,intermediate,dumbbell,"lower legs"
+3241.gif,exercise_ball_on_the_wall_calf_raise_tennis_ball_between_ankles.gif,"Exercise Ball On The Wall Calf Raise (tennis Ball Between Ankles)",Calves,Isolation,intermediate,dumbbell,"lower legs"
+3281.gif,smith_full_squat.gif,"Smith Full Squat",Glutes,Compound,beginner,"smith machine","upper legs"
+3286.gif,weighted_muscle_up.gif,"Weighted Muscle Up","Back (Lats)",Isolation,advance,weighted,back
+3287.gif,elbow_dips.gif,"Elbow Dips",Triceps,Compound,intermediate,"body weight","upper arms"
+3288.gif,korean_dips.gif,"Korean Dips",Chest,Compound,intermediate,"body weight",chest
+3289.gif,impossible_dips.gif,"Impossible Dips",Triceps,Compound,intermediate,"body weight","upper arms"
+3290.gif,weighted_one_hand_pull_up.gif,"Weighted One Hand Pull Up","Back (Lats)",Isolation,intermediate,weighted,back
+3291.gif,stalder_press.gif,"Stalder Press",Triceps,Isolation,beginner,"body weight","upper arms"
+3292.gif,elevator.gif,Elevator,"Back (Upper Back)",Isolation,beginner,"body weight",back
+3293.gif,archer_pull_up.gif,"Archer Pull Up","Back (Lats)",Isolation,beginner,"body weight",back
+3294.gif,archer_push_up.gif,"Archer Push Up",Chest,Isolation,beginner,"body weight",chest
+3295.gif,front_lever_reps.gif,"Front Lever Reps","Back (Upper Back)",Isolation,advance,"body weight",back
+3296.gif,front_lever.gif,"Front Lever",Abs,Isolation,advance,"body weight",waist
+3297.gif,back_lever.gif,"Back Lever","Back (Upper Back)",Isolation,advance,"body weight",back
+3298.gif,straddle_planche.gif,"Straddle Planche",Abs,Isolation,advance,"body weight",waist
+3299.gif,full_planche.gif,"Full Planche",Abs,Isolation,advance,"body weight",waist
+3300.gif,lean_planche.gif,"Lean Planche",Abs,Isolation,advance,"body weight",waist
+3301.gif,frog_planche.gif,"Frog Planche",Abs,Isolation,advance,"body weight",waist
+3302.gif,handstand.gif,Handstand,Triceps,Isolation,advance,"body weight","upper arms"
+3303.gif,flag.gif,Flag,Abs,Isolation,advance,"body weight",waist
+3304.gif,skin_the_cat.gif,"Skin The Cat","Back (Upper Back)",Isolation,beginner,"body weight",back
+3305.gif,barbell_thruster.gif,"Barbell Thruster",Shoulders,Compound,intermediate,barbell,shoulders
+3312.gif,weighted_muscle_up_on_bar.gif,"Weighted Muscle Up (on Bar)","Back (Lats)",Isolation,advance,weighted,back
+3313.gif,weighted_straight_bar_dip.gif,"Weighted Straight Bar Dip",Chest,Compound,intermediate,weighted,chest
+3314.gif,straddle_maltese.gif,"Straddle Maltese",Abs,Isolation,beginner,"body weight",waist
+3315.gif,full_maltese.gif,"Full Maltese",Abs,Isolation,beginner,"body weight",waist
+3318.gif,swing_360.gif,"Swing 360",Cardio,Isolation,beginner,"body weight",cardio
+3327.gif,full_planche_push_up.gif,"Full Planche Push Up",Chest,Compound,advance,"body weight",chest
+3360.gif,bear_crawl.gif,"Bear Crawl",Cardio,Compound,beginner,"body weight",cardio
+3361.gif,skater_hops.gif,"Skater Hops",Cardio,Isolation,beginner,"body weight",cardio
+3418.gif,l_pull_up.gif,"L Pull Up","Back (Lats)",Compound,intermediate,"body weight",back
+3419.gif,l_sit_on_floor.gif,"L Sit On Floor",Abs,Isolation,advance,"body weight",waist
+3420.gif,v_sit_on_floor.gif,"V Sit On Floor",Abs,Isolation,beginner,"body weight",waist
+3433.gif,swimmer_kicks_v2_male.gif,"Swimmer Kicks V. 2 (male)",Glutes,Isolation,beginner,"body weight","upper legs"
+3470.gif,forward_lunge_male.gif,"Forward Lunge (male)",Glutes,Compound,beginner,"body weight","upper legs"
+3523.gif,glute_bridge_two_legs_on_bench_male.gif,"Glute Bridge Two Legs On Bench (male)",Glutes,Compound,beginner,"body weight","upper legs"
+3533.gif,quads.gif,Quads,Quads,Isolation,beginner,"body weight","upper legs"
+3541.gif,dumbbell_incline_y_raise.gif,"Dumbbell Incline Y Raise","Back (Upper Back)",Isolation,intermediate,dumbbell,back
+3542.gif,dumbbell_incline_t_raise.gif,"Dumbbell Incline T Raise",Shoulders,Isolation,intermediate,dumbbell,shoulders
+3543.gif,bodyweight_drop_jump_squat.gif,"Bodyweight Drop Jump Squat",Glutes,Compound,advance,"body weight","upper legs"
+3544.gif,bodyweight_incline_side_plank.gif,"Bodyweight Incline Side Plank",Abs,Isolation,beginner,"body weight",waist
+3545.gif,dumbbell_incline_alternate_press.gif,"Dumbbell Incline Alternate Press",Chest,Isolation,intermediate,dumbbell,chest
+3546.gif,dumbbell_seated_alternate_shoulder.gif,"Dumbbell Seated Alternate Shoulder",Shoulders,Isolation,intermediate,dumbbell,shoulders
+3547.gif,dumbbell_seated_biceps_curl_to_shoulder_press.gif,"Dumbbell Seated Biceps Curl To Shoulder Press",Biceps,Isolation,intermediate,dumbbell,"upper arms"
+3548.gif,dumbbell_single_arm_overhead_carry.gif,"Dumbbell Single Arm Overhead Carry",Shoulders,Isolation,intermediate,dumbbell,shoulders
+3552.gif,quick_feet_v2.gif,"Quick Feet V. 2",Quads,Isolation,beginner,"body weight","upper legs"
+3560.gif,dumbbell_standing_alternate_hammer_curl_and_press.gif,"Dumbbell Standing Alternate Hammer Curl And Press",Biceps,Isolation,intermediate,dumbbell,"upper arms"
+3561.gif,glute_bridge_march.gif,"Glute Bridge March",Glutes,Compound,beginner,"body weight","upper legs"
+3562.gif,barbell_glute_bridge_two_legs_on_bench_male.gif,"Barbell Glute Bridge Two Legs On Bench (male)",Glutes,Compound,intermediate,barbell,"upper legs"
+3563.gif,cable_one_arm_pulldown.gif,"Cable One Arm Pulldown","Back (Lats)",Compound,intermediate,cable,back
+3582.gif,lunge_with_jump.gif,"Lunge With Jump",Glutes,Compound,beginner,"body weight","upper legs"
+3635.gif,dumbbell_contralateral_forward_lunge.gif,"Dumbbell Contralateral Forward Lunge",Glutes,Compound,intermediate,dumbbell,"upper legs"
+3636.gif,high_knee_against_wall.gif,"High Knee Against Wall",Cardio,Isolation,beginner,"body weight",cardio
+3637.gif,wheel_run.gif,"Wheel Run",Cardio,Isolation,beginner,"body weight",cardio
+3638.gif,push_to_run.gif,"Push To Run",Cardio,Isolation,beginner,"body weight",cardio
+3639.gif,bent_knee_lying_twist_male.gif,"Bent Knee Lying Twist (male)",Glutes,Isolation,beginner,"body weight","upper legs"
+3640.gif,knee_touch_crunch.gif,"Knee Touch Crunch",Abs,Isolation,beginner,"body weight",waist
+3641.gif,weighted_kneeling_step_with_swing.gif,"Weighted Kneeling Step With Swing",Shoulders,Isolation,intermediate,weighted,shoulders
+3642.gif,weighted_stretch_lunge.gif,"Weighted Stretch Lunge",Glutes,Compound,beginner,weighted,"upper legs"
+3643.gif,weighted_cossack_squats_male.gif,"Weighted Cossack Squats (male)",Glutes,Isolation,intermediate,weighted,"upper legs"
+3644.gif,weighted_lunge_with_swing.gif,"Weighted Lunge With Swing",Glutes,Compound,intermediate,weighted,"upper legs"
+3645.gif,single_leg_bridge_with_outstretched_leg.gif,"Single Leg Bridge With Outstretched Leg",Glutes,Isolation,beginner,"body weight","upper legs"
+3655.gif,walking_high_knees_lunge.gif,"Walking High Knees Lunge",Cardio,Compound,beginner,"body weight",cardio
+3656.gif,short_stride_run.gif,"Short Stride Run",Cardio,Isolation,beginner,"body weight",cardio
+3662.gif,pike_to_cobra_push_up.gif,"Pike To Cobra Push Up",Glutes,Compound,beginner,"body weight","upper legs"
+3663.gif,reverse_plank_with_leg_lift.gif,"Reverse Plank With Leg Lift",Abs,Isolation,beginner,"body weight",waist
+3664.gif,dumbbell_side_plank_with_rear_fly.gif,"Dumbbell Side Plank With Rear Fly","Back (Upper Back)",Isolation,intermediate,dumbbell,back
+3665.gif,power_point_plank.gif,"Power Point Plank",Abs,Isolation,beginner,"body weight",waist
+3666.gif,walking_on_incline_treadmill.gif,"Walking On Incline Treadmill",Cardio,Isolation,beginner,"leverage machine",cardio
+3667.gif,side_lying_hip_adduction_male.gif,"Side Lying Hip Adduction (male)",Adductors,Isolation,beginner,"body weight","upper legs"
+3669.gif,standing_archer.gif,"Standing Archer","Back (Upper Back)",Isolation,beginner,"body weight",back
+3670.gif,weighted_decline_sit_up.gif,"Weighted Decline Sit Up",Abs,Isolation,intermediate,weighted,waist
+3671.gif,ski_step.gif,"Ski Step",Cardio,Isolation,beginner,"body weight",cardio
+3672.gif,back_and_forth_step.gif,"Back And Forth Step",Cardio,Isolation,beginner,"body weight",cardio
+3679.gif,sit_up_with_arms_on_chest.gif,"Sit Up With Arms On Chest",Abs,Isolation,beginner,"body weight",waist
+3697.gif,cable_kneeling_rear_delt_row_with_rope_male.gif,"Cable Kneeling Rear Delt Row (with Rope) (male)",Shoulders,Compound,intermediate,cable,shoulders
+3698.gif,inchworm_v2.gif,"Inchworm V. 2",Abs,Isolation,beginner,"body weight",waist
+3699.gif,shoulder_tap.gif,"Shoulder Tap",Abs,Isolation,beginner,"body weight",waist
+3758.gif,lever_standing_chest_press.gif,"Lever Standing Chest Press",Chest,Compound,beginner,"leverage machine",chest
+3759.gif,lever_seated_good_morning.gif,"Lever Seated Good Morning",Glutes,Isolation,beginner,"leverage machine","upper legs"
+3760.gif,lever_seated_crunch_v2.gif,"Lever Seated Crunch V. 2",Abs,Isolation,beginner,"leverage machine",waist
+3769.gif,curtsey_squat.gif,"Curtsey Squat",Glutes,Compound,beginner,"body weight","upper legs"
+3785.gif,incline_push_up_on_box.gif,"Incline Push Up (on Box)",Chest,Compound,beginner,"body weight",chest
+3888.gif,dumbbell_one_arm_snatch.gif,"Dumbbell One Arm Snatch",Glutes,Compound,advance,dumbbell,"upper legs"
+5201.gif,dumbbell_waiter_biceps_curl.gif,"Dumbbell Waiter Biceps Curl",Biceps,Isolation,intermediate,dumbbell,"upper arms"
