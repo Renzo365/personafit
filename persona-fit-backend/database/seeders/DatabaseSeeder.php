@@ -14,6 +14,8 @@ class DatabaseSeeder extends Seeder
         $this->call([
             LimitationSeeder::class,
             ExerciseSeeder::class,
+            EnrichExerciseGuideDataSeeder::class,
+            SeedExerciseAnatomyMappingSeeder::class,
             ContraindicationSeeder::class,
             TemplateWorkoutPlanSeeder::class,
             UserSeeder::class,
