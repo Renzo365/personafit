@@ -57,6 +57,9 @@ class PersonaFitApp : Application(), ImageLoaderFactory {
         settingsRepository = SettingsRepository(apiService, sessionManager)
 
         stepSensorManager = StepSensorManager(this, activityRepository)
+
+        // Initialize Android 8.0+ Notification Channels
+        com.personafit.app.notification.PersonaFitNotificationManager.createNotificationChannels(this)
     }
 
     override fun newImageLoader(): ImageLoader {

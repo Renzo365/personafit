@@ -1,5 +1,6 @@
 package com.personafit.app.presentation.settings
 
+import android.content.Context
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.viewModelScope
@@ -49,6 +50,26 @@ class SettingsViewModel(
     val notificationsEnabled: StateFlow<Boolean> = settingsRepository.notificationsEnabled
         .stateIn(viewModelScope, SharingStarted.WhileSubscribed(5000), true)
 
+    // 4 Distinct Notification Features
+    val notifWorkoutEnabled: StateFlow<Boolean> = settingsRepository.notifWorkoutEnabled
+        .stateIn(viewModelScope, SharingStarted.WhileSubscribed(5000), true)
+
+    val notifMealEnabled: StateFlow<Boolean> = settingsRepository.notifMealEnabled
+        .stateIn(viewModelScope, SharingStarted.WhileSubscribed(5000), true)
+
+    val notifProgressEnabled: StateFlow<Boolean> = settingsRepository.notifProgressEnabled
+        .stateIn(viewModelScope, SharingStarted.WhileSubscribed(5000), true)
+
+    val notifRecoveryEnabled: StateFlow<Boolean> = settingsRepository.notifRecoveryEnabled
+        .stateIn(viewModelScope, SharingStarted.WhileSubscribed(5000), true)
+
+    // Schedule Times
+    val workoutTimeHour: StateFlow<Int> = settingsRepository.workoutTimeHour
+        .stateIn(viewModelScope, SharingStarted.WhileSubscribed(5000), 8)
+
+    val workoutTimeMinute: StateFlow<Int> = settingsRepository.workoutTimeMinute
+        .stateIn(viewModelScope, SharingStarted.WhileSubscribed(5000), 0)
+
     // Dialog & Feedback UI states
     val isUpdating = MutableStateFlow(false)
     val snackbarMessage = MutableStateFlow<String?>(null)
@@ -92,6 +113,7 @@ class SettingsViewModel(
                         savedJointHealthStatus = status
                         savedJointLimitations = limits
 
+                        settingsRepository.setAvailableDays(days)
                         personaArchetype.value = data.user.persona ?: "Active Archetype"
                     }
 
@@ -184,7 +206,7 @@ class SettingsViewModel(
     }
 
     // --- Confirmation Dialog Actions ---
-    fun confirmPendingUpdate() {
+    fun confirmPendingUpdate(context: Context? = null) {
         showConfirmDialog.value = false
         viewModelScope.launch {
             isUpdating.value = true
@@ -217,6 +239,12 @@ class SettingsViewModel(
                     savedJointHealthStatus = jointHealthStatus.value
                     savedJointLimitations = jointLimitations.value
 
+                    settingsRepository.setAvailableDays(availableDays.value)
+
+                    if (context != null) {
+                        settingsRepository.rescheduleNotifications(context, availableDays.value)
+                    }
+
                     snackbarMessage.value = "Your upcoming workout plan has been updated."
                     isUpdating.value = false
                 },
@@ -239,11 +267,57 @@ class SettingsViewModel(
         jointLimitations.value = savedJointLimitations
     }
 
-    // --- App Settings ---
+    // --- App Settings & Notifications ---
     fun toggleNotifications(enabled: Boolean) {
         viewModelScope.launch {
             settingsRepository.setNotificationsEnabled(enabled)
             snackbarMessage.value = if (enabled) "Daily workout notifications enabled." else "Notifications disabled."
+        }
+    }
+
+    fun setWorkoutNotification(enabled: Boolean, context: Context) {
+        viewModelScope.launch {
+            settingsRepository.setWorkoutNotificationEnabled(enabled)
+            settingsRepository.rescheduleNotifications(context, availableDays.value)
+            snackbarMessage.value = if (enabled) "Workout reminders enabled." else "Workout reminders disabled."
+        }
+    }
+
+    fun setMealNotification(enabled: Boolean) {
+        viewModelScope.launch {
+            settingsRepository.setMealNotificationEnabled(enabled)
+            snackbarMessage.value = if (enabled) "Meal logging confirmation enabled." else "Meal logging confirmation disabled."
+        }
+    }
+
+    fun setProgressNotification(enabled: Boolean, context: Context) {
+        viewModelScope.launch {
+            settingsRepository.setProgressNotificationEnabled(enabled)
+            settingsRepository.rescheduleNotifications(context, availableDays.value)
+            snackbarMessage.value = if (enabled) "Weekly progress reminder enabled." else "Weekly progress reminder disabled."
+        }
+    }
+
+    fun setRecoveryNotification(enabled: Boolean, context: Context) {
+        viewModelScope.launch {
+            settingsRepository.setRecoveryNotificationEnabled(enabled)
+            settingsRepository.rescheduleNotifications(context, availableDays.value)
+            snackbarMessage.value = if (enabled) "Recovery & rest day reminders enabled." else "Recovery reminders disabled."
+        }
+    }
+
+    fun updateWorkoutTime(hour: Int, minute: Int, context: Context) {
+        viewModelScope.launch {
+            settingsRepository.setWorkoutTime(hour, minute)
+            settingsRepository.rescheduleNotifications(context, availableDays.value)
+            val formatted = String.format("%02d:%02d", hour, minute)
+            snackbarMessage.value = "Workout reminder time set to $formatted."
+        }
+    }
+
+    fun rescheduleAllReminders(context: Context) {
+        viewModelScope.launch {
+            settingsRepository.rescheduleNotifications(context, availableDays.value)
         }
     }
 

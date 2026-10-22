@@ -148,6 +148,27 @@
             </div>
         </div>
 
+        @php
+            $muscleMeta = [
+                'chest' => ['name' => 'Chest', 'x' => 25.0, 'y' => 22.5],
+                'abs' => ['name' => 'Abs', 'x' => 25.0, 'y' => 38.5],
+                'deltoids_front' => ['name' => 'Delts', 'x' => 12.0, 'y' => 22.0],
+                'biceps' => ['name' => 'Biceps', 'x' => 12.5, 'y' => 33.0],
+                'forearms_front' => ['name' => 'Forearms', 'x' => 9.5, 'y' => 44.0],
+                'obliques' => ['name' => 'Obliques', 'x' => 35.5, 'y' => 38.0],
+                'quads' => ['name' => 'Quads', 'x' => 25.0, 'y' => 59.0],
+                'calves_front' => ['name' => 'Calves', 'x' => 25.0, 'y' => 84.0],
+                'traps' => ['name' => 'Traps', 'x' => 74.2, 'y' => 18.5],
+                'deltoids_rear' => ['name' => 'Rear Delts', 'x' => 87.5, 'y' => 22.0],
+                'triceps' => ['name' => 'Triceps', 'x' => 88.0, 'y' => 32.5],
+                'lats' => ['name' => 'Lats', 'x' => 74.2, 'y' => 33.0],
+                'lower_back' => ['name' => 'Lower Back', 'x' => 74.2, 'y' => 41.5],
+                'glutes' => ['name' => 'Glutes', 'x' => 74.2, 'y' => 50.0],
+                'hamstrings' => ['name' => 'Hamstrings', 'x' => 74.2, 'y' => 64.0],
+                'calves_rear' => ['name' => 'Calves', 'x' => 74.2, 'y' => 84.0],
+            ];
+        @endphp
+
         <div class="grid grid-cols-1 md:grid-cols-12 gap-6 items-center">
             <!-- Anatomy Preview Canvas -->
             <div class="md:col-span-6 flex justify-center">
@@ -161,6 +182,26 @@
                     @foreach($exercise->primary_muscle_regions ?? [] as $primRegion)
                         <img src="{{ $primRegion === 'chest' ? asset('assets/anatomy/mask_chest.png') : asset('assets/anatomy/masks/mask_' . $primRegion . '.png') }}" class="absolute inset-0 w-full h-full object-contain pointer-events-none" style="filter: brightness(0) saturate(100%) invert(85%) sepia(85%) saturate(4000%) hue-rotate(85deg) drop-shadow(0 0 8px rgba(0,255,136,0.9)); opacity: 0.95;">
                     @endforeach
+
+                    <!-- Overlay Labels for Hit Muscles -->
+                    <div class="absolute inset-0 w-full h-full pointer-events-none select-none z-10">
+                        @foreach($exercise->secondary_muscle_regions ?? [] as $secRegion)
+                            @if(isset($muscleMeta[$secRegion]))
+                                <div class="absolute -translate-x-1/2 -translate-y-1/2 px-1.5 py-0.5 rounded-full text-[9px] font-black tracking-wider uppercase flex items-center gap-1 shadow-md backdrop-blur-md whitespace-nowrap bg-gray-950/90 text-cyan-300 border border-cyan-400 shadow-cyan-500/40 ring-1 ring-cyan-500/30" style="left: {{ $muscleMeta[$secRegion]['x'] }}%; top: {{ $muscleMeta[$secRegion]['y'] }}%;">
+                                    <span class="w-1.5 h-1.5 rounded-full bg-cyan-400"></span>
+                                    <span>{{ $muscleMeta[$secRegion]['name'] }}</span>
+                                </div>
+                            @endif
+                        @endforeach
+                        @foreach($exercise->primary_muscle_regions ?? [] as $primRegion)
+                            @if(isset($muscleMeta[$primRegion]))
+                                <div class="absolute -translate-x-1/2 -translate-y-1/2 px-1.5 py-0.5 rounded-full text-[9px] font-black tracking-wider uppercase flex items-center gap-1 shadow-md backdrop-blur-md whitespace-nowrap bg-gray-950/90 text-emerald-300 border border-emerald-400 shadow-emerald-500/40 ring-1 ring-emerald-500/30" style="left: {{ $muscleMeta[$primRegion]['x'] }}%; top: {{ $muscleMeta[$primRegion]['y'] }}%;">
+                                    <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse"></span>
+                                    <span>{{ $muscleMeta[$primRegion]['name'] }}</span>
+                                </div>
+                            @endif
+                        @endforeach
+                    </div>
                 </div>
             </div>
 

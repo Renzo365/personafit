@@ -35,7 +35,19 @@ fun NutritionScreen(
 ) {
     val nutritionSummary by viewModel.nutritionSummary.collectAsState()
     val uiState by viewModel.uiState.collectAsState()
+    val saveFeedback by viewModel.saveFeedback.collectAsState()
+    val snackbarHostState = remember { SnackbarHostState() }
     var showLogMealDialog by remember { mutableStateOf(false) }
+
+    LaunchedEffect(saveFeedback) {
+        saveFeedback?.let { feedback ->
+            when (feedback) {
+                is MealSaveFeedback.Success -> snackbarHostState.showSnackbar(feedback.message)
+                is MealSaveFeedback.Failure -> snackbarHostState.showSnackbar(feedback.message)
+            }
+            viewModel.clearFeedback()
+        }
+    }
 
     if (showLogMealDialog) {
         LogMealDialog(
@@ -48,6 +60,7 @@ fun NutritionScreen(
     }
 
     Scaffold(
+        snackbarHost = { SnackbarHost(snackbarHostState) },
         topBar = {
             TopAppBar(
                 title = {

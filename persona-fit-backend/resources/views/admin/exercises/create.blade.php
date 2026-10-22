@@ -206,10 +206,28 @@
                                     <!-- Masks are injected dynamically via JS -->
                                 </div>
 
+                                <!-- Dynamic Muscle Name Labels Overlay -->
+                                <div id="anatomy_labels_layer" class="absolute inset-0 w-full h-full pointer-events-none select-none transition-transform duration-300 origin-center z-10">
+                                    <!-- Active hit muscle labels injected dynamically via JS -->
+                                </div>
+
                                 <!-- Legend Indicator -->
-                                <div class="absolute bottom-2 left-2 flex items-center gap-3 bg-gray-950/85 backdrop-blur-sm border border-gray-800 px-2.5 py-1 rounded-lg text-[10px]">
+                                <div class="absolute bottom-2 left-2 flex items-center gap-3 bg-gray-950/85 backdrop-blur-sm border border-gray-800 px-2.5 py-1 rounded-lg text-[10px] z-20">
                                     <span class="flex items-center gap-1 text-emerald-400 font-semibold"><span class="w-2.5 h-2.5 rounded-full bg-emerald-500 shadow-sm shadow-emerald-500/50"></span> Primary Target</span>
                                     <span class="flex items-center gap-1 text-cyan-400 font-semibold"><span class="w-2.5 h-2.5 rounded-full bg-cyan-400 shadow-sm shadow-cyan-400/50"></span> Secondary</span>
+                                </div>
+                            </div>
+
+                            <!-- Active Hit Muscles Summary Tags -->
+                            <div class="w-full mt-3 pt-2.5 border-t border-gray-800/80 flex flex-col gap-1.5">
+                                <div class="flex items-center justify-between text-[11px] px-1">
+                                    <span class="font-bold text-gray-400 uppercase tracking-wider flex items-center gap-1.5">
+                                        <i class="fa-solid fa-bullseye text-emerald-400 text-xs"></i> Muscles Hit On Exercise:
+                                    </span>
+                                    <span id="active_muscles_count" class="text-[10px] font-semibold text-teal-400">0 Muscles</span>
+                                </div>
+                                <div id="active_muscles_summary" class="flex flex-wrap items-center gap-1.5 min-h-[26px] px-1">
+                                    <span class="text-[11px] text-gray-500 italic">No muscle regions selected yet</span>
                                 </div>
                             </div>
                         </div>
@@ -721,12 +739,32 @@ let primaryRegions = new Set();
 let secondaryRegions = new Set();
 let currentAnatomyView = 'dual';
 
+const MUSCLE_METADATA = {
+    'chest': { name: 'Chest (Pectorals)', short: 'CHEST', x: 25.0, y: 22.5, side: 'anterior' },
+    'abs': { name: 'Abdominals', short: 'ABS', x: 25.0, y: 38.5, side: 'anterior' },
+    'deltoids_front': { name: 'Front Deltoids', short: 'DELTS', x: 12.0, y: 22.0, side: 'anterior' },
+    'biceps': { name: 'Biceps', short: 'BICEPS', x: 12.5, y: 33.0, side: 'anterior' },
+    'forearms_front': { name: 'Forearms', short: 'FOREARMS', x: 9.5, y: 44.0, side: 'anterior' },
+    'obliques': { name: 'Obliques', short: 'OBLIQUES', x: 35.5, y: 38.0, side: 'anterior' },
+    'quads': { name: 'Quadriceps', short: 'QUADS', x: 25.0, y: 59.0, side: 'anterior' },
+    'calves_front': { name: 'Calves (Front)', short: 'CALVES', x: 25.0, y: 84.0, side: 'anterior' },
+    'traps': { name: 'Trapezius', short: 'TRAPS', x: 74.2, y: 18.5, side: 'posterior' },
+    'deltoids_rear': { name: 'Rear Deltoids', short: 'REAR DELTS', x: 87.5, y: 22.0, side: 'posterior' },
+    'triceps': { name: 'Triceps', short: 'TRICEPS', x: 88.0, y: 32.5, side: 'posterior' },
+    'lats': { name: 'Latissimus Dorsi', short: 'LATS', x: 74.2, y: 33.0, side: 'posterior' },
+    'lower_back': { name: 'Lower Back', short: 'LOWER BACK', x: 74.2, y: 41.5, side: 'posterior' },
+    'glutes': { name: 'Glutes', short: 'GLUTES', x: 74.2, y: 50.0, side: 'posterior' },
+    'hamstrings': { name: 'Hamstrings', short: 'HAMSTRINGS', x: 74.2, y: 64.0, side: 'posterior' },
+    'calves_rear': { name: 'Calves (Rear)', short: 'CALVES', x: 74.2, y: 84.0, side: 'posterior' }
+};
+
 function setAnatomyView(mode) {
     currentAnatomyView = mode;
     document.getElementById('anatomy_view_input').value = mode;
 
     const baseImg = document.getElementById('anatomy_base_img');
     const masksLayer = document.getElementById('anatomy_masks_layer');
+    const labelsLayer = document.getElementById('anatomy_labels_layer');
     const btnDual = document.getElementById('view_btn_dual');
     const btnAnt = document.getElementById('view_btn_anterior');
     const btnPost = document.getElementById('view_btn_posterior');
@@ -749,6 +787,7 @@ function setAnatomyView(mode) {
 
     if (baseImg) baseImg.style.transform = transform;
     if (masksLayer) masksLayer.style.transform = transform;
+    if (labelsLayer) labelsLayer.style.transform = transform;
 }
 
 function cycleRegionState(key) {
@@ -810,6 +849,73 @@ function renderAnatomyState() {
             masksHtml += `<img src="${maskUrl}" class="absolute inset-0 w-full h-full object-contain pointer-events-none" style="filter: brightness(0) saturate(100%) invert(85%) sepia(85%) saturate(4000%) hue-rotate(85deg) drop-shadow(0 0 8px rgba(0,255,136,0.9)); opacity: 0.95;">`;
         });
         masksLayer.innerHTML = masksHtml;
+    }
+
+    // 4. Render muscle callout labels directly over active hit muscle parts
+    const labelsLayer = document.getElementById('anatomy_labels_layer');
+    if (labelsLayer) {
+        let labelsHtml = '';
+        // Render secondary labels first
+        secondaryRegions.forEach(r => {
+            const meta = MUSCLE_METADATA[r];
+            if (meta) {
+                labelsHtml += `
+                    <div class="absolute -translate-x-1/2 -translate-y-1/2 px-1.5 py-0.5 rounded-full text-[9px] font-black tracking-wider uppercase flex items-center gap-1 shadow-md backdrop-blur-md whitespace-nowrap bg-gray-950/90 text-cyan-300 border border-cyan-400 shadow-cyan-500/40 ring-1 ring-cyan-500/30" style="left: ${meta.x}%; top: ${meta.y}%;">
+                        <span class="w-1.5 h-1.5 rounded-full bg-cyan-400"></span>
+                        <span>${meta.short}</span>
+                    </div>
+                `;
+            }
+        });
+        // Render primary labels on top
+        primaryRegions.forEach(r => {
+            const meta = MUSCLE_METADATA[r];
+            if (meta) {
+                labelsHtml += `
+                    <div class="absolute -translate-x-1/2 -translate-y-1/2 px-1.5 py-0.5 rounded-full text-[9px] font-black tracking-wider uppercase flex items-center gap-1 shadow-md backdrop-blur-md whitespace-nowrap bg-gray-950/90 text-emerald-300 border border-emerald-400 shadow-emerald-500/40 ring-1 ring-emerald-500/30" style="left: ${meta.x}%; top: ${meta.y}%;">
+                        <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse"></span>
+                        <span>${meta.short}</span>
+                    </div>
+                `;
+            }
+        });
+        labelsLayer.innerHTML = labelsHtml;
+    }
+
+    // 5. Update active hit muscles summary tags
+    const summaryContainer = document.getElementById('active_muscles_summary');
+    const countContainer = document.getElementById('active_muscles_count');
+    if (summaryContainer) {
+        let summaryHtml = '';
+        const totalCount = primaryRegions.size + secondaryRegions.size;
+        if (countContainer) {
+            countContainer.innerText = `${totalCount} Muscle${totalCount === 1 ? '' : 's'}`;
+        }
+        if (totalCount === 0) {
+            summaryHtml = '<span class="text-[11px] text-gray-500 italic">No muscle regions selected yet</span>';
+        } else {
+            primaryRegions.forEach(r => {
+                const meta = MUSCLE_METADATA[r] || { name: r.replace('_', ' ') };
+                summaryHtml += `
+                    <span class="inline-flex items-center gap-1.5 px-2 py-0.5 rounded-md text-[11px] font-bold bg-emerald-950/80 text-emerald-300 border border-emerald-500/60 shadow-sm shadow-emerald-500/20">
+                        <span class="w-1.5 h-1.5 rounded-full bg-emerald-400"></span>
+                        <span>${meta.name}</span>
+                        <span class="text-[9px] uppercase px-1 py-0.2 rounded bg-emerald-900/80 text-emerald-300 font-extrabold">Primary</span>
+                    </span>
+                `;
+            });
+            secondaryRegions.forEach(r => {
+                const meta = MUSCLE_METADATA[r] || { name: r.replace('_', ' ') };
+                summaryHtml += `
+                    <span class="inline-flex items-center gap-1.5 px-2 py-0.5 rounded-md text-[11px] font-bold bg-cyan-950/80 text-cyan-300 border border-cyan-500/60 shadow-sm shadow-cyan-500/20">
+                        <span class="w-1.5 h-1.5 rounded-full bg-cyan-400"></span>
+                        <span>${meta.name}</span>
+                        <span class="text-[9px] uppercase px-1 py-0.2 rounded bg-cyan-900/80 text-cyan-300 font-extrabold">Secondary</span>
+                    </span>
+                `;
+            });
+        }
+        summaryContainer.innerHTML = summaryHtml;
     }
 }
 

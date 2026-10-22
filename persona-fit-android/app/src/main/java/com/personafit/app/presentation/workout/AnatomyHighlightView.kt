@@ -50,6 +50,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.ColorFilter
 import androidx.compose.ui.graphics.graphicsLayer
 import androidx.compose.ui.layout.ContentScale
+import androidx.compose.ui.layout.layout
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
@@ -355,6 +356,40 @@ fun AnatomyHighlightView(
                     }
                 }
 
+                // Layer 4: Callout Labels Overlay directly anchored to hit muscle regions
+                Box(
+                    modifier = Modifier
+                        .fillMaxSize()
+                        .graphicsLayer {
+                            scaleX = targetScale
+                            scaleY = targetScale
+                            translationX = targetTransX * size.width
+                        }
+                ) {
+                    secondaryRegions.forEach { region ->
+                        val coord = getMuscleLabelCoordinate(region)
+                        if (coord != null) {
+                            MuscleFloatingBadge(
+                                name = formatRegionShortLabel(region),
+                                isPrimary = false,
+                                percentX = coord.first,
+                                percentY = coord.second
+                            )
+                        }
+                    }
+                    primaryRegions.forEach { region ->
+                        val coord = getMuscleLabelCoordinate(region)
+                        if (coord != null) {
+                            MuscleFloatingBadge(
+                                name = formatRegionShortLabel(region),
+                                isPrimary = true,
+                                percentX = coord.first,
+                                percentY = coord.second
+                            )
+                        }
+                    }
+                }
+
                 // Bottom Overlay Indicator: Primary vs Secondary Legend
                 Row(
                     modifier = Modifier
@@ -622,4 +657,110 @@ private fun fallbackDeriveSecondaryRegions(secondaryString: String): List<String
     if (s.contains("trap") || s.contains("rhomboid")) list.add("traps")
     if (s.contains("lower back") || s.contains("erector")) list.add("lower_back")
     return list.distinct()
+}
+
+/**
+ * Floating label pill positioned exactly over a hit muscle group on the anatomy diagram.
+ */
+@Composable
+private fun MuscleFloatingBadge(
+    name: String,
+    isPrimary: Boolean,
+    percentX: Float,
+    percentY: Float,
+    modifier: Modifier = Modifier
+) {
+    Box(
+        modifier = modifier
+            .layout { measurable, constraints ->
+                val placeable = measurable.measure(
+                    constraints.copy(minWidth = 0, minHeight = 0)
+                )
+                layout(constraints.maxWidth, constraints.maxHeight) {
+                    val x = (constraints.maxWidth * percentX - placeable.width / 2f).toInt()
+                    val y = (constraints.maxHeight * percentY - placeable.height / 2f).toInt()
+                    placeable.placeRelative(x, y)
+                }
+            }
+    ) {
+        Surface(
+            shape = RoundedCornerShape(4.dp),
+            color = Color(0xEB0A0E12),
+            border = BorderStroke(
+                1.dp,
+                if (isPrimary) Color(0xFF00FF88).copy(alpha = 0.85f) else Color(0xFF00E5FF).copy(alpha = 0.85f)
+            ),
+            shadowElevation = 2.dp
+        ) {
+            Row(
+                modifier = Modifier.padding(horizontal = 4.dp, vertical = 1.dp),
+                verticalAlignment = Alignment.CenterVertically,
+                horizontalArrangement = Arrangement.spacedBy(3.dp)
+            ) {
+                Box(
+                    modifier = Modifier
+                        .size(3.5.dp)
+                        .background(
+                            if (isPrimary) Color(0xFF00FF88) else Color(0xFF00E5FF),
+                            CircleShape
+                        )
+                )
+                Text(
+                    text = name.uppercase(),
+                    style = MaterialTheme.typography.labelSmall.copy(
+                        color = if (isPrimary) Color(0xFF00FF88) else Color(0xFF00E5FF),
+                        fontWeight = FontWeight.Black,
+                        fontSize = 7.5.sp,
+                        letterSpacing = 0.4.sp
+                    )
+                )
+            }
+        }
+    }
+}
+
+/**
+ * Normalized 2D coordinate centers (x%, y%) on the 883x655 dual-body anatomy template.
+ */
+private fun getMuscleLabelCoordinate(key: String): Pair<Float, Float>? {
+    return when (key.lowercase()) {
+        "chest" -> Pair(0.250f, 0.225f)
+        "abs" -> Pair(0.250f, 0.385f)
+        "deltoids_front" -> Pair(0.120f, 0.220f)
+        "biceps" -> Pair(0.125f, 0.330f)
+        "forearms_front" -> Pair(0.095f, 0.440f)
+        "obliques" -> Pair(0.355f, 0.380f)
+        "quads" -> Pair(0.250f, 0.590f)
+        "calves_front" -> Pair(0.250f, 0.840f)
+        "traps" -> Pair(0.742f, 0.185f)
+        "deltoids_rear" -> Pair(0.875f, 0.220f)
+        "triceps" -> Pair(0.880f, 0.325f)
+        "lats" -> Pair(0.742f, 0.330f)
+        "lower_back" -> Pair(0.742f, 0.415f)
+        "glutes" -> Pair(0.742f, 0.500f)
+        "hamstrings" -> Pair(0.742f, 0.640f)
+        "calves_rear" -> Pair(0.742f, 0.840f)
+        else -> null
+    }
+}
+
+private fun formatRegionShortLabel(key: String): String {
+    return when (key.lowercase()) {
+        "chest" -> "Chest"
+        "abs" -> "Abs"
+        "deltoids_front" -> "Delts"
+        "deltoids_rear" -> "Rear Delts"
+        "biceps" -> "Biceps"
+        "triceps" -> "Triceps"
+        "forearms_front" -> "Forearms"
+        "obliques" -> "Obliques"
+        "quads" -> "Quads"
+        "glutes" -> "Glutes"
+        "hamstrings" -> "Hamstrings"
+        "calves_front", "calves_rear" -> "Calves"
+        "lats" -> "Lats"
+        "traps" -> "Traps"
+        "lower_back" -> "Lower Back"
+        else -> key.replace("_", " ").capitalize()
+    }
 }

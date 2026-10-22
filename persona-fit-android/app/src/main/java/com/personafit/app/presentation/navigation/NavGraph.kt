@@ -185,7 +185,12 @@ fun PersonaFitNavGraph(
         }
 
         // Today's Prescribed Routine (Screen 08)
-        composable(Screen.TodayWorkout.route) {
+        composable(
+            route = Screen.TodayWorkout.route,
+            deepLinks = listOf(
+                navDeepLink { uriPattern = "personafit://today_workout" }
+            )
+        ) {
             val workoutViewModel: WorkoutViewModel = viewModel(
                 factory = WorkoutViewModel.Factory(app.workoutRepository)
             )
@@ -293,7 +298,7 @@ fun PersonaFitNavGraph(
         // Nutrition & Hydration Tracker (Screen 13)
         composable(Screen.Nutrition.route) {
             val nutritionViewModel: NutritionViewModel = viewModel(
-                factory = NutritionViewModel.Factory(app.nutritionRepository)
+                factory = NutritionViewModel.Factory(app.nutritionRepository, app.sessionManager)
             )
             NutritionScreen(
                 viewModel = nutritionViewModel,
@@ -302,7 +307,12 @@ fun PersonaFitNavGraph(
         }
 
         // Progress & BMI Analytics (Screen 14)
-        composable(Screen.Progress.route) {
+        composable(
+            route = Screen.Progress.route,
+            deepLinks = listOf(
+                navDeepLink { uriPattern = "personafit://progress" }
+            )
+        ) {
             val progressViewModel: ProgressViewModel = viewModel(
                 factory = ProgressViewModel.Factory(app.activityRepository)
             )

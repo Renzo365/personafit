@@ -1,5 +1,11 @@
 package com.personafit.app.presentation.settings
 
+import android.Manifest
+import android.app.TimePickerDialog
+import android.content.pm.PackageManager
+import android.os.Build
+import androidx.activity.compose.rememberLauncherForActivityResult
+import androidx.activity.result.contract.ActivityResultContracts
 import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
@@ -17,12 +23,14 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.input.PasswordVisualTransformation
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.compose.ui.window.Dialog
+import androidx.core.content.ContextCompat
 import com.personafit.app.presentation.common.PrimaryButton
 import com.personafit.app.presentation.theme.*
 
@@ -45,6 +53,31 @@ fun SettingsScreen(
     val userEmail by viewModel.userEmail.collectAsState()
     val personaArchetype by viewModel.personaArchetype.collectAsState()
     val notificationsEnabled by viewModel.notificationsEnabled.collectAsState()
+
+    val notifWorkoutEnabled by viewModel.notifWorkoutEnabled.collectAsState()
+    val notifMealEnabled by viewModel.notifMealEnabled.collectAsState()
+    val notifProgressEnabled by viewModel.notifProgressEnabled.collectAsState()
+    val notifRecoveryEnabled by viewModel.notifRecoveryEnabled.collectAsState()
+
+    val workoutTimeHour by viewModel.workoutTimeHour.collectAsState()
+    val workoutTimeMinute by viewModel.workoutTimeMinute.collectAsState()
+
+    val context = LocalContext.current
+    val permissionLauncher = rememberLauncherForActivityResult(
+        contract = ActivityResultContracts.RequestPermission()
+    ) { isGranted ->
+        if (isGranted) {
+            viewModel.rescheduleAllReminders(context)
+        }
+    }
+
+    val checkAndRequestPermission = {
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
+            if (ContextCompat.checkSelfPermission(context, Manifest.permission.POST_NOTIFICATIONS) != PackageManager.PERMISSION_GRANTED) {
+                permissionLauncher.launch(Manifest.permission.POST_NOTIFICATIONS)
+            }
+        }
+    }
 
     val isUpdating by viewModel.isUpdating.collectAsState()
     val snackbarMessage by viewModel.snackbarMessage.collectAsState()
@@ -200,6 +233,94 @@ fun SettingsScreen(
                         // Pad row if last chunk has fewer than 3
                         if (rowDays.size < 3) {
                             Spacer(modifier = Modifier.weight((3 - rowDays.size).toFloat()))
+                        }
+                    }
+                }
+
+                Spacer(modifier = Modifier.height(14.dp))
+
+                // Workout Reminder Time Selector (right below weekly day schedule)
+                val formattedTime = remember(workoutTimeHour, workoutTimeMinute) {
+                    val period = if (workoutTimeHour >= 12) "PM" else "AM"
+                    val displayHour = when {
+                        workoutTimeHour == 0 -> 12
+                        workoutTimeHour > 12 -> workoutTimeHour - 12
+                        else -> workoutTimeHour
+                    }
+                    String.format("%02d:%02d %s", displayHour, workoutTimeMinute, period)
+                }
+
+                Surface(
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .clickable {
+                            checkAndRequestPermission()
+                            TimePickerDialog(
+                                context,
+                                { _, hour, minute ->
+                                    viewModel.updateWorkoutTime(hour, minute, context)
+                                },
+                                workoutTimeHour,
+                                workoutTimeMinute,
+                                false
+                            ).show()
+                        },
+                    shape = RoundedCornerShape(12.dp),
+                    color = SurfaceCardDark,
+                    border = BorderStroke(1.dp, BorderDark)
+                ) {
+                    Row(
+                        modifier = Modifier.padding(14.dp),
+                        verticalAlignment = Alignment.CenterVertically,
+                        horizontalArrangement = Arrangement.SpaceBetween
+                    ) {
+                        Row(
+                            modifier = Modifier.weight(1f),
+                            verticalAlignment = Alignment.CenterVertically
+                        ) {
+                            Box(
+                                modifier = Modifier
+                                    .size(38.dp)
+                                    .background(ElectricMint.copy(alpha = 0.12f), CircleShape),
+                                contentAlignment = Alignment.Center
+                            ) {
+                                Icon(
+                                    imageVector = Icons.Default.AccessTime,
+                                    contentDescription = null,
+                                    tint = ElectricMint,
+                                    modifier = Modifier.size(20.dp)
+                                )
+                            }
+                            Spacer(modifier = Modifier.width(12.dp))
+                            Column {
+                                Text(
+                                    text = "Workout Reminder Time",
+                                    style = MaterialTheme.typography.bodyMedium.copy(
+                                        fontWeight = FontWeight.SemiBold,
+                                        color = TextPrimary
+                                    )
+                                )
+                                Text(
+                                    text = "Alerts on scheduled workout days",
+                                    style = MaterialTheme.typography.bodySmall.copy(color = TextSecondary, fontSize = 11.sp)
+                                )
+                            }
+                        }
+
+                        Surface(
+                            shape = RoundedCornerShape(8.dp),
+                            color = TealContainer,
+                            border = BorderStroke(1.dp, ElectricMint.copy(alpha = 0.5f))
+                        ) {
+                            Text(
+                                text = formattedTime,
+                                modifier = Modifier.padding(horizontal = 12.dp, vertical = 6.dp),
+                                style = MaterialTheme.typography.labelMedium.copy(
+                                    fontWeight = FontWeight.Bold,
+                                    color = ElectricMint,
+                                    fontSize = 13.sp
+                                )
+                            )
                         }
                     }
                 }
@@ -391,58 +512,74 @@ fun SettingsScreen(
 
                 Spacer(modifier = Modifier.height(28.dp))
 
-                // ==================== 5. APP SETTINGS ====================
-                SectionHeader(title = "APP")
+                // ==================== 5. NOTIFICATION PREFERENCES ====================
+                SectionHeader(title = "NOTIFICATION PREFERENCES")
 
                 Spacer(modifier = Modifier.height(10.dp))
 
-                // Notifications Toggle
-                Surface(
-                    modifier = Modifier.fillMaxWidth(),
-                    shape = RoundedCornerShape(12.dp),
-                    color = SurfaceCardDark,
-                    border = BorderStroke(1.dp, BorderDark)
-                ) {
-                    Row(
-                        modifier = Modifier.padding(horizontal = 16.dp, vertical = 12.dp),
-                        verticalAlignment = Alignment.CenterVertically,
-                        horizontalArrangement = Arrangement.SpaceBetween
-                    ) {
-                        Row(verticalAlignment = Alignment.CenterVertically) {
-                            Icon(
-                                imageVector = Icons.Default.Notifications,
-                                contentDescription = null,
-                                tint = ElectricMint,
-                                modifier = Modifier.size(20.dp)
-                            )
-                            Spacer(modifier = Modifier.width(12.dp))
-                            Column {
-                                Text(
-                                    text = "Workout Reminders",
-                                    style = MaterialTheme.typography.bodyMedium.copy(
-                                        fontWeight = FontWeight.SemiBold,
-                                        color = TextPrimary
-                                    )
-                                )
-                                Text(
-                                    text = "Notify on scheduled workout days",
-                                    style = MaterialTheme.typography.bodySmall.copy(color = TextSecondary)
-                                )
-                            }
-                        }
-                        Switch(
-                            checked = notificationsEnabled,
-                            onCheckedChange = { viewModel.toggleNotifications(it) },
-                            colors = SwitchDefaults.colors(
-                                checkedThumbColor = DarkSlateBg,
-                                checkedTrackColor = ElectricMint,
-                                uncheckedTrackColor = SurfaceElevatedDark
-                            )
-                        )
+                // 1. Workout Reminder
+                NotificationToggleCard(
+                    icon = Icons.Default.FitnessCenter,
+                    iconTint = ElectricMint,
+                    title = "Workout Reminders",
+                    description = "Alerts on scheduled workout days ($formattedTime)",
+                    isChecked = notifWorkoutEnabled,
+                    onCheckedChange = {
+                        checkAndRequestPermission()
+                        viewModel.setWorkoutNotification(it, context)
                     }
-                }
+                )
 
                 Spacer(modifier = Modifier.height(8.dp))
+
+                // 2. Meal Logging Confirmation
+                NotificationToggleCard(
+                    icon = Icons.Default.Restaurant,
+                    iconTint = NeonCyan,
+                    title = "Meal Logging Confirmation",
+                    description = "Play lightweight chime when food weight is saved",
+                    isChecked = notifMealEnabled,
+                    onCheckedChange = {
+                        viewModel.setMealNotification(it)
+                    }
+                )
+
+                Spacer(modifier = Modifier.height(8.dp))
+
+                // 3. Weekly Progress Reminder
+                NotificationToggleCard(
+                    icon = Icons.Default.TrendingUp,
+                    iconTint = CoralAccent,
+                    title = "Weekly Progress Reminder",
+                    description = "Weekly workout performance and volume review",
+                    isChecked = notifProgressEnabled,
+                    onCheckedChange = {
+                        checkAndRequestPermission()
+                        viewModel.setProgressNotification(it, context)
+                    }
+                )
+
+                Spacer(modifier = Modifier.height(8.dp))
+
+                // 4. Recovery / Rest Day Reminder
+                NotificationToggleCard(
+                    icon = Icons.Default.Bedtime,
+                    iconTint = SafeGreen,
+                    title = "Recovery & Rest Day Reminder",
+                    description = "Guidance on non-workout days to prevent burnout",
+                    isChecked = notifRecoveryEnabled,
+                    onCheckedChange = {
+                        checkAndRequestPermission()
+                        viewModel.setRecoveryNotification(it, context)
+                    }
+                )
+
+                Spacer(modifier = Modifier.height(28.dp))
+
+                // ==================== 6. APP INFO ====================
+                SectionHeader(title = "APP")
+
+                Spacer(modifier = Modifier.height(10.dp))
 
                 // About PersonaFit
                 SettingsActionRow(
@@ -487,7 +624,7 @@ fun SettingsScreen(
             },
             confirmButton = {
                 Button(
-                    onClick = { viewModel.confirmPendingUpdate() },
+                    onClick = { viewModel.confirmPendingUpdate(context) },
                     colors = ButtonDefaults.buttonColors(containerColor = ElectricMint),
                     shape = RoundedCornerShape(8.dp)
                 ) {
@@ -963,6 +1100,74 @@ private fun SettingsActionRow(
                 contentDescription = null,
                 tint = TextMuted,
                 modifier = Modifier.size(18.dp)
+            )
+        }
+    }
+}
+
+@Composable
+private fun NotificationToggleCard(
+    icon: ImageVector,
+    iconTint: Color,
+    title: String,
+    description: String,
+    isChecked: Boolean,
+    onCheckedChange: (Boolean) -> Unit
+) {
+    Surface(
+        modifier = Modifier.fillMaxWidth(),
+        shape = RoundedCornerShape(12.dp),
+        color = SurfaceCardDark,
+        border = BorderStroke(1.dp, BorderDark)
+    ) {
+        Row(
+            modifier = Modifier.padding(horizontal = 16.dp, vertical = 12.dp),
+            verticalAlignment = Alignment.CenterVertically,
+            horizontalArrangement = Arrangement.SpaceBetween
+        ) {
+            Row(
+                modifier = Modifier.weight(1f),
+                verticalAlignment = Alignment.CenterVertically
+            ) {
+                Box(
+                    modifier = Modifier
+                        .size(36.dp)
+                        .background(iconTint.copy(alpha = 0.12f), CircleShape),
+                    contentAlignment = Alignment.Center
+                ) {
+                    Icon(
+                        imageVector = icon,
+                        contentDescription = null,
+                        tint = iconTint,
+                        modifier = Modifier.size(18.dp)
+                    )
+                }
+                Spacer(modifier = Modifier.width(12.dp))
+                Column(modifier = Modifier.padding(end = 8.dp)) {
+                    Text(
+                        text = title,
+                        style = MaterialTheme.typography.bodyMedium.copy(
+                            fontWeight = FontWeight.SemiBold,
+                            color = TextPrimary
+                        )
+                    )
+                    Text(
+                        text = description,
+                        style = MaterialTheme.typography.bodySmall.copy(
+                            color = TextSecondary,
+                            fontSize = 11.sp
+                        )
+                    )
+                }
+            }
+            Switch(
+                checked = isChecked,
+                onCheckedChange = onCheckedChange,
+                colors = SwitchDefaults.colors(
+                    checkedThumbColor = DarkSlateBg,
+                    checkedTrackColor = ElectricMint,
+                    uncheckedTrackColor = SurfaceElevatedDark
+                )
             )
         }
     }
